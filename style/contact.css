@@ -1,0 +1,51 @@
+/* ------------------------------- Grid ---------------------------------- */
+
+#flex-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+} 
+
+/* ----------------------- NAVBAR ------------------- */
+
+
+/* ------------------------------- MAIN ---------------------------------- */
+
+.main {
+    position: relative;
+}
+
+.content-contact {
+    position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-25%, -50%);
+}
+
+.link__social:hover {
+    text-decoration: underline;
+}
+
+.link__social {
+    color: #11223F;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    line-height: 1em;
+}
+
+.mail {
+    font-weight: bold;
+}
+
+/* ---------------------------- Responsive styles ----------------------- */
+
+/* For screens larger than 992px */
+@media screen and (min-width: 992px) {
+    .content-contact {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}

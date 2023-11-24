@@ -1,0 +1,90 @@
+
+
+/* ----------------------- Grid ------------------- */
+
+#container {
+    display: grid;
+    /* gap: 1rem; */
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+/* ----------------------- NAVBAR ------------------- */
+
+
+
+/* ----------------------- MAIN ------------------- */
+
+.wrapper {
+    max-width: 100%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+}
+
+.content {
+    margin-bottom: 15%;
+}
+
+.img {
+    visibility: hidden;
+}
+
+h1 {
+    margin-bottom: 4%;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-weight: 300;
+    margin-bottom: 4%;
+    line-height: 1.3em;
+}
+
+.button-cv {
+    color: #FEF1EC;
+    letter-spacing: 0.063rem;
+    background-color: #11223F;
+    border-radius: 3.125rem;
+    padding: 1.25rem 3.75rem;
+    padding-right: 3.75rem;
+    padding-left: 3.75rem;
+    font-size: 1.5;
+    font-weight: 400;
+    transition: padding .25s ease-in-out;
+    cursor: pointer;
+}
+
+.button-cv:hover {
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+}
+
+
+/* ---------------------------- Responsive styles ----------------------- */
+
+/* For screens larger than 992px */
+@media screen and (min-width: 992px) {
+    .wrapper {
+        display: flex;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    
+    .content {
+        margin-right: 10%;
+    }
+    
+    .description-content {
+        padding: 0;
+    }
+
+    p {
+        padding-right: 10%;
+    }
+
+    .img {
+        visibility: visible;
+        }
+}

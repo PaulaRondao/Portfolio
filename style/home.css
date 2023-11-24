@@ -1,0 +1,97 @@
+
+/* ------------------------------- Grid ---------------------------------- */
+
+#flex-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+} 
+
+/* ----------------------- NAVBAR ------------------- */
+
+
+
+/* ------------------------------- main ---------------------------------- */
+
+
+.horizontal-wrapper {
+    position: relative;
+    margin-top: 6.25rem;
+    margin-bottom: 0;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.page-content {
+    margin-top: 0;
+    position: relative;
+}
+
+/* ------------------------ STYLE PAGE-CONTENT ------------------------- */
+
+.title,
+h2,
+p {
+    margin-bottom: 1.875rem;
+}
+
+.links {
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 2.063rem;
+    /*pour permettre à la nav de s'aligner verticalement en mode mobile*/
+    list-style-type: none;
+}
+
+.links a {
+    margin-left: 0.313rem;
+    text-decoration-line: none;
+    cursor: pointer;
+    position: relative;
+    color: #11223F;
+    font-size: 1.25rem;
+    font-family: Playfair Display, sans-serif;
+    font-weight: 500;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+a img {
+    margin-right: 0.313rem;
+    transition: transform 0.4s;
+}
+
+a img:hover {
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+    /* width: 26px;
+    height: 26px;
+    transition: all 0.3s ease 0s; */
+}
+
+/* ---------------------------- Responsive styles ----------------------- */
+
+/* For screens larger than 992px */
+@media screen and (min-width: 992px) {
+    .horizontal-wrapper {
+        margin-top: 6.25rem;
+        margin-bottom: 0;
+    }
+
+    .page-content {
+        margin: 0;
+    }
+}
