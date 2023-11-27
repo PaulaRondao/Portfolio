@@ -1,8 +1,10 @@
 # Portfolio
 
-Un petit aperçu de la création de mon futur Portfolio où je parle davantage des projets collectifs réalisés dans le cadre de ma formation et des projets professionnels. 
-Il est en cours de construction. 
-Je m'applique à le rendre responsive, accessible et éco-conçu. 
+Un petit aperçu de mon futur Portfolio où je parlerai davantage des projets collectifs réalisés dans le cadre de ma formation, des projets professionnels et personnels.
+
+Il est actuellemet en cours de construction. 
+
+Petit plus !! Je m'applique à le rendre responsive, accessible et éco-conçu. 
 
  ![Page d'accueil](/Photos%20portfolio/accueil.png)
  ![Page A propos](/Photos%20portfolio/a.propos.1.png)
