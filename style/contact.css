@@ -32,6 +32,8 @@
     list-style-type: none;
     cursor: pointer;
     line-height: 1em;
+    font-weight: bold;
+    letter-spacing: .5px;
 }
 
 .mail {
