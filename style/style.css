@@ -105,14 +105,13 @@ a {
 
 .footer {
     /* margin-top: 2.5rem; */
-    border-top: 0.063rem solid #11223F;
+    /* border-top: 0.063rem solid #11223F; */
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     bottom: 0;
-    left: 0;
-    right: 0;
+    padding-right: 2%;
     /* on le colle en bas */
     width: 100vw;
     /* Hauteur du pied de page */
