@@ -7,49 +7,34 @@
     grid-template-columns: 100%;
 }
 
-/* ----------------------- NAVBAR ------------------- */
-
-
-
 /* ----------------------- MAIN ------------------- */
 
-.wrapper {
-    display: flex;
-    max-width: 100%;
-    height: auto;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 10%;
+.container-projets { 
+        max-width: 100%;
+        height: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 10%;
 }
 
-/* .navbar {
-    position: fixed;
-} */
-
+/* ----------------------- NAVBAR Projet ------------------- */
 .nav-projects {
-    margin-left: 0;
-    padding: 0;
-}
+    padding-left: 0;
+} 
 
 .nav-name-projects {
     list-style-type: none;
-    margin-bottom: 0.938rem;
-    /*15px*/
+    margin-bottom: 25px; 
 }
 
 .li a { 
     display: block;
     width: 100px;
 }
-.li a:hover { 
-    display: block;
-    width: 100%;
-}
-
 
 .nav-link-project {
     position: relative;
-    color: #11223F;
+    color: #06142E;
     text-decoration: none;
     cursor: pointer;
     font-size: 8vw;
@@ -57,19 +42,13 @@
     transition-duration: 3s;
     transition-property: transform;
     transition-timing-function: ease-in-out
-    /* transition: transform .3s ease-in-out; */
-    /* color .3s ease-in-out, font-size .3s ease-in-out; */
 }
 
 .nav-link-project:hover {
     font-style: italic;
     font-weight: 400;
     transform: translateX(10px);
-}
-
-.left-content {
-    margin-bottom: 3rem;
-}
+} 
 
 h2 {
     margin-bottom: 4%;
@@ -80,54 +59,55 @@ p {
     margin-bottom: 0;
 }
 
-.title {
-    justify-content: flex-start;
+.left-content p {
+    margin-bottom: 15%;
+} 
+
+span {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #473E66
 }
+
 
 /* ---------------------------- Responsive styles ----------------------- */
 
 /* For screens larger than 992px */
 @media screen and (min-width: 992px) {
-    .wrapper {
-        height: auto;
-        width: 100%;
-        margin-bottom: 0px;
+
+    .main {
+        min-height: calc(400px - 60px)
+    }
+
+    .container-projets { 
+        padding-right: 4%;
+}
+
+    .wrapper-projet {
         display: flex;
-        justify-content:flex-start;
-        padding-right: 0;
-        padding-left: 10%;
     }
 
     .left-content {
-        position: fixed;
-        width: 40%;
-        padding-right: 5%;
+        width: 50%;
+        padding-right: 10%; 
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content: center;
     }
 
-
     .right-content {
-        padding-right: 2%;
-        width: 1400px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: center;
-        overflow: scroll;
+        width: 50%;
+        overflow: auto; 
+        max-height: 65vh;
     }
 
     .nav-link-project {
+        overflow: scroll; 
         text-align: left;
         padding-bottom: 2%;
         font-size: 7vw;
         line-height: 1em;
     }
-
-    p {
-        padding-right: 10%;
-    }
 }
+
 

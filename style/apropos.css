@@ -44,14 +44,14 @@ h2 {
 
 /* Styles pour le bouton du collapse */
 .accordion-button {
-    background-color: #F5D7DB; 
-    color: #06142E; 
+    background-color: #F5D7DB;
+    color: #06142E;
 }
 
 /* Quand le bouton collapse est actif */
 .accordion-button:not(.collapsed) {
     background-color: rgba(6, 20, 46, 0.8);
-    color: #F5D7DB; 
+    color: #F5D7DB;
 }
 
 .accordion-button:focus {
@@ -74,8 +74,8 @@ p {
 @media screen and (min-width: 992px) {
     .wrapper {
         display: flex;
-        margin-right: 0;
-        padding-right: 0;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .content {
@@ -92,6 +92,5 @@ p {
 
     .img {
         visibility: visible;
-        margin-right: 10px;
     }
 }
