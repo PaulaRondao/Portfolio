@@ -1,0 +1,76 @@
+.navbar {
+    padding-right:1.25rem;
+    padding-left:1.25rem;
+}
+
+.navbar-nav {
+    margin-bottom: 0.625rem;
+}
+
+.container-fluid {
+    border-bottom: 0.063rem solid #06142E;
+}
+
+.nav-item {
+    display: flex;  
+} 
+
+.nav-link {
+    letter-spacing: 0.125rem;
+    font-size: 0.875rem;
+    line-height: 0.938rem;
+    color: #06142E;
+}
+
+.mb-2 {
+    margin-bottom: 1.5rem;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #06142E;
+}
+
+.nav-link:hover {
+    color: #06142E;
+}
+
+
+/* ---------------------------- Responsive styles ----------------------- */
+
+/* For screens larger than 992px */
+@media screen and (min-width: 992px) {
+    .container-fluid {
+        border-bottom: 0.063rem solid #06142E;
+    }
+
+    .navbar {
+        padding-right:2.5rem;
+        padding-left:2.5rem;
+    }
+
+    .horizontal-wrapper {
+        margin-top: 6.25rem;
+        margin-bottom: 0;
+    }
+
+    .page-content {
+        margin: 0;
+    }
+
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        color: #06142E;
+    }
+
+    .nav-item {
+        display: flex;
+        align-items: center;
+    }
+
+    .mb-2 {
+        margin-bottom: 0;
+    }
+
+    .nav-link:hover {
+        color: #06142E;
+    }
+}

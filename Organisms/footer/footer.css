@@ -1,0 +1,16 @@
+.container-fluid-copyright {
+    display: inline-block;
+    flex-direction: column;
+}
+
+.navbar-text {
+    text-align: center;
+    font-size: 0.875rem;
+    font-family: "Pangaia";
+    color: #06142E;
+    padding: 15px;
+    margin-left: 20px;
+    writing-mode: vertical-lr; /* Set the writing mode to vertical */
+    white-space: nowrap; /* Prevent text from wrapping */
+    transform: rotate(180deg);
+}

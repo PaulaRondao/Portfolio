@@ -1,0 +1,28 @@
+.btn-outline {
+    border: none;
+    margin-bottom: 2%;
+    padding: 0;
+    cursor: pointer;
+}
+
+.btn-outline:hover {
+    border: none;
+    background:none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    border-color: #06142E;
+}
+
+/* ---------------------------- Responsive styles ----------------------- */
+
+/* For screens larger than 992px */
+@media screen and (min-width: 992px) {
+    .btn-outline {
+        margin-bottom: 0.625rem;
+    }
+}

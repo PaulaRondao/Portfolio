@@ -1,0 +1,18 @@
+.button-cv {
+    color: #F5D7DB;
+    letter-spacing: 0.063rem;
+    background-color: #06142E;
+    border-radius: 3.125rem;
+    padding: 1.25rem 3.75rem;
+    padding-right: 3.75rem;
+    padding-left: 3.75rem;
+    font-size: 1.5;
+    font-weight: 400;
+    transition: padding .25s ease-in-out;
+    cursor: pointer;
+}
+
+.button-cv:hover {
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+}

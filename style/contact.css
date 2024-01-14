@@ -6,21 +6,16 @@
     grid-template-columns: 100%;
 } 
 
-/* ----------------------- NAVBAR ------------------- */
-
-
 /* ------------------------------- MAIN ---------------------------------- */
 
 .main {
-    position: relative;
-}
+    min-height: calc(640px - 60px)
+} 
 
 .content-contact {
-    position: absolute;
-        top: 50%;
-        left: 25%;
-        transform: translate(-25%, -50%);
+    text-align: start;
 }
+
 
 .link__social:hover {
     text-decoration: underline;
