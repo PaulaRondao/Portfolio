@@ -14,12 +14,17 @@
 /* ----------------------- MAIN ------------------- */
 
 .wrapper {
+    display: flex;
     max-width: 100%;
     height: auto;
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 10%;
 }
+
+/* .navbar {
+    position: fixed;
+} */
 
 .nav-projects {
     margin-left: 0;
@@ -75,6 +80,10 @@ p {
     margin-bottom: 0;
 }
 
+.title {
+    justify-content: flex-start;
+}
+
 /* ---------------------------- Responsive styles ----------------------- */
 
 /* For screens larger than 992px */
@@ -84,26 +93,30 @@ p {
         width: 100%;
         margin-bottom: 0px;
         display: flex;
-        justify-content: space-around;
+        justify-content:flex-start;
         padding-right: 0;
         padding-left: 10%;
     }
 
     .left-content {
-        width: 100%;
+        position: fixed;
+        width: 40%;
         padding-right: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
+    .right-content {
+        padding-right: 2%;
+        width: 1400px;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         justify-content: center;
-    }
-
-    .right-content {
-        padding-right: 2%;
-        height: 600px;
-        width: 1400px;
-        overflow-y: scroll;
-        overflow-x: hidden; 
+        overflow: scroll;
     }
 
     .nav-link-project {
