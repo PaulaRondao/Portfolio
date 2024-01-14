@@ -108,6 +108,10 @@ span {
         font-size: 7vw;
         line-height: 1em;
     }
+
+    .left-content p {
+        margin-bottom: 0;
+    } 
 }
 
 
