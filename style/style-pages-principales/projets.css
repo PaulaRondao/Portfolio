@@ -67,7 +67,7 @@ span {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     color: #473E66
-}
+} 
 
 
 /* ---------------------------- Responsive styles ----------------------- */
@@ -112,6 +112,4 @@ span {
     .left-content p {
         margin-bottom: 0;
     } 
-}
-
-
+} 

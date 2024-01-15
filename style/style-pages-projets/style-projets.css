@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "Pangaia";
+    src: url("/Atoms/fonts/PPPangaia-Medium.otf") format("truetype"); 
+}
+
+/* ------------------------------- main ---------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    min-height: calc(100vh - 88px)
+}
+
+body {
+    color: #06142E;
+    background-color: #F5D7DB;
+    font-family: arial, sans-serif;
+}
+
+h1,
+h2
+{
+    font-family: "Pangaia";
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.9em;
+}
+
+/* ------------------------ MAIN ------------------------- */
+
+.container-projet { 
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-button {
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-button-right {
+    display: flex;
+}
+
+.link__social {
+margin-right: 15px; 
+}
+
+.wrapper-projet {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header-projet {
+    height: 300px;
+    border-bottom: 1px solid #11223F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-presentation {
+    height: auto;
+    border-bottom: 1px solid #11223F;
+    margin-bottom: 10%;
+}
+
+.name-projet {
+    text-align: center;
+    color: #11223F;
+}
+
+.case-study__infos {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.case-study__info {
+    display: inline-block;
+    margin-bottom: 1.5em;
+    margin-right: 3em;
+    justify-content: flex-start;
+}
+
+.case-study__title {
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 600;
+    letter-spacing: .08em;
+    padding-bottom: 0.5rem;
+}
+
+.case-study__text {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: .08em;
+    padding-top: 0.5rem;
+    font-weight: 600;
+    color: #473E66
+}
+
+
+.content {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.description {
+    margin-bottom: 10%;
+}
+
+
+
+/* ---------------------------- Responsive styles ----------------------- */
+
+/* For screens larger than 992px */
+@media screen and (min-width: 992px) {
+    .case-study__infos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 5%;
+    }
+    
+    .case-study__info {
+        display: inline-block;
+        justify-content: flex-start;
+    }
+
+    .case-study__title {
+        padding-bottom: 1rem;
+    }
+
+}
+
