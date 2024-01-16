@@ -52,6 +52,7 @@ h3 {
 .accordion-button {
     background-color: #F5D7DB;
     color: #06142E;
+    letter-spacing: 0.125rem;
 }
 
 /* Quand le bouton collapse est actif */

@@ -1,0 +1,48 @@
+{
+    "rewrites": [
+    {
+        "source": "/index.html",
+        "destination": "/accueil"
+    },
+    {
+        "source": "/Pages/pages-principales/projets.html",
+        "destination": "/projets"
+    },
+    {
+        "source": "/Pages/pages-principales/apropos.html",
+        "destination": "/a-propos"
+    },
+    {
+        "source": "/Pages/pages-principales/contact.html",
+        "destination": "/contact"
+    },
+    {
+        "source": "/Pages/pages-projets/Alan-projet.html",
+        "destination": "/Alan-photographe"
+    },
+    {
+        "source": "/Pages/pages-projets/MyTodoList.html",
+        "destination": "/My-Todo-List"
+    },
+    {
+        "source": "/Pages/pages-projets/portfolio.html",
+        "destination": "/portfolio"
+    },
+    {
+        "source": "/Pages/pages-projets/consonea.html",
+        "destination": "/Consonea-site-e-commerce"
+    },
+    {
+        "source": "/Pages/pages-projets/daybyday.html",
+        "destination": "/DayByDay-extension-web"
+    },
+    {
+        "source": "/Pages/pages-projets/palindrome.html",
+        "destination": "/Palindrome-jeu-interactif"
+    },
+    {
+        "source": "/Pages/pages-projets/systeme-solaire.html",
+        "destination": "/solar-system-datavisualisation"
+    }
+    ]
+}
