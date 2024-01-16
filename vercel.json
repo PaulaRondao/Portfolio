@@ -2,47 +2,47 @@
     "rewrites": [
     {
         "source": "/index.html",
-        "destination": "/accueil"
+        "destination": "https://paula-rondao.com/accueil"
     },
     {
         "source": "/Pages/pages-principales/projets.html",
-        "destination": "/projets"
+        "destination": "https://paula-rondao.com/projets"
     },
     {
         "source": "/Pages/pages-principales/apropos.html",
-        "destination": "/a-propos"
+        "destination": "https://paula-rondao.com/a-propos"
     },
     {
         "source": "/Pages/pages-principales/contact.html",
-        "destination": "/contact"
+        "destination": "https://paula-rondao.com/contact"
     },
     {
         "source": "/Pages/pages-projets/Alan-projet.html",
-        "destination": "/Alan-photographe"
+        "destination": "https://paula-rondao.com/Alan-photographe"
     },
     {
         "source": "/Pages/pages-projets/MyTodoList.html",
-        "destination": "/My-Todo-List"
+        "destination": "https://paula-rondao.com/My-Todo-List"
     },
     {
         "source": "/Pages/pages-projets/portfolio.html",
-        "destination": "/portfolio"
+        "destination": "https://paula-rondao.com/portfolio"
     },
     {
         "source": "/Pages/pages-projets/consonea.html",
-        "destination": "/Consonea-site-e-commerce"
+        "destination": "https://paula-rondao.com/Consonea-site-e-commerce"
     },
     {
         "source": "/Pages/pages-projets/daybyday.html",
-        "destination": "/DayByDay-extension-web"
+        "destination": "https://paula-rondao.com/DayByDay-extension-web"
     },
     {
         "source": "/Pages/pages-projets/palindrome.html",
-        "destination": "/Palindrome-jeu-interactif"
+        "destination": "https://paula-rondao.com/Palindrome-jeu-interactif"
     },
     {
         "source": "/Pages/pages-projets/systeme-solaire.html",
-        "destination": "/solar-system-datavisualisation"
+        "destination": "https://paula-rondao.com/solar-system-datavisualisation"
     }
     ]
 }
