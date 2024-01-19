@@ -3,6 +3,7 @@
 ## Objectif de ce portfolio
 
 J'ai décidé de concevoir mon portfolio exclusivement avec du CSS, HTML et du JavaScript vanilla dans le but de créer une interface à la fois esthétique, écologique et accessible. Mon objectif principal était de mettre en pratique mes compétences en CSS pur, de respecter au mieux la sémantique HTML et d'utiliser du JS pour le refactoring.
+Sur l'architecture des dossiers et le refactoring, je me suis inspirée de la méthode Atomic Design de Brad Frost.
 
 Au cours de mes recherches et de mon travail, j'ai accordé une importance particulière à plusieurs aspects :
 
