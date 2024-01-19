@@ -29,7 +29,7 @@ h2
 h1 {
     font-size: 4rem;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }
 
 h2 {
@@ -42,7 +42,7 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.9em;
 }
@@ -66,7 +66,7 @@ p {
 }
 
 .link__social {
-margin-right: 15px; 
+margin-right: 0.938rem; 
 }
 
 .wrapper-projet {
@@ -75,8 +75,8 @@ margin-right: 15px;
 }
 
 .header-projet {
-    height: 300px;
-    border-bottom: 1px solid #11223F;
+    height: 18.75rem;
+    border-bottom: 0.063rem solid #11223F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +84,7 @@ margin-right: 15px;
 
 .header-presentation {
     height: auto;
-    border-bottom: 1px solid #11223F;
+    border-bottom: 0.063rem solid #11223F;
     margin-bottom: 10%;
 }
 
@@ -111,7 +111,7 @@ margin-right: 15px;
 
 .case-study__title {
     text-transform: uppercase;
-    font-size: .8em;
+    font-size: 1rem;
     font-weight: 600;
     letter-spacing: .08em;
     padding-bottom: 0.5rem;
@@ -119,7 +119,7 @@ margin-right: 15px;
 
 .case-study__text {
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 1rem;
     font-style: italic;
     letter-spacing: .08em;
     padding-top: 0.5rem;

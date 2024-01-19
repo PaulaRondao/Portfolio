@@ -1,16 +1,36 @@
-.container-fluid-copyright {
-    display: inline-block;
-    flex-direction: column;
-}
+
 
 .navbar-text {
     text-align: center;
-    font-size: 0.875rem;
     font-family: "Pangaia";
     color: #06142E;
-    padding: 15px;
-    margin-left: 20px;
-    writing-mode: vertical-lr; /* Set the writing mode to vertical */
-    white-space: nowrap; /* Prevent text from wrapping */
-    transform: rotate(180deg);
+    padding: 0.938rem;
+    margin-left: 1.25rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+span a {
+    text-decoration: underline;
+}
+
+/* ---------------------------- Responsive styles ----------------------- */
+
+/* For screens larger than 992px */
+@media screen and (min-width: 992px) {
+    .container-mention-legales {
+        display: inline-block;
+        flex-direction: column;
+    }
+    
+    .navbar-text {
+        text-align: center;
+        font-family: "Pangaia";
+        color: #06142E;
+        padding: 0.938rem;
+        margin-left: 1.25rem;
+        writing-mode: vertical-lr; /* Set the writing mode to vertical */
+        white-space: nowrap; /* Prevent text from wrapping */
+        transform: rotate(180deg);
+    }
 }

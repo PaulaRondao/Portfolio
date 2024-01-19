@@ -42,14 +42,14 @@ h1 {
     margin-bottom: 0;
     color: #06142E;
     -webkit-text-fill-color: #F5D7DB;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 0.125rem;
     -webkit-text-stroke-color: #06142E;
 }
 
 p {
-    padding-bottom: 25px;
-    margin-bottom: 25px;
-    border-bottom: 1.5px solid #06142E;
+    padding-bottom: 1.563rem;
+    margin-bottom: 1.563rem;
+    border-bottom: 0.094rem solid #06142E;
 }
 
 .links {
@@ -83,7 +83,7 @@ p {
 /* For screens larger than 992px */
 @media screen and (min-width: 992px) {
     .horizontal-wrapper {
-        margin-top: 6.25rem;
+        margin-top: 10%;
         margin-bottom: 0;
     }
 

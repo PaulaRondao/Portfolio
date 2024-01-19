@@ -34,6 +34,9 @@
     color: #06142E;
 }
 
+.navbar-toggler {
+    margin-bottom: 2%;
+}
 
 /* ---------------------------- Responsive styles ----------------------- */
 
@@ -68,6 +71,10 @@
 
     .mb-2 {
         margin-bottom: 0;
+    }
+
+    .nav-link {
+        font-size: 1rem;
     }
 
     .nav-link:hover {

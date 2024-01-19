@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Pangaia";
+    src: url("/Atoms/fonts/PPPangaia-Bold.otf") format("truetype"); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #06142E;
+    background-color: #F5D7DB;
+    font-family: arial, sans-serif;
+}
+
+h1,
+h2 {
+    font-family: Pangaia;
+}
+
+h1 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    letter-spacing: 0.188rem;
+}
+
+h2 {
+    font-size: 1.563rem;
+    font-weight: bold;
+    letter-spacing: 0.063rem;
+    margin-bottom: 0.938rem;
+}
+
+p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.9em;
+    position: relative;
+    margin-bottom: 1.875rem;
+}
+
+/* ------------------------------- main ---------------------------------- */
+
+.horizontal-content {
+    position: relative;
+    margin-top: 3.125rem;
+    padding: 2%;
+} 
+
+.title-principal {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-bottom: 1.875rem;
+}
+
+.law p {
+    margin-bottom: 3.125rem;
+}
+
+
