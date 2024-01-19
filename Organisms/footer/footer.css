@@ -1,5 +1,4 @@
 
-
 .navbar-text {
     text-align: center;
     font-family: "Pangaia";
@@ -14,6 +13,10 @@ span a {
     text-decoration: underline;
 }
 
+img {
+    margin-bottom: 2%;
+}
+
 /* ---------------------------- Responsive styles ----------------------- */
 
 /* For screens larger than 992px */
@@ -22,15 +25,18 @@ span a {
         display: inline-block;
         flex-direction: column;
     }
-    
+
     .navbar-text {
+        position: absolute;
+        bottom: 0; 
+        right: 0;
         text-align: center;
         font-family: "Pangaia";
         color: #06142E;
         padding: 0.938rem;
         margin-left: 1.25rem;
-        writing-mode: vertical-lr; /* Set the writing mode to vertical */
-        white-space: nowrap; /* Prevent text from wrapping */
+        writing-mode: vertical-lr;
+        white-space: nowrap; 
         transform: rotate(180deg);
     }
 }
