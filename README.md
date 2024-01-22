@@ -28,9 +28,12 @@ Ce qui m'a amené à utiliser Bootsrap.
 
 ### Vérification sur :
 - Ecoindex
-- pour l'accessibilité sur Lighthouse, WAVE évaluation et W3C Link checker
+- Lighthouse,
+- WAVE évaluation,
+- Validateur HTML du W3C
 
 
 ### Dans le futur :
 Je souhaite l'améliorer en y ajoutant des animations. J'espère également pouvoir développer une navbar et un collapsible sans utiliser de framework. 
+
 
