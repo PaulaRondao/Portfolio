@@ -105,6 +105,18 @@ img {
 
 /* ---------------------------- Responsive styles ----------------------- */
 
+/* For screens smaller than 991px */
+@media screen and (max-width: 991px) {
+    .nav-link-project {
+        background-image: linear-gradient(120deg, #1CD8D2,#93EDC7 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 0.4em;
+        background-position: 0 90%;
+        transition: background-size 0.25s ease-in;
+    }
+}
+
+
 /* For screens larger than 992px */
 @media screen and (min-width: 992px) {
 
