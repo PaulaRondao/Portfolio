@@ -46,6 +46,9 @@ h3 {
     margin-top: 1.875rem;
 }
 
+span {
+    font-weight: bold;
+}
 /* ----------------------- COLLAPSIBLE ------------------- */
 
 /* Styles pour le bouton du collapse */
