@@ -81,7 +81,8 @@ span {
 .skills-column-one {
     display: flex;
     flex-direction: column;
-    margin-right: 1.875rem;
+    margin-right: 2rem;
+    padding: 0;
 }
 
 ul {
@@ -90,8 +91,10 @@ ul {
 }
 
 li {
+    width: 100%;
     padding: 0.313rem;
-    margin: 0.313rem;
+    margin-bottom: 0.313rem;
+    margin-right: 2rem;
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
@@ -99,7 +102,7 @@ li {
 }
 
 img {
-    margin-right: 0.625rem;
+    padding-right: 0.625rem;
     align-items: center;
 }
 
