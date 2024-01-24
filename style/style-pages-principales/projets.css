@@ -78,6 +78,11 @@ span {
     display: flex;
 }
 
+.skills-list li {
+    width: 100%;
+}
+
+
 .skills-column-one {
     display: flex;
     flex-direction: column;
@@ -91,7 +96,6 @@ ul {
 }
 
 li {
-    width: 100%;
     padding: 0.313rem;
     margin-bottom: 0.313rem;
     margin-right: 2rem;
@@ -152,7 +156,7 @@ img {
     .right-content {
         width: 50%;
         overflow: auto;
-        max-height: 65vh;
+        max-height: 75vh;
     }
 
     .nav-link-project {
