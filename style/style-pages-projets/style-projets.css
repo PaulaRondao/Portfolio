@@ -72,8 +72,8 @@ margin-right: 0.938rem;
 }
 
 .wrapper-projet {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .header-projet {
@@ -131,8 +131,8 @@ margin-right: 0.938rem;
 }
 
 .content {
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .description {
@@ -142,12 +142,23 @@ margin-right: 0.938rem;
 img { 
     width: 2rem;
     height: 2rem;
+    padding-left: 1rem;
 }
 
 /* ---------------------------- Responsive styles ----------------------- */
 
 /* For screens larger than 992px */
 @media screen and (min-width: 992px) {
+    .content {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .wrapper-projet {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
     .case-study__infos {
         display: flex;
         flex-direction: row;
@@ -165,8 +176,8 @@ img {
     }
 
     img { 
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     h1 {
