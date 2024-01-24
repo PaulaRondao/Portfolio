@@ -6,7 +6,7 @@
     padding: 1.25rem 3.75rem;
     padding-right: 3.75rem;
     padding-left: 3.75rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     transition: padding .25s ease-in-out;
     cursor: pointer;
@@ -15,4 +15,12 @@
 .button-cv:hover {
     padding-left: 6.25rem;
     padding-right: 6.25rem;
+}
+
+/* For screens larger than 992px */
+@media screen and (min-width: 992px) {
+
+    .button-cv  {
+        font-size: 1.5rem;
+    }
 }

@@ -48,6 +48,7 @@ h3 {
 
 span {
     font-weight: bold;
+    font-size: 0.875rem;;
 }
 /* ----------------------- COLLAPSIBLE ------------------- */
 
@@ -71,6 +72,7 @@ span {
 p {
     color: #06142E;
     padding: 10px;
+    text-align: justify;
 }
 
 .accordion-item {

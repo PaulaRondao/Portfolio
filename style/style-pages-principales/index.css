@@ -77,6 +77,11 @@ p {
     text-decoration: underline;
 }
 
+img { 
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 
 /* ---------------------------- Responsive styles ----------------------- */
 
@@ -91,5 +96,10 @@ p {
         margin: 0;
         padding-left: 3.75rem;
         padding-right: 3.75rem;
+    }
+
+    img { 
+        width: 2rem;
+        height: 2rem;
     }
 }

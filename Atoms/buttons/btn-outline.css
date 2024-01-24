@@ -16,6 +16,8 @@
 
 .navbar-toggler {
     border-color: #06142E;
+    border-radius: 90px;
+    padding: 2%;
 }
 
 /* ---------------------------- Responsive styles ----------------------- */
