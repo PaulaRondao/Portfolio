@@ -120,7 +120,7 @@ margin-right: 0.938rem;
 }
 
 .case-study__text {
-    text-transform: capitalize;
+    text-transform: lowercase;
     font-size: 1rem;
     font-style: italic;
     letter-spacing: .08em;
