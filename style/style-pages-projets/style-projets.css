@@ -36,7 +36,7 @@ h2 {
     font-size: 1.563rem;
     font-weight: 400;
     line-height: 1.5em;
-    margin: 10%;
+    margin: 5%;
     display: flex;
     justify-content: center;
     text-align: left;
@@ -47,6 +47,10 @@ p {
     font-weight: 400;
     line-height: 1.9em;
     text-align: justify;
+}
+
+span {
+    text-decoration: underline;
 }
 
 /* ------------------------ MAIN ------------------------- */
@@ -77,7 +81,7 @@ margin-right: 0.938rem;
 }
 
 .header-projet {
-    height: 18.75rem;
+    height: 10rem;
     border-bottom: 0.063rem solid #11223F;
     display: flex;
     justify-content: center;
@@ -102,6 +106,7 @@ margin-right: 0.938rem;
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
+    border-bottom: 0.063rem solid #11223F;
 }
 
 .case-study__info {
@@ -120,13 +125,13 @@ margin-right: 0.938rem;
 }
 
 .case-study__text {
-    text-transform: lowercase;
+    text-transform: capitalize;
+    text-decoration: none;
     font-size: 1rem;
-    font-style: italic;
     letter-spacing: .08em;
     padding-top: 0.5rem;
-    font-weight: 600;
-    color: #473E66;
+    font-weight: 300;
+    color:rgba(6, 20, 46, 0.8);
     list-style-type: none;
 }
 
@@ -140,9 +145,14 @@ margin-right: 0.938rem;
 }
 
 img { 
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
     padding-left: 1rem;
+}
+
+.link__social img {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 /* ---------------------------- Responsive styles ----------------------- */
@@ -152,6 +162,10 @@ img {
     .content {
         margin-right: 10%;
         margin-left: 10%;
+    }
+
+    .header-projet {
+        height: 15.75rem;
     }
 
     .wrapper-projet {

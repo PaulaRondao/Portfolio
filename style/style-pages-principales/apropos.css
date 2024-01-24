@@ -48,7 +48,8 @@ h3 {
 
 span {
     font-weight: bold;
-    font-size: 0.875rem;;
+    font-size: 0.875rem;
+    padding-left: 5%;
 }
 /* ----------------------- COLLAPSIBLE ------------------- */
 

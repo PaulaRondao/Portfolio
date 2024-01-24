@@ -16,7 +16,7 @@
     position: relative;
     margin-top: 6.25rem;
     margin-bottom: 0;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,6 @@ p {
 }
 
 
-
 .links {
     margin-bottom: 0;
     position: relative;
@@ -101,7 +100,7 @@ p {
     text-decoration: underline;
 }
 
-img { 
+.links img { 
     width: 1.5rem;
     height: 1.5rem;
 }
@@ -114,6 +113,7 @@ img {
     .horizontal-wrapper {
         margin-top: 10%;
         margin-bottom: 0;
+        padding-bottom: 5%;
     }
 
     .page-content {
@@ -124,10 +124,11 @@ img {
         padding-right: 3.75rem; */
     }
 
-    img { 
+    .links img { 
         width: 2rem;
         height: 2rem;
     }
+
 
     .content-accueil {
         padding-left: 12%;
@@ -140,6 +141,7 @@ img {
 
     h3 {
         font-size: 1.875rem;
+        margin-bottom: -1rem;
     }
     p:first-child {
         font-size: 1.563rem;
@@ -147,5 +149,9 @@ img {
 
     p {
         text-align: right;
+    }
+
+    .navbar-text {
+        bottom: 0;
     }
 }
