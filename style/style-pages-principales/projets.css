@@ -205,4 +205,8 @@ li {
         align-items: center;
     }
 
+    .btn-top {
+        visibility: hidden;
+    }
+
 }
