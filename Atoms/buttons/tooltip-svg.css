@@ -23,7 +23,7 @@
     width: 100px;
     border-radius: 0.313rem;
     background-color: #06142E;
-    color: #F5D7DB;
+    color: #F5EEE6;
     content: attr(data-tooltip);
     text-align: center;
     font-size: 0.875rem;

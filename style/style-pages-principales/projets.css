@@ -74,50 +74,9 @@ p {
 span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-    letter-spacing: 0.06rem;
-    color:#11223F;
+    /* letter-spacing: 0.04rem; */
+    color:#131313;
     
-}
-
-
-/* ---------------------------- Skills list ----------------------- */
-
-
-.skills-list {
-    display: flex;
-}
-
-.skills-list li {
-    width: 100%;
-}
-
-
-.skills-column-one {
-    display: flex;
-    flex-direction: column;
-    margin-right: 2rem;
-    padding: 0;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-
-li {
-    padding: 0.313rem;
-    margin-bottom: 0.313rem;
-    margin-right: 2rem;
-    box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
-    color:#11223F;
-}
-
-.skills img {
-    padding-right: 0.625rem;
-    align-items: center;
 }
 
 
@@ -167,7 +126,7 @@ li {
     .right-content {
         width: 50%;
         overflow: auto;
-        max-height: 90vh;
+        max-height: 65vh;
     }
 
     .nav-link-project {
@@ -196,17 +155,11 @@ li {
         transform: scaleX(1);
     }
 
-    .skills-column-one {
-        margin-right: 3.125rem;
-    }
-
-    .skills img {
-        padding-right: 0.625rem;
-        align-items: center;
-    }
-
     .btn-top {
         visibility: hidden;
     }
 
+    .navbar-text {
+        bottom: 0;
+    }
 }
