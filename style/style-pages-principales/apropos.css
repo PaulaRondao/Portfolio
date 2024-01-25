@@ -23,6 +23,10 @@
     margin-bottom: 10%;
 }
 
+.description-content {
+    padding: 0;
+}
+
 .img {
     visibility: hidden;
 }
