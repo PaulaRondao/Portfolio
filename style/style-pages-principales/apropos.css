@@ -27,10 +27,6 @@
     padding: 0;
 }
 
-.img {
-    visibility: hidden;
-}
-
 h1 {
     margin-bottom: 4%;
     letter-spacing: 0.063rem;
@@ -100,8 +96,9 @@ p {
 
 
 .skills-column-one {
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    flex-direction: column; 
+    align-content: center;
     margin-right: 2rem;
     padding: 0;
 }
@@ -113,9 +110,9 @@ ul {
 
 
 li {
-    padding: 0.313rem;
+    padding: 1rem;
     margin-bottom: 0.313rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
@@ -151,8 +148,8 @@ li {
         padding-right: 10%;
     }
 
-    .img {
-        visibility: visible;
+    .titre-photo {
+        visibility: hidden;
     }
 
     .skills-column-one {
