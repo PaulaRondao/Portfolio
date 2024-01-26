@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Pangaia";
-    src: url("/Atoms/fonts/PPPangaia-Medium.otf") format("truetype"); 
+    src: url("/Atoms/fonts/PPPangaia-Medium.woff2") format("truetype"); 
 }
 
 * {
