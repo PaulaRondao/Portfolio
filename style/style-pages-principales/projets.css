@@ -75,8 +75,8 @@ span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     /* letter-spacing: 0.04rem; */
-    color:#131313;
-    
+    color: #131313;
+
 }
 
 
@@ -85,7 +85,7 @@ span {
 /* For screens smaller than 991px */
 @media screen and (max-width: 991px) {
     .nav-link-project {
-        background-image: linear-gradient(120deg, #9CFAD7,#93EDC7 100%);
+        background-image: linear-gradient(120deg, #9CFAD7, #93EDC7 100%);
         background-repeat: no-repeat;
         background-size: 100% 0.4em;
         background-position: 0 90%;
@@ -129,6 +129,10 @@ span {
         max-height: 65vh;
     }
 
+    /* .nav-name-projects {
+        scrollbar-color: #11223F;
+    } */
+
     .nav-link-project {
         overflow: scroll;
         text-align: left;
@@ -137,7 +141,7 @@ span {
     }
 
     .nav-link-project::after {
-        content: ''; 
+        content: '';
         transform-origin: 0 0;
         transform: scaleX(0);
         position: absolute;
@@ -150,7 +154,7 @@ span {
         opacity: 0.8;
         transition: transform .3s;
     }
-    
+
     .nav-link-project:hover::after {
         transform: scaleX(1);
     }
