@@ -22,11 +22,11 @@
 }
 
 
-.link__social:hover {
+.link-mail:hover {
     text-decoration: underline;
 }
 
-.link__social {
+.link-mail {
     color: #11223F;
     text-decoration: none;
     list-style-type: none;
@@ -36,9 +36,7 @@
     letter-spacing: 0.031rem;
 }
 
-.mail {
-    font-weight: bold;
-}
+
 
 /* ---------------------------- Responsive styles ----------------------- */
 

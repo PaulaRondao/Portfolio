@@ -26,7 +26,7 @@
     text-align: left;
 }
 
-.nav-name-projects {
+.name-project {
     list-style-type: none;
     margin-bottom: 1.563rem;
 }
@@ -36,7 +36,7 @@
     width: 6.25rem;
 }
 
-.nav-link-project {
+.link-project {
     position: relative;
     color: #06142E;
     text-decoration: none;
@@ -84,7 +84,7 @@ span {
 
 /* For screens smaller than 991px */
 @media screen and (max-width: 991px) {
-    .nav-link-project {
+    .link-project {
         background-image: linear-gradient(120deg, #9CFAD7, #93EDC7 100%);
         background-repeat: no-repeat;
         background-size: 100% 0.4em;
@@ -133,14 +133,14 @@ span {
         scrollbar-color: #11223F;
     } */
 
-    .nav-link-project {
+    .link-project {
         overflow: scroll;
         text-align: left;
         font-size: 7vw;
         line-height: 1em;
     }
 
-    .nav-link-project::after {
+    .link-project::after {
         content: '';
         transform-origin: 0 0;
         transform: scaleX(0);
@@ -155,7 +155,7 @@ span {
         transition: transform .3s;
     }
 
-    .nav-link-project:hover::after {
+    .link-project:hover::after {
         transform: scaleX(1);
     }
 
