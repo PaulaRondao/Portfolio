@@ -23,23 +23,22 @@ a {
 }
 
 h1 {
-    font-size: 2.5rem;
     font-weight: 500;
     letter-spacing: 0.188rem;
 }
 
 h2 {
-    font-size: 1.563rem;
+    font-size: 1.75rem;
     font-weight: 400;
 }
 
 h3 {
-    font-size: 1.25rem;
+    font-size: 1.563rem;
     font-weight: 200;
 }
 
 p {
-    font-size: 1rem;
+    font-size: max(1rem, 1.30vw);
     font-weight: 400;
     line-height: 1.9em;
     position: relative;
@@ -50,23 +49,4 @@ a {
     line-height: 1.5rem;
 }
 
-/* For screens larger than 992px */
-@media screen and (min-width: 992px) {
 
-    p {
-        font-size: 1.125rem;
-    }
-
-    h1 {
-        font-size: 3rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    h3 {
-        font-size: 1.563rem;
-    }
-
-}

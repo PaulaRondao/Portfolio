@@ -36,6 +36,10 @@
     letter-spacing: 0.031rem;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
 
 
 /* ---------------------------- Responsive styles ----------------------- */

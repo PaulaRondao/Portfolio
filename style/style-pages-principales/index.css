@@ -12,31 +12,17 @@
     min-height: calc(400px - 60px)
 }
 
-.horizontal-wrapper {
-    position: relative;
-    margin-top: 6.25rem;
-    margin-bottom: 0;
-    padding-bottom: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .page-content {
-    margin-top: 0;
-    padding-left: 5%;
-    padding-right: 5%;
-    position: relative;
+    margin: 10% 10% 0 10%;
+    padding: 0;
 }
 
 .content-accueil {
-    padding-top: 25px;
-    padding-bottom: 1.563rem;
-    margin-bottom: 1.563rem;
+    padding: 1.563rem 0 1.563rem 6%;
+    margin: 0 0 1.563rem 0;
     text-align: right;
     border-bottom: 0.094rem solid #06142E;
-    margin-top: 0;
     position: relative;
 }
 
@@ -45,7 +31,7 @@
 
 
 h1 {
-    font-size: 3.125rem;
+    font-size: max(2.813rem, 6.8vw);
     margin-bottom: 0;
     margin-top: -0.5rem;
     color: #06142E;
@@ -54,17 +40,18 @@ h1 {
 }
 
 h3 {
-    margin-bottom: 0; 
-    color:rgba(6, 20, 46, 0.8);
+    font-size: max(1.25rem, 2.7vw);
+    margin-bottom: 0;
+    color: rgba(6, 20, 46, 0.8);
 }
 
 p:first-child {
+    font-size: max(1.25rem, 2vw);
     text-align: right;
     text-transform: uppercase;
     font-weight: bold;
     font-family: Pangaia;
     letter-spacing: 0.01rem;
-    font-size: 1.25rem;
     margin-bottom: 2%;
 }
 
@@ -100,7 +87,7 @@ p {
     text-decoration: underline;
 }
 
-.links img { 
+.links img {
     width: 1.5rem;
     height: 1.5rem;
 }
@@ -110,41 +97,24 @@ p {
 
 /* For screens larger than 992px */
 @media screen and (min-width: 992px) {
-    .horizontal-wrapper {
-        margin-top: 10%;
-        margin-bottom: 0;
-        padding-bottom: 5%;
-    }
 
     .page-content {
-        margin: 0;
-        padding-left: 10%;
-        padding-right: 10%;
-        /* padding-left: 3.75rem;
-        padding-right: 3.75rem; */
+        margin: 10% 10% 0 10%;
+        padding: 0;
     }
 
-    .links img { 
+    .links img {
         width: 2rem;
         height: 2rem;
     }
 
-
     .content-accueil {
-        padding-left: 12%;
-        padding-right: 12%;
-    }
-
-    h1 {
-        font-size: 5.625rem;
+        padding: 2.813rem 6% 0 12%;
+        /* 45px*/
     }
 
     h3 {
-        font-size: 1.875rem;
         margin-bottom: -1rem;
-    }
-    p:first-child {
-        font-size: 1.563rem;
     }
 
     p {
