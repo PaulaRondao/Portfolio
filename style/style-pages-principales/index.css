@@ -9,12 +9,12 @@
 /* ------------------------------- main ---------------------------------- */
 
 .main {
-    min-height: calc(400px - 60px)
+    min-height: calc(400px - 104px)
 }
 
 
 .page-content {
-    margin: 10% 5% 0 5%;
+    margin: 10% 5% 10% 5%;
     padding: 0;
 }
 
@@ -75,21 +75,12 @@ p {
 
 .links a {
     margin-left: 0.313rem;
-    text-decoration-line: none;
     cursor: pointer;
-    position: relative;
-    color: #06142E;
-    font-size: 1.25rem;
-    font-weight: 500;
-}
-
-.links a:hover {
-    text-decoration: underline;
 }
 
 .links img {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.875rem;
+    height: 1.875rem;
 }
 
 
@@ -104,8 +95,8 @@ p {
     }
 
     .links img {
-        width: 2rem;
-        height: 2rem;
+        width: 2.188rem;
+        height: 2.188rem;
     }
 
     .content-accueil {

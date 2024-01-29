@@ -191,8 +191,9 @@
                         aria-label="mon CV à télécharger">Mon CV</a>
                     <br>
                     <br>
-                    <span>(pdf - 1.6 Mo)</span>
-
+                    <div class="sizePDF">
+                        <span >(pdf - 1.6 Mo)</span>
+                    </div>
                     <h3>Ici, les technologies sur lesquelles je travaille en ce moment :</h3>
                     <div class="skills">
                         <div class="skills-list">
@@ -213,7 +214,7 @@
                 </article>
                 <h3 class="titre-photo">Me voilà,</h3>
                 <div class="right-content img">
-                    <img src="/Atoms/photo_profil/photo-profil.webp" alt="" aria-label="hidden">
+                    <img src="/Atoms/photo_profil/photo-profil.webp" alt="" aria-hidden="true">
                 </div>
 
             </div>
@@ -222,7 +223,7 @@
                 <div footer-include-html="/Organisms/footer/footer.html"></div>
             </footer>
         </main>
-        <a class="btn-top" href="#container" role="button">top</a>
+        <a class="btn-top" href="#container" role="button" aria-hidden="true">Top</a>
     </div>
 
     <script src="/scr/main.js"></script>
