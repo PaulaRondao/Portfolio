@@ -9,6 +9,7 @@
 
 .container-fluid {
     border-bottom: 0.063rem solid #06142E;
+    padding-left: 0;
 }
 
 .nav-item {
@@ -36,6 +37,7 @@
 
 .navbar-toggler {
     margin-bottom: 1%;
+    padding-left: 0;
 }
 
 /* ---------------------------- Responsive styles ----------------------- */
