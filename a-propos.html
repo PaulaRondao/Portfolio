@@ -23,16 +23,16 @@
 </head>
 
 <body>
-    <div id="container">
+    <div id="containerAbout">
         <div navbar-include-html="/Organisms/navbar/navbar.html">
             <a class="nav-link active"></a>
         </div>
 
         <main class="main">
-            <div class="wrapper">
-                <article class="content">
+            <div class="about-content">
+                <article class="about-wapper">
                     <h1>A PROPOS</h1>
-                    <h2 class="quote">Apprenante développeuse web full-stack, chez Ada Tech School.</h2>
+                    <h2 class="title">Apprenante développeuse web full-stack, chez Ada Tech School.</h2>
                     <div class="m-1">
                         <div class="accordion" id="myAccordion">
                             <div class="accordion-item">
@@ -147,8 +147,8 @@
                             </div>
                         </div>
                     </div>
-                    <h2 class="quote">Et maintenant, comment j’en suis venue au développement web ? </h2>
-                    <p class="description-content">Au cours des accompagnements administratifs, j'ai constaté
+                    <h2 class="title">Et maintenant, comment j’en suis venue au développement web ? </h2>
+                    <p class="content-description">Au cours des accompagnements administratifs, j'ai constaté
                         que
                         l'accessibilité des sites web n'était pas toujours optimale, bien que des améliorations
                         aient
@@ -172,8 +172,8 @@
                         d'accessibilité web.
                         <br>
                     </p>
-                    <h2 class="quote">Comment j'envisage ce nouveau métier ? </h2>
-                    <p class="description-content">Si le métier de développeuse m’attire, c'est pour sa capacité à
+                    <h2 class="title">Comment j'envisage ce nouveau métier ? </h2>
+                    <p class="content-description">Si le métier de développeuse m’attire, c'est pour sa capacité à
                         concevoir et créer des
                         solutions
                         qui résolvent de véritables problèmes. Cela va bien au-delà de la simple conception de
@@ -212,7 +212,7 @@
                         </div>
                     </div>
                 </article>
-                <h3 class="titre-photo">Me voilà,</h3>
+                <h3 class="photo-title">Me voilà,</h3>
                 <div class="right-content img">
                     <img src="/Atoms/photo_profil/photo-profil.webp" alt="" aria-hidden="true">
                 </div>
@@ -223,7 +223,10 @@
                 <div footer-include-html="/Organisms/footer/footer.html"></div>
             </footer>
         </main>
-        <a class="btn-top" href="#container" role="button" aria-hidden="true">Top</a>
+        <button id="scrollToTopBtn" class="scroll-to-top-btn">
+            <img src="/Atoms/svg/arrow-top.svg">
+        </button>
+        
     </div>
 
     <script src="/scr/main.js"></script>

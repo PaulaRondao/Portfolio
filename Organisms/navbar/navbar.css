@@ -39,6 +39,10 @@
     margin-bottom: 1%;
 }
 
+.navbar-collapse {
+    z-index: 1000;
+}
+
 /* ---------------------------- Responsive styles ----------------------- */
 
 /* For screens larger than 992px */

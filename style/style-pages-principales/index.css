@@ -1,6 +1,6 @@
 /* ------------------------------- Grid ---------------------------------- */
 
-#flex-container {
+#homepage {
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 100%;
@@ -8,24 +8,12 @@
 
 /* ------------------------------- main ---------------------------------- */
 
-footer {
-    position: fixed;
-        bottom: 0;
-        width: 100%;
-}
-
-
-/* .main {
-    min-height: calc(400px - 104px)
-} */
-
-
-.page-content {
+.inner-center {
     margin: 10% 5% 10% 5%;
     padding: 0;
 }
 
-.content-accueil {
+.content-homepage {
     padding: 1.563rem 0 1.563rem 6%;
     margin: 0 0 1.563rem 0;
     text-align: right;
@@ -33,6 +21,11 @@ footer {
     position: relative;
 }
 
+footer {
+    position: fixed;
+        bottom: 0;
+        width: 100%;
+}
 
 /* ------------------------ STYLE PAGE-CONTENT ------------------------- */
 
@@ -68,7 +61,6 @@ p {
     line-height: 1.8rem;
 }
 
-
 .links {
     margin-bottom: 0;
     position: relative;
@@ -96,17 +88,12 @@ p {
 /* For screens larger than 992px */
 @media screen and (min-width: 992px) {
 
-    .page-content {
+    .inner-center {
         margin: 10% 10% 0 10%;
         padding: 0;
     }
 
-    .links img {
-        width: 2.188rem;
-        height: 2.188rem;
-    }
-
-    .content-accueil {
+    .content-homepage {
         padding: 2.813rem 6% 1.563rem 12%;
         /* 45px*/
     }
@@ -117,6 +104,11 @@ p {
 
     p {
         text-align: right;
+    }
+
+    .links img {
+        width: 2.188rem;
+        height: 2.188rem;
     }
 
     .navbar-text {

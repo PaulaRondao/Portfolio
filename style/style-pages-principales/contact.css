@@ -8,14 +8,7 @@
 
 /* ------------------------------- MAIN ---------------------------------- */
 
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.container-contact {
+.contact-content {
     position: relative;
     display: flex;
     justify-content: center;
@@ -24,12 +17,11 @@ footer {
     margin-bottom: 0;
 }
 
-
-.link-mail:hover {
-    text-decoration: underline;
+h1 {
+    font-size: 2.5rem;
 }
 
-.link-mail {
+.mail-link {
     color: #11223F;
     text-decoration: none;
     list-style-type: none;
@@ -39,17 +31,22 @@ footer {
     letter-spacing: 0.031rem;
 }
 
-h1 {
-    font-size: 2.5rem;
+.mail-link:hover {
+    text-decoration: underline;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 
 /* ---------------------------- Responsive styles ----------------------- */
 
 /* For screens larger than 992px */
 @media screen and (min-width: 992px) {
-    .container-contact {
+    .contact-content {
         position: relative;
         display: flex;
         justify-content: center;
@@ -60,3 +57,4 @@ h1 {
         bottom: 0;
     }
 }
+

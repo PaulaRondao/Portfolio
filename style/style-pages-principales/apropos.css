@@ -1,8 +1,6 @@
-
-
 /* ----------------------- Grid ------------------- */
 
-#container {
+#containerAbout {
     display: grid;
     /* gap: 1rem; */
     grid-template-rows: auto 1fr auto;
@@ -11,7 +9,7 @@
 
 /* ----------------------- MAIN ------------------- */
 
-.wrapper {
+.about-content {
     max-width: 100%;
     height: auto;
     padding-left: 10%;
@@ -19,12 +17,13 @@
     margin-top: 10%;
 }
 
-.content {
+.about-wapper {
     margin-bottom: 10%;
 }
 
-.description-content {
-    padding: 0;
+.title {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 h1 {
@@ -48,9 +47,8 @@ p {
     text-align: justify;
 }
 
-.quote {
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem;
+.content-description {
+    padding: 0;
 }
 
 .sizePDF span {
@@ -58,6 +56,7 @@ p {
     font-size: 0.875rem;
     padding-left: 5%;
 }
+
 /* ----------------------- COLLAPSIBLE ------------------- */
 
 /* Styles pour le bouton du collapse */
@@ -100,8 +99,8 @@ p {
 
 
 .skills-column-one {
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     align-content: center;
     margin-right: 2rem;
     padding: 0;
@@ -118,7 +117,7 @@ ul {
     margin-bottom: 0.313rem;
     margin-right: 1rem;
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     color: #131313;
 }
@@ -134,17 +133,17 @@ ul {
 
 /* For screens larger than 992px */
 @media screen and (min-width: 992px) {
-    .wrapper {
+    .about-content {
         display: flex;
         padding-left: 10%;
         padding-right: 10%;
     }
 
-    .content {
+    .about-wapper {
         margin-right: 5%;
     }
 
-    .description-content {
+    .content-description {
         padding: 0;
     }
 
@@ -152,7 +151,7 @@ ul {
         padding: 4%;
     }
 
-    .titre-photo {
+    .photo-title {
         visibility: hidden;
     }
 
@@ -165,3 +164,4 @@ ul {
         align-items: center;
     }
 }
+

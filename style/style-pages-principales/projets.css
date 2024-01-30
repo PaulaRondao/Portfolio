@@ -1,6 +1,6 @@
 /* ----------------------- Grid ------------------- */
 
-#container {
+#containerProject {
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 100%;
@@ -8,7 +8,7 @@
 
 /* ----------------------- MAIN ------------------- */
 
-.container-projets {
+.projects-content {
     max-width: 100%;
     height: auto;
     padding-left: 10%;
@@ -16,39 +16,22 @@
     margin-top: 10%;
 }
 
-/* ----------------------- NAVBAR Projet ------------------- */
-.nav-projects {
-    padding-left: 0;
-}
-
-.nav-projects p {
-    text-align: left;
-}
-
-.name-project {
-    list-style-type: none;
-    margin-bottom: 1.563rem;
-}
-
-.li a {
-    display: block;
-    width: 6.25rem;
-}
-
-.link-project {
-    position: relative;
-    color: #06142E;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 8vw;
-    line-height: 1em;
-}
-
 h2 {
     margin-bottom: 4%;
     font-weight: 600;
     letter-spacing: 0.188rem;
 }
+
+.left-content p {
+    margin-bottom: 10%;
+}
+
+.left-content {
+    margin-bottom: 15%;
+    border-bottom: 0.063rem solid #11223F;
+}
+
+/* ----------------------- NAVBAR Projet ------------------- */
 
 h3 {
     margin-bottom: 4%;
@@ -61,13 +44,31 @@ p {
     text-align: justify;
 }
 
-.left-content p {
-    margin-bottom: 10%;
+.navbar-projects {
+    padding-left: 0;
 }
 
-.left-content {
-    margin-bottom: 15%;
-    border-bottom: 0.063rem solid #11223F;
+.navbar-projects p {
+    text-align: left;
+}
+
+.name-project {
+    list-style-type: none;
+    margin-bottom: 1.563rem;
+}
+
+.link-project {
+    position: relative;
+    color: #06142E;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 8vw;
+    line-height: 1em;
+}
+
+.li a {
+    display: block;
+    width: 6.25rem;
 }
 
 span {
@@ -95,15 +96,11 @@ span {
 /* For screens larger than 992px */
 @media screen and (min-width: 992px) {
 
-    .main {
-        min-height: calc(400px - 60px)
-    }
-
-    .container-projets {
+    .projects-content {
         padding-right: 4%;
     }
 
-    .wrapper-projet {
+    .projects-wapper {
         display: flex;
     }
 

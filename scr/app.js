@@ -1,29 +1,18 @@
-// Button scroll top
-const displayButton = () => {
-    window.addEventListener('scroll', () => {
-        console.log(window.scrollY);
+document.addEventListener("DOMContentLoaded", function () {
+    var scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
-        if (window.scrollY > 100) {
-            let buttonTop = document.querySelector(".btn-top");
-            buttonTop.style.display = "block";
+    // Show or hide the button based on scroll position
+    window.addEventListener("scroll", function () {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopBtn.style.display = "block";
         } else {
-            let buttonTop = document.querySelector(".btn-top");
-            buttonTop.style.display = "none";
+            scrollToTopBtn.style.display = "none";
         }
     });
-};
 
-const scrollToTop = () => {
-    let buttonTop = document.querySelector(".btn-top");
-    buttonTop.addEventListener("click", () => {
-        window.scroll({
-            top: 0,
-            left: 0,
-            behavior: 'smooth'
-        });
-        console.log(event);
+    // Scroll to the top when the button is clicked
+    scrollToTopBtn.addEventListener("click", function () {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
     });
-};
-
-displayButton();
-scrollToTop();
+});
