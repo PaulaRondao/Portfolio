@@ -8,9 +8,16 @@
 
 /* ------------------------------- main ---------------------------------- */
 
-.main {
-    min-height: calc(400px - 104px)
+footer {
+    position: fixed;
+        bottom: 0;
+        width: 100%;
 }
+
+
+/* .main {
+    min-height: calc(400px - 104px)
+} */
 
 
 .page-content {

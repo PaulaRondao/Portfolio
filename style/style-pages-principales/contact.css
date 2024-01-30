@@ -8,8 +8,11 @@
 
 /* ------------------------------- MAIN ---------------------------------- */
 
-.main {
-    min-height: calc(520px - 104px)
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .container-contact {
