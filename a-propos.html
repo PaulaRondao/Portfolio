@@ -24,9 +24,44 @@
 
 <body>
     <div id="containerAbout">
-        <div navbar-include-html="/Organisms/navbar/navbar.html">
-            <a class="nav-link active"></a>
-        </div>
+        <header class="header" id="header-menu">
+            <nav class="navbar" role="navigation" aria-label="Menu principal">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" aria-label="page d'accueil"
+                            href="/index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" aria-label="page mes projets"
+                            href="/projet.html">PROJETS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" aria-label="page A propos" href="/a-propos.html">A
+                            PROPOS</a>
+                    </li>
+                    <div class="left-contact">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" aria-label="page Contact"
+                                href="/contact.html">CONTACT</a>
+                        </li>
+                    </div>
+                </ul>
+                <button role="button" class="btn right-btn" type="submit" aria-label="Traduction"
+                    data-tooltip="Bientôt en anglais">
+                    <img src="/Atoms/svg/langue.svg" alt="lien vers le site en englais"></a>
+                </button>
+
+                <div class="menu-burger">
+                    <button class="hamburger" aria-controls="header-menu" aria-expanded="false">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span id="open-text" class="hidden">Menu</span>
+                        <span id="close-text" class="hidden">Fermer</span>
+                    </button>
+                </div>
+            </nav>
+        </header>
 
         <main class="main">
             <div class="about-content">
