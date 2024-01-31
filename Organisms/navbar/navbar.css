@@ -50,6 +50,7 @@ a {
 
 .nav-item {
     margin-left: 5rem;
+    text-align: right;
 }
 
 .nav-link {
@@ -69,32 +70,20 @@ a {
     border-bottom: 3px solid #06142E;
 }
 
-.btn {
-    border: none;
+.navbar ul {
+    display: flex;
+    width: 100%;
 }
 
 .left-contact {
-    margin-right: 140px;
-    position: absolute;
-    right: 0;
+    flex: 1;
+    padding-right: 50px;
 }
 
-.right-item {
-    position: absolute;
-    left: 0;
-}
-
-.right-btn {
-    margin-left: auto;
-    padding-top: 0;
-    padding-bottom: 0rem;
-}
-
-.btn img {
-    padding-right: 3rem;
-    margin: 0;
+button.btn-traduction {
+    border: none;
     background-color: #F5EEE6;
-    cursor: pointer;
+    padding-right: 40px;
 }
 
 
@@ -144,22 +133,6 @@ a {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .btn {
-        border: none;
-    }
-
-    .left-contact {
-        margin-right: 0;
-        position: relative;
-        right: 0;
-    }
-
-    .right-btn {
-        margin-left: 0;
-        background-color: #F5EEE6;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
 
     .hidden {
         display: none;
@@ -182,7 +155,8 @@ a {
         padding-right: 1.25rem;
     }
 
-    button img {
+    .left-contact {
+        flex: 1;
         padding-right: 0;
     }
 }

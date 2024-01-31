@@ -128,15 +128,13 @@ p {
 }
 
 .navbar {
-    padding-top: 0.392rem;
-    padding-left: 1.20rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.btn {
-    padding-bottom: 0.392rem;
-    padding-left: 0;
+.navbar {
+    padding-top: -6px;
 }
-
 
 /* ---------------------------- Responsive styles ----------------------- */
 
@@ -173,18 +171,23 @@ p {
         align-items: center;
     }
 
-    ul {
+    .navbar ul {
         margin-bottom: 0;
         padding-bottom: 0;
     }
 
     .nav-menu {
         padding: 0;
-    } 
-
-    .navbar {
-        padding: 0 16px 0 12.6455px;
-
     }
-}
 
+    .left-contact {
+        flex: 1;
+        padding-right: 40px;
+    }
+
+    /* .right-btn {
+    margin-left: auto;
+    padding-top: 0;
+    padding-bottom: 0rem;
+} */
+}

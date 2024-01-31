@@ -1,3 +1,8 @@
+
+button.scroll-to-top-btn {
+    background: none;
+}
+
 .scroll-to-top-btn {
     position: fixed;
     bottom: 20px;
@@ -5,7 +10,7 @@
     border: none;
     cursor: pointer;
     display: none;
-    margin-bottom: 9%;
+    margin-bottom: 10%;
     z-index: 99;
     /* Hide the button by default */
     transition: opacity 0.3s ease-in-out;
