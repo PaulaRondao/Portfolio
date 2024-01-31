@@ -37,7 +37,7 @@ a {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #101010;
+    background-color: #06142E;
 }
 
 .nav-menu {
@@ -152,10 +152,12 @@ a {
     #open-text {
         font-size: 0.875rem;
         font-weight: 400;
+        color: #06142E;
     }
 
     #close-text {
         font-size: 0.875rem;
         font-weight: 400;
+        color: #06142E;
     }
 }
