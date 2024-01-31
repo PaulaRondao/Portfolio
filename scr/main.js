@@ -3,8 +3,10 @@ const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 const openText = document.querySelector("#open-text");
 const closeText = document.querySelector("#close-text");
+openText.classList.remove("hidden");
 
 const navLink = document.querySelectorAll(".nav-link");
+
 
 hamburger.addEventListener("click", mobileMenu);
 
