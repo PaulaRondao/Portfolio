@@ -106,7 +106,7 @@ p {
     padding: 0;
 }
 
-ul {
+.skills ul {
     list-style: none;
     padding: 0;
 }
@@ -126,7 +126,6 @@ ul {
     padding-right: 0.625rem;
     align-items: center;
 }
-
 
 
 /* ---------------------------- Responsive styles ----------------------- */
@@ -162,6 +161,15 @@ ul {
     .skills img {
         padding-right: 0.625rem;
         align-items: center;
+    }
+
+    ul {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .nav-menu {
+        padding: 0;
     }
 }
 
