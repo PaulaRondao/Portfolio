@@ -24,7 +24,7 @@
 
 <body>
     <div id="homepage">
-        <header class="header" id="header-menu">
+        <header class="header" id="header-menu" role="navbar">
             <nav class="navbar" role="navigation" aria-label="Menu principal">
                 <ul class="nav-menu">
                     <li class="nav-item">
@@ -32,28 +32,28 @@
                             href="/index.html">ACCUEIL</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" aria-label="page mes projets"
+                        <a class="nav-link" aria-label="page mes projets"
                             href="/projet.html">PROJETS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" aria-label="page A propos" href="/a-propos.html">A
+                        <a class="nav-link" aria-label="page A propos" href="/a-propos.html">A
                             PROPOS</a>
                     </li>
 
                     <div class="left-contact">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" aria-label="page Contact"
+                            <a class="nav-link" aria-label="page Contact"
                                 href="/contact.html">CONTACT</a>
                         </li>
                     </div>
                 </ul>
-                <button role="button" class="btn right-btn" type="submit" aria-label="Traduction"
+                <button type="button" class="btn right-btn" type="submit" aria-label="Une traduction prochaine"
                     data-tooltip="Bientôt en anglais">
                     <img src="/Atoms/svg/langue.svg" alt="lien vers le site en englais" data-tooltip="Bientôt en anglais" role="bouton"></a>
                 </button>
 
                 <div class="menu-burger">
-                    <button class="hamburger" aria-controls="header-menu" aria-expanded="false">
+                    <button type="button" class="hamburger" aria-controls="header-menu" aria-expanded="false">
                         <span class="bar"></span>
                         <span class="bar"></span>
                         <span class="bar"></span>
@@ -64,7 +64,7 @@
             </nav>
         </header>
 
-        <main class="main">
+        <main class="main" role="main">
             <div class="inner-center">
                 <h3>créative</h3>
                 <h1><strong>DEVELOPPEUSE<br>WEB FULL-STACK,</strong></h1>
@@ -89,7 +89,7 @@
             </div>
         </main>
     </div>
-    <footer>
+    <footer role="contentinfo">
         <div footer-include-html="/Organisms/footer/footer.html"></div>
     </footer>
 

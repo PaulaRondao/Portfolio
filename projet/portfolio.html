@@ -11,16 +11,16 @@
 
 <body>
     <div class="container-projet">
-        <header>
+        <header role="banner">
             <nav>
                 <div class="navbar-button">
                     <div class="navbar-button-left">
-                        <a href="/projet.html" aria-label="Retour vers la page projets" aria-current="page">
+                        <a href="/projet.html" aria-label="Retour vers la page projets" title="retour a page projet">
                             <img src="/Atoms/svg/box-arrow-up-next.svg" alt="icon arrow"></a>
                     </div>
                     <div class="navbar-button-right">
                         <a class="link__social" href="https://github.com/PaulaRondao/Portfolio" target="_blank" aria-label="Lien vers le projet sur Github">
-                            <img src="/Atoms/svg/github-line.svg" alt="icon Github"></a>
+                            <img src="/Atoms/svg/github-line.svg" alt="icon Github" title="lien Github"></a>
                         <!-- <a class="" href="#" target="_blank">
                             <img src="/Atoms/svg/box-arrow-up-next.svg" alt="lien vers la page"></a> -->
                     </div>
@@ -29,8 +29,23 @@
         </header>
 
 
-        <main class="main">
+        <main class="main" role="main">
             <div class="wrapper-projet">
+                <div id="arianeShare">
+                    <nav id="ariane" aria-label="Fil d'ariane" role="navigation">
+                        <ol>
+                            <li>
+                                <a href="/index.html">Accueil</a>
+                            </li>
+                            <li>
+                                <a href="/projet.html">Projets</a>
+                            </li>
+                            <li>
+                                <span aria-current="true">Portfolio</span>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
                 <div class="header-projet">
                     <h1 class="name-projet">Mon Portfolio</h1>
                 </div>

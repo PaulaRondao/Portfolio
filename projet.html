@@ -18,35 +18,33 @@
 
 <body>
     <div id="containerProject">
-        <header class="header" id="header-menu">
+        <header class="header" id="header-menu" role="navbar">
             <nav class="navbar" role="navigation" aria-label="Menu principal">
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" aria-label="page d'accueil"
-                            href="/index.html">ACCUEIL</a>
+                        <a class="nav-link" aria-label="page d'accueil" href="/index.html">ACCUEIL</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" aria-label="page mes projets"
                             href="/projet.html">PROJETS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" aria-label="page A propos" href="/a-propos.html">A
+                        <a class="nav-link" aria-label="page A propos" href="/a-propos.html">A
                             PROPOS</a>
                     </li>
                     <div class="left-contact">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" aria-label="page Contact"
-                                href="/contact.html">CONTACT</a>
+                            <a class="nav-link" aria-label="page Contact" href="/contact.html">CONTACT</a>
                         </li>
                     </div>
                 </ul>
-                <button role="button" class="btn right-btn" type="submit" aria-label="Traduction"
+                <button type="button" class="btn right-btn" type="submit" aria-label="Traduction"
                     data-tooltip="Bientôt en anglais">
                     <img src="/Atoms/svg/langue.svg" alt="lien vers le site en englais"></a>
                 </button>
 
                 <div class="menu-burger">
-                    <button class="hamburger" aria-controls="header-menu" aria-expanded="false">
+                    <button type="button" class="hamburger" aria-controls="header-menu" aria-expanded="false">
                         <span class="bar"></span>
                         <span class="bar"></span>
                         <span class="bar"></span>
@@ -57,7 +55,7 @@
             </nav>
         </header>
 
-        <main class="main">
+        <main class="main" role="main">
             <div class="projects-content">
                 <div class="projects-wapper">
                     <section class="left-content">
@@ -77,24 +75,24 @@
                         <ul class="navbar-projects" aria-label="List de projets">
                             <li class="name-project">
                                 <a class="link-project" aria-label="page projet Portfolio Alan Photographe"
-                                    aria-current="page" href="/projet/Alan-photographe.html">Alan Photographe</a>
+                                    href="/projet/Alan-photographe.html">Alan Photographe</a>
                                 <p>Portfolio dynamique</p>
                                 <span>React&nbsp; JS&nbsp; CSS&nbsp; Node&nbsp; Nest&nbsp; Firebase</span>
                             </li>
                             <li class="name-project">
-                                <a class="link-project" aria-label="page projet My Todo list" aria-current="page"
+                                <a class="link-project" aria-label="page projet My Todo list" 
                                     href="/projet/MyTodoList-extension-navigateur.html">MyTodo List</a>
                                 <p>Projet personnel - Extension nagivateur</p>
                                 <span>HTML&nbsp; CSS&nbsp; JS&nbsp;</span>
                             </li>
                             <li class="name-project">
-                                <a class="link-project" aria-label="page projet mon Portfolio"
-                                    aria-current="page" href="/projet/portfolio.html">Portfolio</a>
+                                <a class="link-project" aria-label="page projet mon Portfolio" 
+                                    href="/projet/portfolio.html">Portfolio</a>
                                 <p>Portfolio personnel</p>
                                 <span>HTML&nbsp; CSS&nbsp; JS&nbsp; Bootstrap</span>
                             </li>
                             <li class="name-project">
-                                <a class="link-project" aria-label="page projet Consonea" aria-current="page"
+                                <a class="link-project" aria-label="page projet Consonea" 
                                     href="/projet/consonea-e-commerce.html">Consonea</a>
                                 <p>Site web e-commerce</p>
                                 <span>React&nbsp; Bootstrap&nbsp; Node&nbsp; Express&nbsp; SQL</span>
@@ -106,39 +104,37 @@
                                 <span>PHP&nbsp; MySQL&nbsp; SQL</span>
                             </li> -->
                             <li class="name-project">
-                                <a class="link-project" aria-label="page projet Day By Day"
-                                    aria-current="page" href="/projet/daybyday-extension-navigateur.html">DayByDay</a>
+                                <a class="link-project" aria-label="page projet Day By Day" 
+                                    href="/projet/daybyday-extension-navigateur.html">DayByDay</a>
                                 <p>Extension nagivateur</p>
                                 <span>HTML&nbsp; CSS&nbsp; JS&nbsp;</span>
                             </li>
                             <li class="name-project">
-                                <a class="link-project" aria-label="page projet Palindrome" aria-current="page"
+                                <a class="link-project" aria-label="page projet Palindrome" 
                                     href="/projet/palindrome-jeu-interactif.html">Palindromes</a>
                                 <p>Projet personnel - Jeu intéractif</p>
                                 <span>HTML&nbsp; CSS&nbsp; JS&nbsp;</span>
                             </li>
                             <li class="name-project">
-                                <a class="link-project" aria-label="page projet Solar System"
-                                    aria-current="page" href="/projet/solar-system-datavisualisation.html">Solar
+                                <a class="link-project" aria-label="page projet Solar System" 
+                                    href="/projet/solar-system-datavisualisation.html">Solar
                                     System</a>
                                 <p>Datavisualisation - API</p>
                                 <span>HTML&nbsp; CSS&nbsp; JS&nbsp;</span>
                             </li>
                         </ul>
                     </div>
-                    <div class="arrow-scroll" data-tooltip="Scroller vers le bas"
-                        aria-hidden="true">
+                    <div class="arrow-scroll" data-tooltip="Scroller vers le bas" aria-hidden="true">
                         <img src="/Atoms/svg/arrow-scroll.svg" alt="">
                     </div>
                 </div>
             </div>
             <button type="button" id="scrollToTopBtn" class="scroll-to-top-btn">
-                <img src="/Atoms/svg/arrow-top.svg" alt="revenir en haut de page"
-                title="revenir en haut de page">
+                <img src="/Atoms/svg/arrow-top.svg" alt="revenir en haut de page" title="revenir en haut de page">
             </button>
         </main>
 
-        <footer>
+        <footer role="contentinfo">
             <div footer-include-html="/Organisms/footer/footer.html"></div>
         </footer>
     </div>

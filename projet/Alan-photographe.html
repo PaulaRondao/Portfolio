@@ -5,21 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alan Photographe - Portfolio</title>
-    <meta name="description" content="Paula Rondao, apprenante développeuse web passionnée, curieuse et en perpétuelle recherche d'amélioration pour rendre les sites web toujours plus accessibles, inclusifs et éco-conçus."/>
+    <meta name="description"
+        content="Paula Rondao, apprenante développeuse web passionnée, curieuse et en perpétuelle recherche d'amélioration pour rendre les sites web toujours plus accessibles, inclusifs et éco-conçus." />
     <link rel="stylesheet" href="/style/style-pages-projets/style-projets.css">
 </head>
 
 <body>
     <div class="container-projet">
-        <header>
+        <header role="banner">
             <nav>
                 <div class="navbar-button">
                     <div class="navbar-button-left">
-                        <a href="/projet.html" aria-label="Retour vers la page projets" aria-current="page">
+                        <a href="/projet.html" aria-label="Retour vers la page projets" title="retour à page projet">
                             <img src="/Atoms/svg/box-arrow-up-next.svg" alt="icon arrow"></a>
                     </div>
                     <div class="navbar-button-right">
-                        <a class="link__social" href="https://github.com/PaulaRondao" target="_blank" aria-label="Lien vers le projet sur Github">
+                        <a class="link__social" href="https://github.com/PaulaRondao" target="_blank"
+                            aria-label="Lien vers le projet sur Github" title="Lien Github">
                             <img src="/Atoms/svg/github-line.svg" alt="icon Github"></a>
                         <!-- <a class="" href="#" target="_blank">
                             <img src="/Atoms/svg/box-arrow-up-next.svg" alt="lien vers la page"></a> -->
@@ -29,8 +31,23 @@
         </header>
 
 
-        <main class="main">
+        <main class="main" role="main">
             <div class="wrapper-projet">
+                <div id="arianeShare">
+                    <nav id="ariane" aria-label="Fil d'ariane" role="navigation">
+                        <ol>
+                            <li>
+                                <a href="/index.html">Accueil</a>
+                            </li>
+                            <li>
+                                <a href="/projet.html">Projets</a>
+                            </li>
+                            <li>
+                                <span aria-current="true">Alan Photographe</span>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
                 <div class="header-projet">
                     <h1 class="name-projet">Alan Photographe</h1>
                 </div>
@@ -52,8 +69,8 @@
                         <ul class="case-study__title">
                             <span>Responsabilité</span>
                             <li class="case-study__text">
-                                Édition / Conception graphique /<br> 
-                                Développement / Sauvegarde et optimisation d'images / 
+                                Édition / Conception graphique /<br>
+                                Développement / Sauvegarde et optimisation d'images /
                                 Animation / SEO
                             </li>
                         </ul>
@@ -69,7 +86,8 @@
                 </div>
                 <section class="content">
                     <p class="description">
-                        J'ai suivi une approche méthodique en intégrant les principes de la <strong>méthode Agile</strong>.
+                        J'ai suivi une approche méthodique en intégrant les principes de la <strong>méthode
+                            Agile</strong>.
                         La rédaction d'un cahier des charges détaillé a été cruciale pour définir les objectifs et les
                         fonctionnalités du site, garantissant ainsi une vision claire et partagée du projet.
                         <br>
@@ -79,8 +97,9 @@
                         projet.
                         <br>
                         <br>
-                        Sur l'aspect technique, c'est l'occasion d'appréhender de nouvelles technologies comme <strong>Nest.js
-                        et TypeScript</strong>.
+                        Sur l'aspect technique, c'est l'occasion d'appréhender de nouvelles technologies comme
+                        <strong>Nest.js
+                            et TypeScript</strong>.
                         Je prends le temps qui m'est nécessaire pour comprendre ce que je fais.
                     </p>
                 </section>

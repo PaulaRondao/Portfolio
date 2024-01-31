@@ -13,35 +13,32 @@
 </head>
 
 <body>
-    <header class="header" id="header-menu">
+    <header class="header" id="header-menu" role="banner">
         <nav class="navbar" role="navigation" aria-label="Menu principal">
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" aria-label="page d'accueil"
-                        href="/index.html">ACCUEIL</a>
+                    <a class="nav-link" aria-label="page d'accueil" href="/index.html">ACCUEIL</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" aria-label="page mes projets"
-                        href="/projet.html">PROJETS</a>
+                    <a class="nav-link" aria-label="page mes projets" href="/projet.html">PROJETS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" aria-label="page A propos" href="/a-propos.html">A
+                    <a class="nav-link" aria-label="page A propos" href="/a-propos.html">A
                         PROPOS</a>
                 </li>
                 <div class="left-contact">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" aria-label="page Contact"
-                            href="/contact.html">CONTACT</a>
+                        <a class="nav-link" aria-label="page Contact" href="/contact.html">CONTACT</a>
                     </li>
                 </div>
             </ul>
-            <button role="button" class="btn right-btn" type="submit" aria-label="Traduction"
+            <button type="button" class="btn right-btn" type="submit" aria-label="Traduction en anglais en cours"
                 data-tooltip="Bientôt en anglais">
                 <img src="/Atoms/svg/langue.svg" alt="lien vers le site en englais"></a>
             </button>
 
-            <div class="menu-burger">
-                <button class="hamburger" aria-controls="header-menu" aria-expanded="false">
+            <div class="menu-burger" role="navigation">
+                <button type="button"  class="hamburger" aria-controls="header-menu" aria-expanded="false">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -52,8 +49,21 @@
         </nav>
     </header>
 
-    <main class="main">
-        <section class="horizontal-content">
+    <main class="main" role="main">
+        <section class="horizontal-content" aria-label="les mentions légasles">
+            <div id="arianeShare">
+                <nav id="ariane" aria-label="Fil d'ariane" role="navigation">
+                    <ol>
+                        <li>
+                            <a href="/index.html">Accueil</a>
+                        </li>
+                        <li>
+                            <span aria-current="true">Mentions Légales</span>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+            
             <div class="title-principal">
                 <h1>MENTIONS LÉGALES </h1>
                 <p>En vigueur au 19/01/2024</p>

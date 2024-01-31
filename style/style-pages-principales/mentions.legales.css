@@ -61,4 +61,24 @@ margin-bottom: 1.875rem;
     margin-bottom: 3.125rem;
 }
 
+/* ------------------------------- fil ariane ---------------------------------- */
 
+#ariane a {
+    color: #343643;
+    text-decoration: underline;
+}
+
+#ariane li {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 2.2rem;
+}
+
+#ariane {
+    padding-bottom: 20px;
+}
+
+#ariane li:not(:last-child)::after {
+    content: '>';
+    margin: 0 5px;
+}
