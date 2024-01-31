@@ -127,6 +127,16 @@ p {
     align-items: center;
 }
 
+.navbar {
+    padding-top: 0.392rem;
+    padding-left: 1.20rem;
+}
+
+.btn {
+    padding-bottom: 0.392rem;
+    padding-left: 0;
+}
+
 
 /* ---------------------------- Responsive styles ----------------------- */
 
@@ -170,6 +180,11 @@ p {
 
     .nav-menu {
         padding: 0;
+    } 
+
+    .navbar {
+        padding: 0 16px 0 12.6455px;
+
     }
 }
 
