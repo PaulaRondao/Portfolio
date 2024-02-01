@@ -24,13 +24,15 @@ h1 {
     font-size: 1.875rem;
     font-weight: bold;
     letter-spacing: 0.188rem;
+    padding-bottom: 0.375rem;
 }
 
 h2 {
     font-size: 1.563rem;
     font-weight: bold;
     letter-spacing: 0.063rem;
-    margin-bottom: 0.938rem;
+    margin-bottom: 1.875rem;
+    margin-top: 1.875rem;
 }
 
 p {
@@ -38,15 +40,21 @@ p {
     font-weight: 400;
     line-height: 1.9em;
     position: relative;
-    margin-bottom: 1.875rem;
+}
+
+address {
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.9em;
+    position: relative;
 }
 
 /* ------------------------------- main ---------------------------------- */
 
 .horizontal-content {
     position: relative;
-    margin-top: 3.125rem;
-    padding: 4%;
+    padding: 0 1.25rem;
 } 
 
 .title-principal {
@@ -57,8 +65,8 @@ flex-direction: column;
 margin-bottom: 1.875rem;
 }
 
-.law p {
-    margin-bottom: 3.125rem;
+.paragraphe {
+    margin-bottom: 1.25rem;
 }
 
 /* ------------------------------- fil ariane ---------------------------------- */
@@ -75,10 +83,11 @@ margin-bottom: 1.875rem;
 }
 
 #ariane {
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
 }
 
 #ariane li:not(:last-child)::after {
     content: '>';
-    margin: 0 5px;
+    margin: 0 0.313rem;
 }

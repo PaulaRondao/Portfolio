@@ -1,4 +1,4 @@
-.navbar-text {
+.contentinfo {
     text-align: center;
     font-family: "Pangaia";
     font-size: 0.875rem;
@@ -30,7 +30,7 @@ img {
         flex-direction: column;
     }
 
-    .navbar-text {
+    .contentinfo {
         position: absolute;
         /* bottom: 0; */
         right: 0;

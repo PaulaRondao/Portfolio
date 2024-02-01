@@ -33,11 +33,14 @@ h1 {
 }
 
 h2 {
+    font-size: 1.75rem;
     font-weight: 300;
     line-height: 1.3em;
 }
 
 h3 {
+    font-size: 1.563rem;
+    font-weight: 200;
     margin-bottom: 2.5rem;
     margin-top: 3rem;
 }
@@ -73,7 +76,8 @@ p {
 }
 
 .accordion-button:focus {
-    box-shadow: none;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    border-color: #86b7fe;
 }
 
 .card-body p {

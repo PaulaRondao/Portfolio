@@ -11,19 +11,25 @@
 .contact-content {
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     margin-top: 6.25rem;
     margin-bottom: 0;
+    padding: 0 2.5rem;
 }
 
 h1 {
     font-size: 2.5rem;
+    letter-spacing: 0.063rem;
+}
+
+address {
+    margin-top: 1.25rem;
+    font-style: normal;
 }
 
 .mail-link {
     color: #11223F;
-    text-decoration: none;
+    text-decoration: underline;
     list-style-type: none;
     cursor: pointer;
     line-height: 1em;
@@ -31,11 +37,7 @@ h1 {
     letter-spacing: 0.031rem;
 }
 
-.mail-link:hover {
-    text-decoration: underline;
-}
-
-footer {
+.contentinfo {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -52,9 +54,12 @@ footer {
         justify-content: center;
         align-items: center;
     }
-
-    .navbar-text {
-        bottom: 0;
+    
+    .mail-link {
+        text-decoration: none;
+    }
+    
+    .mail-link:hover {
+        text-decoration: underline;
     }
 }
-
