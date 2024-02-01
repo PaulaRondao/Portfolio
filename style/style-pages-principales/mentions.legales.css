@@ -69,6 +69,20 @@ margin-bottom: 1.875rem;
     margin-bottom: 1.25rem;
 }
 
+/* ---------------------------- Navbar ----------------------- */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-traduction {
+    display: none;
+}
+
+.btn-traduction {
+    display: block;
+}
+
 /* ------------------------------- fil ariane ---------------------------------- */
 
 #ariane a {

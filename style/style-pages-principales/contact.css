@@ -43,6 +43,12 @@ address {
     width: 100%;
 }
 
+/* ---------------------------- Navbar ----------------------- */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .btn-traduction {
     display: none;
 }

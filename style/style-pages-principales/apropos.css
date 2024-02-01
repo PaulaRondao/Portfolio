@@ -131,6 +131,7 @@ p {
     align-items: center;
 }
 
+/* ---------------------------- Navbar ----------------------- */
 .navbar {
     display: flex;
     justify-content: flex-end;
