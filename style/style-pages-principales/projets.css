@@ -70,7 +70,10 @@ span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     color: #131313;
+}
 
+.btn-traduction {
+    display: none;
 }
 
 
@@ -155,5 +158,9 @@ span {
 
     .contentinfo {
         bottom: 0;
+    }
+
+    .btn-traduction {
+        display: block;
     }
 }

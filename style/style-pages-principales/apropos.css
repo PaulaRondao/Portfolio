@@ -140,6 +140,14 @@ p {
     padding-top: -6px;
 }
 
+button.hamburger {
+    margin-top: -0.6rem;
+}
+
+.btn-traduction {
+    display: none;
+}
+
 /* ---------------------------- Responsive styles ----------------------- */
 
 /* For screens larger than 992px */
@@ -189,6 +197,9 @@ p {
         padding-right: 40px;
     }
 
+    .btn-traduction {
+        display: none;
+    }
     /* .right-btn {
     margin-left: auto;
     padding-top: 0;

@@ -43,6 +43,9 @@ address {
     width: 100%;
 }
 
+.btn-traduction {
+    display: none;
+}
 
 /* ---------------------------- Responsive styles ----------------------- */
 
@@ -61,5 +64,9 @@ address {
     
     .mail-link:hover {
         text-decoration: underline;
+    }
+
+    .btn-traduction {
+        display: block;
     }
 }

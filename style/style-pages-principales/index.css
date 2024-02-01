@@ -32,7 +32,7 @@ footer {
 
 h1 {
     font-size: max(1.25rem, 2.7vw);
-    margin-bottom: -1rem;
+    margin-bottom: 0rem;
     color: rgba(6, 20, 46, 0.8);
 }
 
@@ -82,6 +82,9 @@ p {
     height: 1.875rem;
 }
 
+.btn-traduction {
+    display: none;
+}
 
 /* ---------------------------- Responsive styles ----------------------- */
 
@@ -113,5 +116,9 @@ p {
 
     .contentinfo {
         bottom: 0;
+    }
+
+    .btn-traduction {
+        display: block;
     }
 }
