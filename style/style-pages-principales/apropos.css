@@ -14,7 +14,6 @@
     height: auto;
     padding-left: 10%;
     padding-right: 10%;
-    margin-top: 10%;
 }
 
 .about-wapper {
@@ -149,10 +148,15 @@ button.hamburger {
     display: none;
 }
 
+#ariane ol {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
 /* ---------------------------- Responsive styles ----------------------- */
 
 /* For screens larger than 992px */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 769px) {
     .about-content {
         display: flex;
         padding-left: 10%;

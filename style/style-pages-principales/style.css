@@ -39,4 +39,39 @@ a {
     line-height: 1.5rem;
 }
 
+/* ------------------------------- fil ariane ---------------------------------- */
+#arianeShare {
+    display: block;
+}
+
+#ariane a, #ariane span  {
+    color: #343643;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    line-height: 2.2rem;
+}
+
+#ariane li {
+    display: inline-block;
+}
+
+#ariane {
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+}
+
+#ariane li:not(:last-child)::after {
+    content: '>';
+    margin: 0 0.313rem;
+}
+
+@media screen and (min-width: 769px) {
+    #arianeShare {
+        display: none;
+    }
+
+    #ariane a {
+        display: none;
+    }
+}
 

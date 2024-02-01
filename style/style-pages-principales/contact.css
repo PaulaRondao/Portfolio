@@ -12,7 +12,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 6.25rem;
     margin-bottom: 0;
     padding: 0 2.5rem;
 }
@@ -43,6 +42,7 @@ address {
     width: 100%;
 }
 
+
 /* ---------------------------- Navbar ----------------------- */
 .navbar {
     display: flex;
@@ -56,7 +56,7 @@ address {
 /* ---------------------------- Responsive styles ----------------------- */
 
 /* For screens larger than 992px */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 769px) {
     .contact-content {
         position: relative;
         display: flex;

@@ -166,21 +166,17 @@ span.mobile-hidden {
 
 /* ---------------------------- Fil d'ariane ----------------------- */
 
-#ariane a {
-    font-family: Arial, Helvetica, sans-serif ;
-    color: #343643;
-    text-decoration: underline;
-}
-
+#ariane a,
 #ariane span {
+    text-decoration: none;
     color: #343643;
-    text-decoration: none
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    line-height: 2.2rem;
 }
 
 #ariane li {
     display: inline-block;
-    font-size: 0.9rem;
-    line-height: 2.2rem;
 }
 
 #ariane {

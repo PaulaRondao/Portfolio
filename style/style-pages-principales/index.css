@@ -95,7 +95,7 @@ p {
 /* ---------------------------- Responsive styles ----------------------- */
 
 /* For screens larger than 992px */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 769px) {
 
     .inner-center {
         margin: 10% 10% 0 10%;
