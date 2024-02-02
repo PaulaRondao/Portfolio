@@ -34,8 +34,6 @@ h1 {
 
 p {
     margin-bottom: 0;
-    color: #06142E;
-    text-align: justify;
 }
 
 .navbar-projects {
@@ -51,6 +49,25 @@ p {
     margin-bottom: 1.563rem;
 }
 
+.link-project::after {
+    content: '';
+    transform-origin: 0 0;
+    transform: scaleX(0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: .6em;
+    background: #9CFAD7;
+    z-index: -1;
+    opacity: 0.8;
+    transition: transform .3s;
+}
+
+.link-project:hover::after {
+    transform: scaleX(1);
+}
+
 .link-project {
     position: relative;
     color: #06142E;
@@ -60,22 +77,15 @@ p {
     line-height: 1em;
 }
 
-/* .link-project {
-    background-image: linear-gradient(120deg, #9CFAD7, #93EDC7 100%);
-    background-repeat: no-repeat;
-    background-size: 100% 0.4em;
-    background-position: 0 90%;
-    transition: background-size 0.25s ease-in;
-} */
-
 .li a {
     display: block;
     width: 6.25rem;
 }
 
 .name-project span {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    letter-spacing: 0.031rem;
     color: #131313;
 }
 
@@ -99,6 +109,13 @@ p {
 
     .projects-wapper {
         display: flex;
+    }
+
+    .link-project {
+        overflow: scroll;
+        text-align: left;
+        font-size: 7vw;
+        line-height: 1em;
     }
 
     .left-content {
@@ -125,32 +142,6 @@ p {
         scrollbar-color: #11223F;
     } */
 
-    .link-project {
-        overflow: scroll;
-        text-align: left;
-        font-size: 7vw;
-        line-height: 1em;
-    }
-
-    .link-project::after {
-        content: '';
-        transform-origin: 0 0;
-        transform: scaleX(0);
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: .6em;
-        background: #9CFAD7;
-        z-index: -1;
-        opacity: 0.8;
-        transition: transform .3s;
-    }
-
-    .link-project:hover::after {
-        transform: scaleX(1);
-    }
-
     .btn-top {
         visibility: hidden;
     }
@@ -164,28 +155,3 @@ p {
     }
 }
 
-.link-project {
-    overflow: scroll;
-    text-align: left;
-    font-size: 7vw;
-    line-height: 1em;
-}
-
-.link-project::after {
-    content: '';
-    transform-origin: 0 0;
-    transform: scaleX(0);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: .6em;
-    background: #9CFAD7;
-    z-index: -1;
-    opacity: 0.8;
-    transition: transform .3s;
-}
-
-.link-project:hover::after {
-    transform: scaleX(1);
-}
