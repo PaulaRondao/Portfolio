@@ -9,17 +9,6 @@
     box-sizing: border-box;
 }
 
-body {
-    color: #06142E;
-    background-color: #F5EEE6;
-    font-family: arial, sans-serif;
-}
-
-h1,
-h2 {
-    font-family: Pangaia;
-}
-
 h1 {
     font-size: 1.875rem;
     font-weight: bold;
@@ -33,13 +22,6 @@ h2 {
     letter-spacing: 0.063rem;
     margin-bottom: 1.875rem;
     margin-top: 1.875rem;
-}
-
-p {
-    font-size: 1.125rem;
-    font-weight: 400;
-    line-height: 1.9em;
-    position: relative;
 }
 
 address {
@@ -75,11 +57,6 @@ address {
     display: none;
 }
 
-@media screen and (min-width: 769px) {
-    .btn-traduction {
-        display: block;
-    }
-}
 
 /* ------------------------------- fil ariane ---------------------------------- */
 
@@ -106,9 +83,34 @@ address {
 #ariane {
     padding-bottom: 1.25rem;
     padding-top: 1.25rem;
+    display: flex;
+    align-items: center;
 }
 
 #ariane li:not(:last-child)::after {
     content: '>';
     margin: 0 0.313rem;
+} 
+
+
+@media screen and (min-width: 769px) {
+    #arianeShare {
+        display: block;
+    }
+
+    #ariane a {
+        display: block;
+        margin: 0 0.313rem;
+    }
+
+    #ariane li:not(:last-child)::after {
+        content: '>';
+        margin: 0;
+    } 
+
+    #ariane li {
+        display: inline-flex;
+        align-items: center;
+    }
 }
+
