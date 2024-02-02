@@ -12,10 +12,6 @@ li {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-    color: #06142E;
-}
 
 .navbar {
     display: flex;
@@ -43,6 +39,7 @@ a {
 }
 
 .nav-menu {
+    font-family: "Pangaia", Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,8 +52,8 @@ a {
 
 .nav-link {
     display: inline;
+    text-decoration: none;
     font-size: 1rem;
-    font-weight: 400;
     letter-spacing: 0.125rem;
     line-height: 0.938rem;
     color: #06142E;
