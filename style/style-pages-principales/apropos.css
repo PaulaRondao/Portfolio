@@ -161,6 +161,7 @@ button.hamburger {
         display: flex;
         padding-left: 10%;
         padding-right: 10%;
+        margin-top: 10%;
     }
 
     .about-wapper {
