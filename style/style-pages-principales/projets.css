@@ -77,6 +77,10 @@ p {
     line-height: 1em;
 }
 
+.name-project p {
+    font-weight: 200;
+}
+
 .li a {
     display: block;
     width: 6.25rem;
@@ -84,9 +88,9 @@ p {
 
 .name-project span {
     font-family:'Courier New', Courier, monospace;
-    font-weight: 700;
+    font-weight: bold;
     letter-spacing: 0.031rem;
-    color: #131313;
+    color: #06142E;
 }
 
 
