@@ -60,13 +60,13 @@ p {
     line-height: 1em;
 }
 
-.link-project {
+/* .link-project {
     background-image: linear-gradient(120deg, #9CFAD7, #93EDC7 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.4em;
     background-position: 0 90%;
     transition: background-size 0.25s ease-in;
-}
+} */
 
 .li a {
     display: block;
@@ -82,15 +82,9 @@ p {
 
 /* ---------------------------- Navbar ----------------------- */
 
-.navbar {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .btn-traduction {
     display: none;
 }
-
 
 /* ---------------------------- Responsive styles ----------------------- */
 
@@ -168,4 +162,30 @@ p {
     .btn-traduction {
         display: block;
     }
+}
+
+.link-project {
+    overflow: scroll;
+    text-align: left;
+    font-size: 7vw;
+    line-height: 1em;
+}
+
+.link-project::after {
+    content: '';
+    transform-origin: 0 0;
+    transform: scaleX(0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: .6em;
+    background: #9CFAD7;
+    z-index: -1;
+    opacity: 0.8;
+    transition: transform .3s;
+}
+
+.link-project:hover::after {
+    transform: scaleX(1);
 }

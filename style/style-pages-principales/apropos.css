@@ -131,10 +131,6 @@ p {
 }
 
 /* ---------------------------- Navbar ----------------------- */
-.navbar {
-    display: flex;
-    justify-content: flex-end;
-}
 
 .navbar {
     padding-top: -6px;
