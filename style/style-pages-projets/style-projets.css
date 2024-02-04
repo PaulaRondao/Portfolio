@@ -141,9 +141,6 @@ span.mobile-hidden {
     padding-bottom: 0.5rem;
 }
 
-.case-study__title span {
-    text-decoration: underline;
-}
 
 .case-study__text {
     text-transform: capitalize;
