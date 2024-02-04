@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 
-html {
-    font-family: "Pangaia", Arial, Helvetica, sans-serif;
-}
-
-li {
-    list-style: none;
+.header {
+    position: relative;
+    width: 100%;
+    max-height: 9svh;
+    min-height: 6svh;
 }
 
 
@@ -17,11 +16,12 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 1.5rem;
+    padding: 1.5% 1% 1.5% 1%;
     border-bottom: 1px solid #06142E;
-    height: 60.85px;
-    padding-left: 1%;
-    padding-right: 1%;
+}
+
+li {
+    list-style: none;
 }
 
 .hamburger {
@@ -39,7 +39,6 @@ li {
 }
 
 .nav-menu {
-    font-family: "Pangaia", Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,10 +52,7 @@ li {
 .nav-link {
     display: inline;
     text-decoration: none;
-    font-size: 1rem;
     letter-spacing: 0.125rem;
-    line-height: 0.938rem;
-    color: #06142E;
 }
 
 .nav-link:hover {
@@ -104,7 +100,7 @@ button.btn-traduction {
     }
 
     .nav-item {
-        margin: 2rem 0;
+        margin: 1rem 0;
     }
 
     .nav-link:hover {
@@ -150,8 +146,6 @@ button.btn-traduction {
     .navbar {
         display: flex;
         justify-content: center;
-        padding-left: 1.25rem;
-        padding-right: 1.25rem;
     }
 
     .left-contact {

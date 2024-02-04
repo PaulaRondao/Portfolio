@@ -1,10 +1,10 @@
 .contentinfo {
     text-align: center;
     font-family: "Pangaia";
-    font-size: 0.875rem;
+    font-size: 14px;
     font-weight: 600;
     color: #06142E;
-    padding: 0.938rem;
+    padding: 0.938em;
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
@@ -12,7 +12,6 @@
 
 span a {
     text-decoration: underline;
-    color: #06142E;
 }
 
 img {
@@ -39,8 +38,8 @@ img {
         font-weight: 600;
         font-size: 1rem;
         color: #06142E;
-        padding: 0.938rem;
-        margin-left: 1.25rem;
+        padding: 0.938em;
+        margin-left: 1.25em;
         writing-mode: vertical-lr;
         white-space: nowrap;
         transform: rotate(180deg);

@@ -90,6 +90,7 @@ h3 {
 
 .skills-list {
     display: flex;
+    align-items: center;
 }
 
 .skills-list li {
@@ -112,6 +113,10 @@ h3 {
 
 
 .skills li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     padding: 1rem;
     margin-bottom: 0.313rem;
     margin-right: 1rem;
@@ -128,12 +133,9 @@ h3 {
 
 /* ---------------------------- Navbar ----------------------- */
 
-.navbar {
-    padding-top: -6px;
-}
 
 button.hamburger {
-    margin-top: -0.6rem;
+    margin-top: -0.2rem;
 }
 
 .btn-traduction {
@@ -171,6 +173,12 @@ button.hamburger {
     .photo-title {
         visibility: hidden;
     }
+
+    .skills li {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    } 
 
     .skills-column-one {
         margin-right: 3.125rem;
