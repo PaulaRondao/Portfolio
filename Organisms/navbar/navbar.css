@@ -84,7 +84,7 @@ button.btn-traduction {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 4rem;
+        top: 3.8rem;
         flex-direction: column;
         background-color: #F5EEE6;
         width: 100%;
