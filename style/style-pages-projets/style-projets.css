@@ -43,6 +43,15 @@ h2 {
     letter-spacing: 0.031rem;
 }
 
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding-bottom: 5px;
+}
+
 p {
     font-size: 1rem;
     font-weight: 400;
@@ -108,7 +117,7 @@ span.mobile-hidden {
 .header-presentation {
     height: auto;
     border-bottom: 0.063rem solid #11223F;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .name-projet {
@@ -134,7 +143,6 @@ span.mobile-hidden {
 }
 
 .case-study__title {
-    text-transform: uppercase;
     font-size: 0.875rem;
     font-weight: 600;
     letter-spacing: .08em;
