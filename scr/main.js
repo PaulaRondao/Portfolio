@@ -21,12 +21,12 @@ function mobileMenu() {
     closeText.classList.remove("hidden");
     openText.classList.add("hidden");
 
-    noScrollBody.style.overflow = "hidden"; 
+    noScrollBody.style.overflow = "hidden";
     opacityMain.style.opacity = 0.5;
 
   } else {
     closeText.classList.add("hidden");
-    noScrollBody.style.overflow = ""; 
+    noScrollBody.style.overflow = "";
     opacityMain.style.opacity = 1;
   }
 }

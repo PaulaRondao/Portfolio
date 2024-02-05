@@ -7,7 +7,7 @@
     <title>Paula Rondao - Projets</title>
     <meta name="description"
         content="Paula Rondao, apprenante développeuse web passionnée, curieuse et en perpétuelle recherche d'amélioration pour rendre les sites web toujours plus accessibles, inclusifs et éco-conçus.">
-        <link rel=" shortcut icon" type="image/ico" href="/Atoms/Photos-portfolio/favicon.ico">
+    <link rel=" shortcut icon" type="image/ico" href="/Atoms/Photos-portfolio/favicon.ico">
     <link rel="stylesheet" href="/Organisms/navbar/navbar.css">
     <link rel="stylesheet" href="/Atoms/buttons/tooltip-svg.css">
     <link rel="stylesheet" href="/Atoms/buttons/arrow-scroll.css">
@@ -42,7 +42,8 @@
                 </button>
 
                 <div class="menu-burger">
-                    <button type="button" class="hamburger" aria-controls="header-menu" aria-expanded="false">
+                    <button type="button" aria-label="Menu principal" aria-controls="header-menu" aria-expanded="false"
+                        title="menu principal" class="hamburger">
                         <span class="bar"></span>
                         <span class="bar"></span>
                         <span class="bar"></span>
@@ -130,14 +131,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="arrow-scroll" data-tooltip="Scroller vers le bas" aria-hidden="true"
-                        title="Projets à scroller vers le bas">
-                        <img role="img" src="/Atoms/svg/arrow-scroll.svg" alt="">
+                    <div class="arrow-scroll" data-tooltip="Scroller vers le bas">
+                        <img src="/Atoms/svg/arrow-scroll.svg" aria-hidden="true">
                     </div>
                 </div>
             </div>
-            <button type="button" id="scrollToTopBtn" class="scroll-to-top-btn" aria-label="revenir en haut de la page">
-                <img role="button" src="/Atoms/svg/arrow-top.svg" alt="" title="revenir en haut de page">
+            <button type="button" id="scrollToTopBtn" aria-label="revenir en haut de la page"
+                title="revenir en haut de page" class="scroll-to-top-btn">
+                <img role="img" src="/Atoms/svg/arrow-top.svg" alt="revenir en haut de page">
             </button>
         </main>
 
