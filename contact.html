@@ -17,7 +17,7 @@
 
 <body>
     <header class="header" id="header-menu">
-        <nav role=navigation class="navbar" aria-label="Menu principal">
+        <nav class="navbar" aria-label="Menu principal">
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a class="nav-link" href="/index.html">ACCUEIL</a>
@@ -35,7 +35,7 @@
             </ul>
             <button type="button" class="btn-traduction" aria-label="Une traduction prochaine en anglais"
                 title="Prochainement en anglais">
-                <img role="img" src="/Atoms/svg/langue.svg" alt="lien vers le site en englais"></a>
+                <img src="/Atoms/svg/langue.svg" alt="lien vers le site en englais">
             </button>
 
             <div class="menu-burger">
@@ -51,7 +51,7 @@
         </nav>
     </header>
 
-    <main role="main" class="main">
+    <main class="main">
         <div class="contact-content">
             <div id="arianeShare">
                 <nav id="ariane" aria-label="Fil d'ariane" role="navigation">
@@ -65,7 +65,7 @@
                     </ol>
                 </nav>
             </div>
-            <div aria-label="Info contact mail">
+            <div role="presentation">
                 <h1 class="title">Say Hello,</h1>
                 <p>Si vous êtes intéressé.es par mon profil,</p>
                 <p>n'hésitez pas à me contacter.</p>
@@ -78,7 +78,7 @@
         </div>
     </main>
 
-    <footer role="contentinfo" footer-include-html="/Organisms/footer/footer.html">
+    <footer footer-include-html="/Organisms/footer/footer.html">
     </footer>
 
     <script src="/scr/main.js"></script>

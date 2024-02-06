@@ -36,7 +36,7 @@ address {
 
 .horizontal-content {
     position: relative;
-    padding: 0 1.25rem;
+    padding: 0 1.25rem 2rem 1.25rem;
 }
 
 .title-principal {
@@ -72,7 +72,7 @@ address {
     text-decoration: underline;
 }
 
-#ariane a:hover{
+#ariane a:hover {
     text-decoration: underline;
 }
 
@@ -90,7 +90,7 @@ address {
 #ariane li:not(:last-child)::after {
     content: '>';
     margin: 0 0.313rem;
-} 
+}
 
 
 @media screen and (min-width: 769px) {
@@ -106,11 +106,10 @@ address {
     #ariane li:not(:last-child)::after {
         content: '>';
         margin: 0;
-    } 
+    }
 
     #ariane li {
         display: inline-flex;
         align-items: center;
     }
 }
-

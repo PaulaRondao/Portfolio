@@ -16,7 +16,7 @@
 
 <body>
     <header id="header-menu" class="header">
-        <nav role=navigation class="navbar" aria-label="Menu principal">
+        <nav class="navbar" aria-label="Menu principal">
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a class="nav-link" href="/index.html">ACCUEIL</a>
@@ -34,7 +34,7 @@
             </ul>
             <button type="button" class="btn-traduction" aria-label="Traduction en anglais en cours"
                 title="Prochainement en anglais">
-                <img role="img" src="/Atoms/svg/langue.svg" alt="lien vers le site en englais"></a>
+                <img src="/Atoms/svg/langue.svg" alt="lien vers le site en englais">
             </button>
 
             <div class="menu-burger" role="navigation">
@@ -50,7 +50,7 @@
         </nav>
     </header>
 
-    <main class="main" role="main">
+    <main class="main">
         <div class="horizontal-content" aria-label="les mentions légales">
             <div id="arianeShare">
                 <nav id="ariane" aria-label="Fil d'ariane" role="navigation">
@@ -65,54 +65,66 @@
                 </nav>
             </div>
 
-            <div class="title-principal">
-                <h1>MENTIONS LÉGALES </h1>
+
+            <div id="header-mentions-legales" role="presentation" class="title-principal">
+                <h1>MENTIONS LÉGALES</h1>
                 <p>En vigueur au 19/01/2024</p>
             </div>
-            <p class="paragraphe">Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin
+            <p aria-labelledby="header-mentions-legales" class="paragraphe">Conformément aux dispositions des
+                Articles 6-III et 19 de la Loi n°2004-575 du 21
+                juin
                 2004 pour
                 la Confiance dans l’économie numérique, dite L.C.E.N., il est porté à la connaissance des
                 utilisateurs et visiteurs, du site www.paula-rondao.com , l’identité du responsable dans le
-                cadre de sa réalisation et de son suivi, par les présentes mentions légales.</p>
-            <p>La connexion et la navigation sur le Site par l’Utilisateur implique l'acceptation intégrale et
+                cadre de sa réalisation et de son suivi, par les présentes mentions légales.<br><br>
+                La connexion et la navigation sur le Site par l’Utilisateur implique l'acceptation intégrale et
                 sans réserve des présentes mentions légales. Ces dernières sont accessibles sur le Site à la
                 rubrique "Mentions légales”.
             </p>
-            <h2>CRÉATEUR, ÉDITEUR ET PROPRIÉTAIRE DU SITE</h2>
-            <p class="paragraphe">Le présent site web, accessible à l'URL www.paula-rondao.com, est créé et édité par :
-            </p>
-            <address>Maud Paula Rondao
-                <br />
-                Adresse : 47 chemin des alouettes, 17610 Chaniers
-                <br />
-                Telephone : 06.45.59.04.67
-                <br />
-                Email : contact@paula-rondao.com
-                <br />
-                Site web : https://www.paula-rondao.com
-            </address>
-            <h2>HÉBERGEMENT :</h2>
-            <p class="paragraphe">Le présent site web, accessible à l'URL www.paula-rondao.com, est créé et édité par :
-            </p>
-            <address>Hébergeur : VERCEL
-                <br />
-                Siege social : Vercel Inc. 340 S Lemon Ave #4133 Walnut, CA 91789
-                <br />
-                Site Web : https://www.vercel.com
-            </address>
+            <section>
+                <h2>CRÉATEUR, ÉDITEUR ET PROPRIÉTAIRE DU SITE</h2>
+                <p class="paragraphe">Le présent site web, accessible à l'URL www.paula-rondao.com, est créé et édité
+                    par :
+                </p>
+                <address>Maud Paula Rondao
+                    <br>
+                    Adresse : 47 chemin des alouettes, 17610 Chaniers
+                    <br>
+                    Telephone : 06.45.59.04.67
+                    <br>
+                    Email : contact@paula-rondao.com
+                    <br>
+                    Site web : https://www.paula-rondao.com
+                </address>
+            </section>
+            <section>
+                <h2>HÉBERGEMENT :</h2>
+                <p class="paragraphe">Le présent site web, accessible à l'URL www.paula-rondao.com, est créé et édité
+                    par :
+                </p>
+                <address>Hébergeur : VERCEL
+                    <br>
+                    Siege social : Vercel Inc. 340 S Lemon Ave #4133 Walnut, CA 91789
+                    <br>
+                    Site Web : https://www.vercel.com
+                </address>
+            </section>
             <h2>ACCÈS AU SITE :</h2>
             <p>Le Site est accessible en tout endroit, 7j/7, 24h/24 sauf cas de force majeure, interruption
                 programmée ou non et pouvant découlant d’une nécessité de maintenance. En cas de modification,
                 interruption ou suspension du Site, l'Éditeur ne saurait être tenu responsable.
             </p>
-            <h2>COLLECTE DES DONNÉES :</h2>
-            <p>Le site est exempté de déclaration à la Commission Nationale Informatique et Libertés (CNIL) dans la
-                mesure où il ne collecte aucune donnée concernant les utilisateurs. 1 Toute utilisation,
-                reproduction, diffusion, commercialisation, modification de toute ou partie du Site, sans
-                autorisation de l'Éditeur est prohibée et pourra entraîner des actions et poursuites judiciaires
-                telles que notamment prévues par le Code de la propriété intellectuelle et le Code civil.
-            </p>
+            <section>
+                <h2>COLLECTE DES DONNÉES :</h2>
+                <p>Le site est exempté de déclaration à la Commission Nationale Informatique et Libertés (CNIL) dans la
+                    mesure où il ne collecte aucune donnée concernant les utilisateurs. 1 Toute utilisation,
+                    reproduction, diffusion, commercialisation, modification de toute ou partie du Site, sans
+                    autorisation de l'Éditeur est prohibée et pourra entraîner des actions et poursuites judiciaires
+                    telles que notamment prévues par le Code de la propriété intellectuelle et le Code civil.
+                </p>
+            </section>
         </div>
+        </section>
     </main>
     <script src="/scr/main.js"></script>
 </body>
