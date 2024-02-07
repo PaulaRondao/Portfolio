@@ -49,39 +49,81 @@ h3 {
     padding: 0;
 }
 
-.sizePDF span {
-    font-weight: bold;
-    font-size: 0.875rem;
-    padding-left: 5%;
+.last-content {
+    margin-bottom: 10%;
 }
 
 /* ----------------------- COLLAPSIBLE ------------------- */
 
-/* Styles pour le bouton du collapse */
-.accordion-button {
-    background-color: #F5EEE6;
-    color: #06142E;
-    letter-spacing: 0.125rem;
-}
-
-/* Quand le bouton collapse est actif */
-.accordion-button:not(.collapsed) {
-    background-color: rgba(6, 20, 46, 0.8);
-    color: #F5EEE6;
-}
-
-.accordion-button:focus {
-    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-    border-color: #86b7fe;
-}
-
-.card-body p {
-    padding: 4%;
+.accordion {
+    width: 90%;
+    max-width: 1000px;
 }
 
 .accordion-item {
     background-color: #F5EEE6;
+    color: #06142E;
+    letter-spacing: 0.125rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.accordion-item:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    border-color: #86b7fe;
+}
+
+.accordion-item-header.active {
+    background-color: #06142E;
+    color: #F5EEE6;
+}
+
+.accordion-item-header.active p {
+    color: #F5EEE6;
+}
+
+.accordion-item-header {
+    padding: 1rem 3rem 1rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.accordion-item-header.active::after {
+    content: "\2212";
+}
+
+.accordion-item-body {
     border-color: #06142E;
+    /* color: #F5EEE6; */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+
+.accordion-item-header p {
+    margin-bottom: 0;
+    font-family: "Pangaia", Arial, Helvetica, sans-serif;
+    letter-spacing: 0.125rem;
 }
 
 
@@ -178,7 +220,7 @@ button.hamburger {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
-    } 
+    }
 
     .skills-column-one {
         margin-right: 3.125rem;
@@ -203,9 +245,10 @@ button.hamburger {
         padding-right: 40px;
     }
 
-    .btn-traduction {
+    /* .btn-traduction {
         display: none;
-    }
+    } */
+
     /* .right-btn {
     margin-left: auto;
     padding-top: 0;
