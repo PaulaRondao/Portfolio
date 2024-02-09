@@ -58,13 +58,13 @@ address {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 10%;
+        padding-top: 10%;
     }
-    
+
     .mail-link {
         text-decoration: none;
     }
-    
+
     .mail-link:hover {
         text-decoration: underline;
     }

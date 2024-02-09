@@ -7,8 +7,7 @@
 .header {
     position: relative;
     width: 100%;
-    max-height: 9svh;
-    min-height: 6svh;
+    min-height: 9svh;
 }
 
 

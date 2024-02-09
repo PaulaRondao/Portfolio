@@ -22,7 +22,7 @@ h1 {
 }
 
 .left-content p {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .left-content {
@@ -31,10 +31,6 @@ h1 {
 }
 
 /* ----------------------- NAVBAR Projet ------------------- */
-
-p {
-    margin-bottom: 0;
-}
 
 .navbar-projects {
     padding-left: 0;
@@ -87,7 +83,7 @@ p {
 }
 
 .name-project span {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     letter-spacing: 0.031rem;
     color: #06142E;
@@ -108,7 +104,7 @@ p {
 
     .projects-content {
         padding-right: 4%;
-        margin-top: 10%;
+        padding-top: 10%;
     }
 
     .projects-wapper {
@@ -130,10 +126,6 @@ p {
         flex-direction: column;
         align-items: flex-start;
         border-bottom: hidden;
-    }
-
-    .left-content p {
-        margin-bottom: 10%;
     }
 
     .right-content {
@@ -158,4 +150,3 @@ p {
         display: block;
     }
 }
-

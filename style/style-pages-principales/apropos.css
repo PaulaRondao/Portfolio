@@ -191,9 +191,7 @@ h3 {
 @media screen and (min-width: 769px) {
     .about-content {
         display: flex;
-        padding-left: 10%;
-        padding-right: 10%;
-        margin-top: 10%;
+        padding: 10% 10% 0 10%;
     }
 
     .about-wapper {
