@@ -13,17 +13,16 @@ Au cours de mes recherches et de mon travail, j'ai accordé une importance parti
 - Refactoring
 - Code clean
 
+
 ### Difficulté et complexité :
-- la réalisation de la navbar 
+- la réalisation de la navbar (responsive)
 - le collapsible
 
-Ce qui m'a amené à utiliser Bootsrap. 
 
 ### Technologies utilisées
 - HTML5
 - CSS3 (with Flexbox)
 - Vanilla Javascript
-- Bootstrap
 
 
 ### Vérification sur :
@@ -31,9 +30,14 @@ Ce qui m'a amené à utiliser Bootsrap.
 - Lighthouse,
 - WAVE évaluation,
 - Validateur HTML du W3C
+- VoiceOver
+
+### Outils indispensable :
+- RGAA (Référentiel Général d'Amélioration de l'Accessibilité) qui adapte le WCAG aux standarts européens
+- WCAG, un ensemble de recommandations créées par le W3C, comprenant 3 différents niveaux (A, AA, AAA)
 
 
 ### Dans le futur :
-Je souhaite l'améliorer en y ajoutant des animations. J'espère également pouvoir développer une navbar et un collapsible sans utiliser de framework. 
+Je souhaite l'améliorer en y ajoutant des animations. 
 
 
