@@ -151,10 +151,6 @@ button.btn-traduction {
         margin-left: 0;
     }
 
-    .nav-link:hover {
-        border-bottom: 3px solid #06142E;
-    }
-
     .hamburger {
         display: block;
         cursor: pointer;
