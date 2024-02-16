@@ -12,12 +12,11 @@
 .about-content {
     max-width: 100%;
     height: auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 0 10% 15% 10%;
 }
 
 .about-wapper {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .title {
@@ -53,6 +52,26 @@ h3 {
     margin-bottom: 10%;
 }
 
+.photo {
+    position: relative;
+    display: inline-block;
+}
+
+.img-wrap::after,
+.img-wrap::before {
+    border: 3px solid #06142E;
+    position: absolute;
+    content: "";
+    position: absolute;
+    left: 5%;
+    right: -5%;
+    bottom: -5%;
+    top: 5%;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+
 /* ----------------------- COLLAPSIBLE ------------------- */
 
 .accordion {
@@ -64,9 +83,7 @@ h3 {
     background-color: #F5EEE6;
     color: #06142E;
     letter-spacing: 0.125rem;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid #06142E;
 }
 
 .accordion-item:focus {
@@ -75,16 +92,15 @@ h3 {
 }
 
 .accordion-item-header.active {
-    background-color: #06142E;
-    color: #F5EEE6;
+    color: #06142E;
 }
 
 .accordion-item-header.active p {
-    color: #F5EEE6;
+    color: #06142E;
 }
 
 .accordion-item-header {
-    padding: 1rem 3rem 1rem 1rem;
+    padding: 1rem 0 1rem 0;
     min-height: 3.5rem;
     line-height: 1.25rem;
     font-weight: bold;
@@ -107,7 +123,6 @@ h3 {
 
 .accordion-item-body {
     border-color: #06142E;
-    /* color: #F5EEE6; */
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -117,7 +132,8 @@ h3 {
     padding: 1rem;
     line-height: 1.5rem;
     border-top: 1px solid;
-    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    border-color: #06142E;
+    /* border-image: linear-gradient(to right, transparent, #34495e, transparent) 1; */
 }
 
 .accordion-item-header p {
@@ -129,6 +145,15 @@ h3 {
 
 /* ---------------------------- Skills list ----------------------- */
 
+.about-skills {
+    max-width: 100%;
+    height: auto;
+    padding: 0 10% 10% 10%;
+}
+
+.content-skills {
+    border-top: 1px solid #06142E;
+}
 
 .skills-list {
     display: flex;
@@ -239,13 +264,35 @@ h3 {
         padding-right: 40px;
     }
 
-    /* .btn-traduction {
-        display: none;
-    } */
+    .btn-traduction {
+        display: block;
+    }
 
-    /* .right-btn {
-    margin-left: auto;
-    padding-top: 0;
-    padding-bottom: 0rem;
-} */
+    .photo {
+        position: relative;
+        display: inline-block;
+    }
+
+    .img-wrap::after,
+    .img-wrap::before {
+        border: 3px solid #06142E;
+        position: absolute;
+        content: "";
+        position: absolute;
+        left: -5%;
+        right: 5%;
+        bottom: -5%;
+        top: 5%;
+        z-index: -1;
+        transition: transform 0.3s ease;
+    }
+
+    .photo-hover:hover+.img-wrap::after {
+        transform: translate(-5px, -5px);
+    }
+
+    .photo-hover:hover+.img-wrap::before {
+        transform: translate(5px, 5px);
+    }
+
 }

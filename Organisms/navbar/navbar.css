@@ -14,8 +14,8 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 1.5% 1% 1.5% 1%;
+    justify-content: flex-start;
+    padding: 1.5% 0 1.5% 0;
     border-bottom: 1px solid #06142E;
 }
 
@@ -44,8 +44,16 @@ li {
 }
 
 .nav-item {
-    margin-left: 5rem;
     text-align: right;
+}
+
+.nav-item:first-child {
+    margin-left: 1rem;
+}
+
+.nav-item:nth-child(2),
+.nav-item:nth-of-type(3) {
+    margin-left: 3rem;
 }
 
 .nav-link {
@@ -75,9 +83,14 @@ li {
 button.btn-traduction {
     border: none;
     background-color: #F5EEE6;
-    padding-right: 40px;
+    padding-right: 1rem;
 }
 
+.border-navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+    /* border-bottom: #06142E solid 1px; */
+}
 
 @media only screen and (max-width: 768px) {
     .nav-menu {
@@ -100,6 +113,15 @@ button.btn-traduction {
 
     .nav-item {
         margin: 1rem 0;
+    }
+
+    .nav-item:first-child {
+        margin-left: 0;
+    }
+
+    .nav-item:nth-child(2),
+    .nav-item:nth-of-type(3) {
+        margin-left: 0;
     }
 
     .nav-link:hover {
