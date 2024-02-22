@@ -167,6 +167,7 @@ span.mobile-hidden {
 .content {
     margin-right: 5%;
     margin-left: 5%;
+    padding-bottom: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
