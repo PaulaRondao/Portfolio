@@ -1,4 +1,10 @@
 {
-    "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://www.paula-rondao.com/$1",
+      "statusCode": 301
+    }
+  ]
 }
-

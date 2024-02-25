@@ -125,7 +125,7 @@ h3 {
     border-color: #06142E;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    transition: max-height 0.4s ease-out;
 }
 
 .accordion-item-body-content {
