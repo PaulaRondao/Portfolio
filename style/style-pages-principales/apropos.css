@@ -216,7 +216,7 @@ h3 {
 @media screen and (min-width: 769px) {
     .about-content {
         display: flex;
-        padding: 10% 10% 0 10%;
+        padding: 10% 8% 0 8%;
     }
 
     .about-wapper {
@@ -225,6 +225,10 @@ h3 {
 
     .content-description {
         padding: 0;
+    }
+
+    .about-skills {
+        padding: 0 8% 0 8%;
     }
 
     .card-body p {

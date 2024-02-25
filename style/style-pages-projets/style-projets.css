@@ -111,6 +111,7 @@ span.mobile-hidden {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #06142E;
 }
 
 .header-presentation {
@@ -121,7 +122,7 @@ span.mobile-hidden {
 
 .name-projet {
     text-align: center;
-    color: #11223F;
+    color: #F5EEE6;
 }
 
 .case-study__infos {
