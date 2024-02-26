@@ -76,11 +76,6 @@ p {
     cursor: pointer;
 }
 
-.links img {
-    width: 1.875rem;
-    height: 1.875rem;
-}
-
 /* ---------------------------- Navbar ----------------------- */
 
 .btn-traduction {
@@ -108,11 +103,6 @@ p {
 
     p {
         text-align: right;
-    }
-
-    .links img {
-        width: 2.188rem;
-        height: 2.188rem;
     }
 
     .contentinfo {
