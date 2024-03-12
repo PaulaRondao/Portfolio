@@ -244,6 +244,7 @@ h3 {
     z-index: 99;
     /* Hide the button by default */
     transition: opacity 0.3s ease-in-out;
+    background-color: transparent;
 }
 
 .scroll-to-top-btn:hover {
