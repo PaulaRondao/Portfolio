@@ -23,6 +23,7 @@
 </head>
 
 <body>
+    <a href="#content" class="sr-only sr-only-focusable">Aller au contenu principal</a>
     <div id="containerAbout">
         <header id="header-menu" class="header">
             <div class="border-navbar">
@@ -44,7 +45,7 @@
                     </ul>
                     <button type="button" class="btn-traduction" aria-label="Traduction"
                         title="Prochainement en anglais">
-                        <img src="/Atoms/svg/langue.svg" alt="lien vers le site en englais">
+                        <img src="/Atoms/svg/langue.svg" alt="lien vers le site en anglais">
                     </button>
 
                     <div class="menu-burger">
@@ -76,14 +77,14 @@
                     </nav>
                 </div>
 
-                <section class="about-wapper">
+                <section class="about-wapper" id="content">
                     <h1>A PROPOS</h1>
                     <h2 class="title">Apprenante développeuse web full-stack, chez Ada Tech School.</h2>
 
                     <div class="accordion">
                         <div class="accordion-item">
-                            <div class="accordion-item-header">
-                                <p>Mes racines</p>
+                            <div class="accordion-item-header" role="button" tabindex="0">
+                                <span>Mes racines</span>
                             </div>
                             <div class="accordion-item-body">
                                 <div class="accordion-item-body-content">
@@ -100,8 +101,8 @@
                         </div>
 
                         <div class="accordion-item">
-                            <div class="accordion-item-header">
-                                <p>Traversées culturelles</p>
+                            <div class="accordion-item-header" role="button" tabindex="0">
+                                <span>Traversées culturelles</span>
                             </div>
                             <div class="accordion-item-body">
                                 <div class="accordion-item-body-content">
@@ -143,8 +144,8 @@
                         </div>
 
                         <div class="accordion-item">
-                            <div class="accordion-item-header">
-                                <p>L'évolution de mon parcours</p>
+                            <div class="accordion-item-header" role="button" tabindex="0">
+                                <span>L'évolution de mon parcours</span>
                             </div>
                             <div class="accordion-item-body">
                                 <div class="accordion-item-body-content">
@@ -231,11 +232,11 @@
                         accessibles, tirer des leçons de chaque expérience, puis itérer et améliorer.
                     </p>
                     <a role="button" class="button-cv" id="download-button" href="/Cv/CV.Paula-Rondao.pdf"
-                        target="_blank" aria-labelledby="download-button download-details" title="CV à télécharger">Mon
+                        target="_blank" aria-labelledby="download-details" title="CV à télécharger">Mon
                         CV</a>
                     <br>
                     <br>
-                    <p id="download-details" class="sizePDF">(pdf - 1.6 Mo)</p>
+                    <span id="download-details" class="sizePDF">(pdf - 1.6 Mo)</span>
                 </section>
 
                 <h3 id="profil-photo" class="photo-title">Me voilà,</h3>

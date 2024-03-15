@@ -136,12 +136,12 @@ h3 {
     /* border-image: linear-gradient(to right, transparent, #34495e, transparent) 1; */
 }
 
-.accordion-item-header p {
+.accordion-item-header p,
+.accordion-item-header span {
     margin-bottom: 0;
     font-family: "Pangaia", Arial, Helvetica, sans-serif;
     letter-spacing: 0.125rem;
 }
-
 
 /* ---------------------------- Skills list ----------------------- */
 

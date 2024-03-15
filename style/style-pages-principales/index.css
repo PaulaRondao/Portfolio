@@ -44,7 +44,7 @@ h2 {
     font-family: Pangaia;
 }
 
-p:first-child {
+h3 {
     font-size: max(1.25rem, 2vw);
     text-align: right;
     text-transform: uppercase;

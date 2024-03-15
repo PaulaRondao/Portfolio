@@ -24,6 +24,7 @@
 </head>
 
 <body>
+    <a href="#content" class="sr-only sr-only-focusable">Aller au contenu principal</a>
     <div id="homepage">
         <header id="header-menu" class="header">
             <div class="border-navbar">
@@ -45,7 +46,7 @@
                     </ul>
                     <button type="button" aria-label="Une traduction prochaine en anglais"
                         title="Prochainement en anglais" class="btn-traduction">
-                        <img src="/Atoms/svg/langue.svg" alt="lien vers le site en englais">
+                        <img src="/Atoms/svg/langue.svg" alt="lien vers le site en anglais">
                     </button>
 
                     <div class="menu-burger">
@@ -62,14 +63,15 @@
             </div>
         </header>
 
-        <main class="inner-center">
+        <main class="inner-center" id="content">
+            <a href="#footer" class="sr-only sr-only-focusable">Aller au pied de page</a>
             <h1>créative</h1>
             <h2><strong>
                     <div>DEVELOPPEUSE</div>
                     <div>WEB FULL-STACK,</div>
                 </strong></h2>
             <div class="content-homepage">
-                <p>HELLO, je suis Paula.</p>
+                <h3>HELLO, je suis Paula.</h3>
                 <p>Je m’applique à créer des expériences numériques accessibles,
                     inclusives et responsables | en recherche d'alternance, pour mai 2024.</p>
             </div>
@@ -142,7 +144,7 @@
             </div>
         </main>
     </div>
-    <footer footer-include-html="/Organisms/footer/footer.html">
+    <footer id="footer" footer-include-html="/Organisms/footer/footer.html">
     </footer>
 
     <script src="/scr/main.js"></script>

@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Pangaia";
-    src: url("/Atoms/fonts/PPPangaia-Medium.woff2") format("truetype"); 
+    src: url("/Atoms/fonts/PPPangaia-Medium.woff2") format("truetype");
 }
 
 * {
@@ -15,9 +15,9 @@ html {
 }
 
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1rem;
-    color: #06142E; 
+    color: #06142E;
     background-color: #F5EEE6;
 }
 
@@ -41,7 +41,7 @@ p {
 a {
     text-decoration: none;
     line-height: 1.5rem;
-    color: #06142E; 
+    color: #06142E;
 }
 
 /* ------------------------------- fil ariane ---------------------------------- */
@@ -49,7 +49,8 @@ a {
     display: block;
 }
 
-#ariane a, #ariane span  {
+#ariane a,
+#ariane span {
     color: #343643;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.875rem;
@@ -64,7 +65,7 @@ a {
     text-decoration: underline;
 }
 
-#ariane a:hover{
+#ariane a:hover {
     text-decoration: underline;
 }
 
@@ -88,3 +89,22 @@ a {
     }
 }
 
+/* ------------------------------- Lien d'évitement ---------------------------------- */
+.sr-only {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+}

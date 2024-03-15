@@ -22,6 +22,7 @@
 </head>
 
 <body>
+    <a href="#content" class="sr-only sr-only-focusable">Aller au contenu principal</a>
     <div id="containerProject">
         <header id="header-menu" class="header">
             <div class="border-navbar">
@@ -43,7 +44,7 @@
                     </ul>
                     <button type="button" class="btn-traduction" aria-label="Une traduction prochaine en anglais"
                         title="Prochainement en anglais">
-                        <img src="/Atoms/svg/langue.svg" alt="lien vers le site en englais">
+                        <img src="/Atoms/svg/langue.svg" alt="lien vers le site en anglais">
                     </button>
 
                     <div class="menu-burger">
@@ -74,7 +75,7 @@
                         </ol>
                     </nav>
                 </div>
-                <div class="projects-wapper">
+                <div class="projects-wapper" id="content">
                     <section class="left-content">
                         <h1>PROJETS</h1>
                         <p>Ceci est une présentation des projets que j’ai réalisé au cours de ma formation, ainsi que
@@ -130,7 +131,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="arrow-scroll" data-tooltip="Scroller vers le bas">
+                    <div class="arrow-scroll" data-tooltip="Scroller vers le bas" aria-label="Scroller vers le bas"
+                        tabindex="-1">
                         <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"
                             aria-hidden="true" focusable="false">
                             <path
