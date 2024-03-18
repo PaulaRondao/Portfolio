@@ -21,7 +21,6 @@
     transform: translateX(-50%);
     padding-top: 0.800rem;
     padding-bottom: 0.800rem;
-    /* padding: 0.188rem 0.938rem; */
     width: 100px;
     border-radius: 0.313rem;
     background-color: #06142E;
@@ -61,6 +60,3 @@
 [data-tooltip]:hover:before {
     z-index: 1000;
 }
-
-
-
