@@ -1,6 +1,11 @@
 @font-face {
     font-family: "Pangaia";
-    src: url("/Atoms/fonts/PPPangaia-Medium.woff2") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+000-5FF;
+    src:
+        local("Pangaia"), url("/Atoms/fonts/PPPangaia-Medium.woff2") format("woff2");
 }
 
 * {
