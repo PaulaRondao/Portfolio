@@ -14,8 +14,8 @@
 
 [data-tooltip]:before {
     position: absolute;
-    top: 100%;
-    /* Placed at the bottom */
+    bottom: 110%;
+    /* Placed at the top */
     left: 50%;
     margin-top: -0.150rem;
     transform: translateX(-50%);
@@ -34,13 +34,13 @@
 
 [data-tooltip]:after {
     position: absolute;
-    top: 100%;
-    /* Placed at the bottom */
+    bottom: 100%;
+    /* Placed at the top */
     left: 50%;
     margin-left: -0.313rem;
     width: 0;
     margin-top: -0.500rem;
-    border-bottom: 0.360rem solid #06142E;
+    border-top: 0.360rem solid #06142E;
     /* Changed to border-bottom */
     border-right: 0.360rem solid transparent;
     border-left: 0.360rem solid transparent;

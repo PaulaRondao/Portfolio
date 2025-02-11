@@ -10,14 +10,12 @@
 
 
 .inner-center {
-    padding: 2.5rem 10% 2.5rem 10%;
+    padding: 2.5rem 6% 2.5rem 6%;
 }
 
 .content-homepage {
-    padding: 1.563rem 0 1.563rem 6%;
+    padding: 1.563rem 0 1.563rem 0%;
     margin: 0 0 1.563rem 0;
-    text-align: right;
-    border-bottom: 0.094rem solid #06142E;
     position: relative;
 }
 
@@ -31,8 +29,10 @@ footer {
 
 h1 {
     font-size: max(1.25rem, 2.7vw);
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
+    letter-spacing: 5%;
     color: rgba(6, 20, 46, 0.8);
+    font-weight: 100;
 }
 
 h2 {
@@ -40,41 +40,26 @@ h2 {
     margin-bottom: 0;
     margin-top: -0.5rem;
     color: #06142E;
-    letter-spacing: 0;
+    letter-spacing: 3%;
     font-family: Pangaia;
     text-transform: uppercase;
 }
 
 h3 {
-    font-size: max(1.25rem, 2vw);
-    text-align: right;
+    font-size: max(1.25rem, 1vw);
     text-transform: uppercase;
     font-weight: bold;
     font-family: Pangaia;
-    letter-spacing: 0.01rem;
-    margin-bottom: 2%;
+    letter-spacing: 2%;
+    margin-bottom: 24px;
 }
 
 p {
-    text-align: justify;
     margin-bottom: 0;
-    line-height: 1.8rem;
 }
 
-.links {
-    margin-bottom: 0;
-    position: relative;
-    width: 100%;
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 2.063rem;
-    /*pour permettre à la nav de s'aligner verticalement en mode mobile*/
-    list-style-type: none;
-}
-
-.links a {
-    margin-left: 0.313rem;
-    cursor: pointer;
+p:nth-child(2) {
+    margin-bottom: 16px;
 }
 
 /* ---------------------------- Navbar ----------------------- */
@@ -89,21 +74,16 @@ p {
 @media screen and (min-width: 769px) {
 
     .inner-center {
-        margin: 8% 10% 0 10%;
-        padding: 0;
+        padding: 4% 6% 0 6%;
     }
 
     .content-homepage {
-        padding: 2.813rem 6% 1.563rem 12%;
+        padding: 2.813rem 0 1.563rem 45%;
         /* 45px*/
     }
 
     h1 {
-        margin-bottom: -2rem;
-    }
-
-    p {
-        text-align: right;
+        margin-bottom: 2rem;
     }
 
     .contentinfo {
