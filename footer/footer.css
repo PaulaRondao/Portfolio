@@ -20,10 +20,26 @@ img {
     height: 14;
 }
 
+.links {
+    padding: 0 6% 1rem 6%;
+    position: relative;
+    width: 100%;
+    gap: 2.063rem;
+    /*pour permettre à la nav de s'aligner verticalement en mode mobile*/
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a {
+    margin-left: 0.313rem;
+    cursor: pointer;
+}
+
 /* ---------------------------- Responsive styles ----------------------- */
 
-/* For screens larger than 992px */
-@media screen and (min-width: 992px) {
+/* For screens larger than 768px */
+@media screen and (min-width: 768px) {
     .container-mention-legales {
         display: inline-block;
         flex-direction: column;
@@ -49,5 +65,11 @@ img {
         margin-bottom: 2%;
         width: 18;
         height: 14;
+    }
+
+    .links {
+        padding: 2.5rem 6% 1rem 6%;
+        display: flex;
+        justify-content: flex-start;
     }
 }

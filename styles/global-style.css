@@ -20,8 +20,9 @@ html {
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    letter-spacing: 0.5px;
     color: #06142E;
     background-color: #F5EEE6;
 }
@@ -35,9 +36,9 @@ a {
 
 p {
     font-size: max(1rem, 1.30vw);
-    font-weight: 400;
-    line-height: 1.9rem;
-    letter-spacing: 0.031rem;
+    font-weight: 200;
+    line-height: 1.8rem;
+    letter-spacing: 0.5px;
     text-align: left;
     color: #06142E;
     position: relative;
@@ -271,7 +272,7 @@ button.btn-traduction {
         align-items: center;
         justify-content: space-between;
         padding: 2% 0 2% 0;
-        border-bottom: 1px solid #06142E;
+        border-bottom: none;
     }
 
     .nav-menu {
