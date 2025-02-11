@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Pangaia";
-    src: url("/Atoms/fonts/PPPangaia-Medium.woff2") format("truetype"); 
+    src: url("/assets/fonts/PPPangaia-Medium.woff2") format("truetype");
 }
 
 /* ------------------------------- main ---------------------------------- */
@@ -21,8 +21,7 @@ body {
 }
 
 h1,
-h2
-{
+h2 {
     font-family: "Pangaia";
 }
 
@@ -51,7 +50,7 @@ p {
 
 /* ------------------------ HEADER ------------------------- */
 
-img { 
+img {
     width: 2.5rem;
     height: 2.5rem;
     padding-left: 1rem;
@@ -69,7 +68,7 @@ img {
 }
 
 .link__social {
-margin-right: 0.938rem; 
+    margin-right: 0.938rem;
 }
 
 .link__social img {
@@ -85,7 +84,7 @@ span.mobile-hidden {
 
 /* ------------------------ MAIN ------------------------- */
 
-.container-projet { 
+.container-projet {
     max-width: 100%;
     height: auto;
 }
@@ -150,7 +149,7 @@ span.mobile-hidden {
     letter-spacing: .08em;
     padding-top: 0.5rem;
     font-weight: 300;
-    color:rgba(214, 220, 223, 0.8);
+    color: rgba(214, 220, 223, 0.8);
     list-style-type: none;
 }
 
@@ -167,7 +166,7 @@ span.mobile-hidden {
 /* ---------------------------- Fil d'ariane ----------------------- */
 
 #ariane a {
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
     color: #F5EEE6;
     text-decoration: underline;
 }
@@ -210,14 +209,14 @@ span.mobile-hidden {
         padding-left: 10%;
         padding-right: 10%;
     }
-    
+
     .case-study__infos {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         margin-bottom: 5%;
     }
-    
+
     .case-study__info {
         display: inline-block;
         justify-content: flex-start;
@@ -227,7 +226,7 @@ span.mobile-hidden {
         padding-bottom: 1rem;
     }
 
-    img { 
+    img {
         width: 2.5rem;
         height: 2.5rem;
     }
@@ -257,7 +256,8 @@ span.mobile-hidden {
         font-weight: bold;
     }
 
-    .header-button-left a:hover, .header-button-right a:hover {
+    .header-button-left a:hover,
+    .header-button-right a:hover {
         text-decoration: underline;
     }
 
@@ -274,4 +274,3 @@ span.mobile-hidden {
         padding-left: 0;
     }
 }
-

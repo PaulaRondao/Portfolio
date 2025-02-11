@@ -5,7 +5,7 @@
     font-display: swap;
     unicode-range: U+000-5FF;
     src:
-        local("Pangaia"), url("/Atoms/fonts/PPPangaia-Medium.woff2") format("woff2");
+        local("Pangaia"), url("/assets/fonts/PPPangaia-Medium.woff2") format("woff2");
 }
 
 /* ------------------------------- main ---------------------------------- */

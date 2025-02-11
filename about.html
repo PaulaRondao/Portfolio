@@ -10,15 +10,15 @@
     <meta property="og:title" content="À propos de Paula Rondao">
     <meta property="og:description"
         content="Je m'appelle Paula, une développeuse web engagée dans une démarche de formation continue afin de concevoir des services numériques de manière écologique et accessible.">
-    <meta property="og:url" content="https://www.paula-rondao.com/a-propos">
+    <meta property="og:url" content="https://www.paula-rondao.com/about">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="/Atoms/Photos-portfolio/Capture-ecran.png">
-    <link rel=" shortcut icon" type="image/ico" href="/Atoms/Photos-portfolio/favicon.ico">
-    <Link rel="canonical" href=http//www.paula.rondao/Cv/CV-Paula-Rondao.pdf>
-    <link rel="stylesheet" href="/Atoms/buttons/tooltip-svg.css">
-    <link rel="stylesheet" href="/Organisms/footer/footer.css">
-    <link rel="stylesheet" href="/styles/apropos.css">
-    <link rel="stylesheet" href="/styles/style.css">
+    <meta property="og:image" content="/assets/images/photo-homepage/capture-ecran.png">
+    <link rel=" shortcut icon" type="image/ico" href="/assets/images/icons/favicon.ico">
+    <Link rel="canonical" href=http//www.paula.rondao/cv/CV-Paula-Rondao.pdf>
+    <link rel="stylesheet" href="/styles/buttons/tooltip.css">
+    <link rel="stylesheet" href="/footer/footer.css">
+    <link rel="stylesheet" href="/styles/about.css">
+    <link rel="stylesheet" href="/styles/global-style.css">
 
 </head>
 
@@ -33,10 +33,10 @@
                             <a class="nav-link" href="/index.html">ACCUEIL</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/projets.html">PROJETS</a>
+                            <a class="nav-link" href="/projects.html">PROJETS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/a-propos.html">A
+                            <a class="nav-link active" aria-current="page" href="/about.html">A
                                 PROPOS</a>
                         </li>
                         <li class="nav-item right-contact">
@@ -45,7 +45,7 @@
                     </ul>
                     <button type="button" class="btn-traduction" aria-label="Traduction"
                         title="Prochainement en anglais">
-                        <img src="/Atoms/svg/langue.svg" alt="lien vers le site en anglais">
+                        <img src="/assets/images/icons/svg/langue.svg" alt="lien vers le site en anglais">
                     </button>
 
                     <div class="menu-burger">
@@ -242,7 +242,7 @@
                 <h3 id="profil-photo" class="photo-title">Me voilà,</h3>
                 <picture class="right-content">
                     <div class="photo">
-                        <img src="/Atoms/photo_profil/photo-profil.webp" class="photo-hover"
+                        <img src="/assets/images/photo-profil/photo-profil.webp" class="photo-hover"
                             aria-labelledby="profil-photo"
                             alt="Paula Rondao développeuse web et propriétaire de ce site web" width="336" height="383">
                         <div class="img-wrap"></div>
@@ -255,19 +255,26 @@
                     <div class="skills">
                         <div role="presentation" class="skills-list">
                             <ul class="skills-column-one">
-                                <li><img src="/Atoms/svg/css.svg" alt="" aria-hidden="true">CSS3</li>
-                                <li><img src="/Atoms/svg/html.svg" alt="" aria-hidden="true">HTML5</li>
-                                <li><img src="/Atoms/svg/js.svg" alt="" aria-hidden="true">JavaScript</li>
-                                <li><img src="/Atoms/svg/bootstrap.svg" alt="" aria-hidden="true">Bootstrap</li>
-                                <li><img src="/Atoms/svg/materialUI.svg" alt="" aria-hidden="true">Material UI</li>
+                                <li><img src="/assets/images/icons/svg/css.svg" alt="" aria-hidden="true">CSS3</li>
+                                <li><img src="/assets/images/icons/svg/html.svg" alt="" aria-hidden="true">HTML5</li>
+                                <li><img src="/assets/images/icons/svg/js.svg" alt="" aria-hidden="true">JavaScript</li>
+                                <li><img src="/assets/images/icons/svg/bootstrap.svg" alt=""
+                                        aria-hidden="true">Bootstrap</li>
+                                <li><img src="/assets/images/icons/svg/materialUI.svg" alt=""
+                                        aria-hidden="true">Material UI</li>
 
                             </ul>
                             <ul class="skills-column-two">
-                                <li><img src="/Atoms/svg/react.svg" alt="" aria-hidden="true">React.js</li>
-                                <li><img src="/Atoms/svg/Nextjs.svg" alt="" aria-hidden="true">Next.js</li>
-                                <li><img src="/Atoms/svg/Node.js.svg" alt="" aria-hidden="true">Node.js</li>
-                                <li><img src="/Atoms/svg/Nest.js.svg" alt="" aria-hidden="true">NestJS</li>
-                                <li><img src="/Atoms/svg/TypeScript.svg" alt="" aria-hidden="true">TypeScript
+                                <li><img src="/assets/images/icons/svg/react.svg" alt="" aria-hidden="true">React.js
+                                </li>
+                                <li><img src="/assets/images/icons/svg/Nextjs.svg" alt="" aria-hidden="true">Next.js
+                                </li>
+                                <li><img src="/assets/images/icons/svg/Node.js.svg" alt="" aria-hidden="true">Node.js
+                                </li>
+                                <li><img src="/assets/images/icons/svg/Nest.js.svg" alt="" aria-hidden="true">NestJS
+                                </li>
+                                <li><img src="/assets/images/icons/svg/TypeScript.svg" alt=""
+                                        aria-hidden="true">TypeScript
                                 </li>
                             </ul>
                         </div>
@@ -275,7 +282,7 @@
                 </div>
             </section>
         </main>
-        <footer footer-include-html="/Organisms/footer/footer.html">
+        <footer footer-include-html="/footer/footer.html">
         </footer>
 
         <button type="button" id="scrollToTopBtn" aria-label="revenir en haut de la page"
@@ -291,9 +298,10 @@
 
     </div>
 
-    <script src="/scr/main.js"></script>
-    <script src="/scr/app.js"></script>
-    <script src="/scr/about.js"></script>
+    <script src="/scr/navbar.js"></script>
+    <script src="/scr/footer.js"></script>
+    <script src="/scr/scroll.js"></script>
+    <script src="/scr/accordion.js"></script>
 </body>
 
 </html>

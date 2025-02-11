@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Pangaia";
-    src: url("/Atoms/fonts/PPPangaia-Medium.woff2") format("truetype"); 
+    src: url("/assets/fonts/PPPangaia-Medium.woff2") format("truetype");
 }
 
 * {
@@ -38,5 +38,3 @@ a {
     text-decoration: none;
     line-height: 1.5rem;
 }
-
-
