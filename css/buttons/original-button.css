@@ -11,7 +11,7 @@
     height: 40px;
     position: relative;
     transition: 0.3s;
-    background-color: #F5EEE6;
+    background-color: #FBF8EE;
 }
 
 .original-button::before,

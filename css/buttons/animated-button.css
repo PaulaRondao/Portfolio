@@ -7,7 +7,7 @@
 
 .btn-outline:hover {
     border: none;
-    background:none;
+    background: none;
 }
 
 .navbar-toggler:focus {
@@ -15,7 +15,7 @@
 }
 
 .navbar-toggler {
-    border-color:#F5EEE6;
+    border-color: #FBF8EE;
     padding: 2% 2% 2% 0;
 }
 

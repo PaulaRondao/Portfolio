@@ -20,11 +20,11 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', serif;
     font-size: 0.875rem;
     letter-spacing: 0.5px;
     color: #06142E;
-    background-color: #F5EEE6;
+    background-color: #FBF8EE;
 }
 
 h1,
@@ -35,8 +35,8 @@ a {
 }
 
 p {
-    font-size: max(1rem, 1.30vw);
-    font-weight: 200;
+    font-size: max(1rem, 1.20vw);
+    font-weight: 100;
     line-height: 1.8rem;
     letter-spacing: 0.5px;
     text-align: left;
@@ -143,7 +143,7 @@ li {
 
 button.btn-traduction {
     border: none;
-    background-color: #F5EEE6;
+    background-color: #FBF8EE;
     padding-right: 1rem;
 }
 
@@ -199,7 +199,7 @@ button.btn-traduction {
     top: 3.8rem;
     flex-direction: column;
     width: 100%;
-    background-color: #F5EEE6;
+    background-color: #FBF8EE;
     border-bottom: 1px solid #06142E;
     text-align: center;
     transition: 0.3s;
