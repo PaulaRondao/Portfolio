@@ -19,22 +19,24 @@
     margin-bottom: 5%;
 }
 
-.title {
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem;
+.about-title {
+    width: 90%;
+    margin-bottom: 60px;
 }
+
 
 h1 {
     font-size: 2.5rem;
-    margin-bottom: 4%;
-    letter-spacing: 0.063rem;
+    font-weight: 100;
+    letter-spacing: 3%;
+    color: rgba(6, 20, 46, 0.8);
 }
 
 h2 {
     font-size: 1.75rem;
     font-weight: 300;
     line-height: 1.3em;
-    letter-spacing: 0.031rem;
+    letter-spacing: 2%;
 }
 
 h3 {
@@ -80,7 +82,7 @@ h3 {
 }
 
 .accordion-item {
-    background-color: #F5EEE6;
+    background-color: #FBF8EE;
     color: #06142E;
     letter-spacing: 0.125rem;
     border-bottom: 1px solid #06142E;
@@ -100,7 +102,7 @@ h3 {
 }
 
 .accordion-item-header {
-    padding: 1rem 0 1rem 0;
+    padding: 0.938rem 0 0.625rem 0;
     min-height: 3.5rem;
     line-height: 1.25rem;
     font-weight: bold;
@@ -214,7 +216,7 @@ h3 {
 
 /* -------- Button CV ---------- */
 .button-cv {
-    color: #F5EEE6;
+    color: #FBF8EE;
     letter-spacing: 0.063rem;
     background-color: #06142E;
     border-radius: 3.125rem;
@@ -257,11 +259,11 @@ h3 {
 @media screen and (min-width: 769px) {
     .about-content {
         display: flex;
-        padding: 10% 8% 0 8%;
+        padding: 4% 8% 0 6%;
     }
 
     .about-wapper {
-        margin-right: 5%;
+        padding-right: 4%;
     }
 
     .content-description {

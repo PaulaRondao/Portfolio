@@ -96,7 +96,7 @@ span.mobile-hidden {
 
 .header-projet {
     height: 10rem;
-    border-bottom: 0.063rem solid #F5EEE6;
+    border-bottom: 0.063rem solid #FBF8EE;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,7 +104,7 @@ span.mobile-hidden {
 
 .header-presentation {
     height: auto;
-    border-bottom: 0.063rem solid #F5EEE6;
+    border-bottom: 0.063rem solid #FBF8EE;
     margin-bottom: 10%;
 }
 
@@ -120,7 +120,7 @@ span.mobile-hidden {
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    border-bottom: 0.063rem solid #F5EEE6;
+    border-bottom: 0.063rem solid #FBF8EE;
 }
 
 .case-study__info {
@@ -167,12 +167,12 @@ span.mobile-hidden {
 
 #ariane a {
     font-family: Arial, Helvetica, sans-serif;
-    color: #F5EEE6;
+    color: #FBF8EE;
     text-decoration: underline;
 }
 
 #ariane span {
-    color: #F5EEE6;
+    color: #FBF8EE;
     text-decoration: none
 }
 

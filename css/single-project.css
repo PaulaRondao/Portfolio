@@ -21,7 +21,7 @@
 
 body {
     color: #06142E;
-    background-color: #F5EEE6;
+    background-color: #FBF8EE;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -127,7 +127,7 @@ span.mobile-hidden {
 
 .name-projet {
     text-align: center;
-    color: #F5EEE6;
+    color: #FBF8EE;
 }
 
 .case-study__infos {

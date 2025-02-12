@@ -24,7 +24,7 @@
     width: 100px;
     border-radius: 0.313rem;
     background-color: #06142E;
-    color: #F5EEE6;
+    color: #FBF8EE;
     content: attr(data-tooltip);
     text-align: center;
     font-size: 1rem;
