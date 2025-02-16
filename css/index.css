@@ -1,31 +1,10 @@
-/* ------------------------------- Grid ---------------------------------- */
+/* ---------------------------- Navbar ----------------------- */
 
-#homepage {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 100%;
+.btn-traduction {
+    display: none;
 }
 
-/* ------------------------------- main ---------------------------------- */
-
-
-.inner-center {
-    padding: 2.5rem 6% 2.5rem 6%;
-}
-
-.content-homepage {
-    padding: 1.563rem 0 1.563rem 0%;
-    margin: 0 0 1.563rem 0;
-    position: relative;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* ------------------------ STYLE PAGE-CONTENT ------------------------- */
+/* ---------------------------- Content ----------------------- */
 
 h1 {
     font-size: max(1.25rem, 2.7vw);
@@ -36,9 +15,8 @@ h1 {
 }
 
 h2 {
-    font-size: max(2.813rem, 6.8vw);
+    font-size: 2.5rem;
     margin-bottom: 0;
-    margin-top: -0.5rem;
     color: #06142E;
     letter-spacing: 3%;
     font-family: Pangaia;
@@ -55,25 +33,39 @@ h3 {
 }
 
 p {
-    margin-bottom: 0;
+    & span {
+        font-weight: bold;
+    }
+
+    &:nth-child(2) {
+        margin-bottom: 8px;
+    }
 }
 
-p:nth-child(2) {
-    margin-bottom: 16px;
+.container {
+    padding: 2.5rem 6% 2.5rem 6%;
 }
 
-/* ---------------------------- Navbar ----------------------- */
+.title-content {
+    padding-bottom: 3rem;
+}
 
-.btn-traduction {
-    display: none;
+.content-homepage {
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /* ---------------------------- Responsive styles ----------------------- */
 
-/* For screens larger than 992px */
+/* For screens larger than 769px */
 @media screen and (min-width: 769px) {
 
-    .inner-center {
+    .container {
         padding: 4% 6% 0 6%;
     }
 
@@ -84,6 +76,10 @@ p:nth-child(2) {
 
     h1 {
         margin-bottom: 2rem;
+    }
+
+    h2 {
+        font-size: 6.8vw;
     }
 
     .contentinfo {
