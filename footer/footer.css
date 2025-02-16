@@ -1,13 +1,16 @@
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .contentinfo {
-    text-align: center;
     font-family: "Pangaia";
     font-size: 14px;
-    font-weight: 600;
+    font-size: 400;
     color: #06142E;
-    padding: 0.938em;
     display: flex;
-    justify-content: flex-end;
-    align-content: flex-end;
+    justify-content: flex-start;
+    padding: 1rem;
 }
 
 span a {
@@ -21,14 +24,14 @@ img {
 }
 
 .links {
-    padding: 0 6% 1rem 6%;
+    padding: 0 6%;
     position: relative;
     width: 100%;
-    gap: 2.063rem;
+    gap: 1rem;
     /*pour permettre à la nav de s'aligner verticalement en mode mobile*/
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .links a {
@@ -47,13 +50,8 @@ img {
 
     .contentinfo {
         position: absolute;
-        /* bottom: 0; */
         right: 0;
         text-align: center;
-        font-family: "Pangaia";
-        font-weight: 600;
-        font-size: 1rem;
-        color: #06142E;
         padding: 0.938em;
         margin-left: 1.25em;
         writing-mode: vertical-lr;
@@ -71,5 +69,6 @@ img {
         padding: 2.5rem 6% 1rem 6%;
         display: flex;
         justify-content: flex-start;
+        gap: 2.063rem;
     }
 }
