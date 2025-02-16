@@ -1,0 +1,75 @@
+.accordion {
+  width: 85vw;
+}
+
+.accordion-item {
+  background-color: #FBF8EE;
+  color: #06142E;
+  letter-spacing: 0.125rem;
+  border-bottom: 1px solid #06142E;
+}
+
+.accordion-item:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  border-color: #86b7fe;
+}
+
+.accordion-item-header.active {
+  color: #06142E;
+}
+
+.accordion-item-header.active p {
+  color: #06142E;
+}
+
+.accordion-item-header {
+  padding: 0.938rem 0 0.625rem 0;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+
+.accordion-item-header.active::after {
+  content: "\2212";
+}
+
+.accordion-item-body {
+  border-color: #06142E;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+
+.accordion-item-body-content {
+  padding: 1rem 0;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-color: #06142E;
+}
+
+.accordion-item-header p,
+.accordion-item-header span {
+  margin-bottom: 0;
+  font-family: "Pangaia", Arial, Helvetica, sans-serif;
+  letter-spacing: 0.125rem;
+}
+
+/* ---------------------------- Responsive styles ----------------------- */
+
+/* For screens larger than 769px */
+@media screen and (min-width: 769px) {
+  .accordion {
+    width: 56vw;
+  }
+}

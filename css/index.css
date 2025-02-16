@@ -46,12 +46,8 @@ p {
     padding: 2.5rem 6% 2.5rem 6%;
 }
 
-.title-content {
-    padding-bottom: 3rem;
-}
-
 .content-homepage {
-    padding-bottom: 2.5rem;
+    padding: 3rem 0 2.5rem;
 }
 
 footer {
