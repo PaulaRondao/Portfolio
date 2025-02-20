@@ -36,7 +36,7 @@ address {
 
 .horizontal-content {
     position: relative;
-    padding: 0 5% 2rem 5%;
+    padding: 5% 5% 2rem 5%;
 }
 
 .title-principal {
@@ -58,59 +58,35 @@ address {
 }
 
 
-/* ------------------------------- fil ariane ---------------------------------- */
+/* ------------------------ breadcrumb ------------------------- */
 
-#ariane a,
-#ariane span {
-    color: #343643;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.875rem;
-    line-height: 2.2rem;
+.breadcrumb-container {
+    padding: 0 6%;
 }
 
-#ariane span {
-    text-decoration: underline;
-}
-
-#ariane a:hover {
-    text-decoration: underline;
-}
-
-#ariane li {
-    display: inline-block;
-}
-
-#ariane {
-    padding-bottom: 1.25rem;
-    padding-top: 1.25rem;
+.fr-breadcrumb {
     display: flex;
-    align-items: center;
 }
 
-#ariane li:not(:last-child)::after {
+.fr-breadcrumb .fr-collapse .fr-breadcrumb__list {
+    display: flex;
+}
+
+.fr-breadcrumb .fr-collapse .fr-breadcrumb__list li:not(:last-child)::after {
     content: '>';
-    margin: 0 0.313rem;
+    margin: 0 .25rem;
+}
+
+.fr-breadcrumb .fr-collapse .fr-breadcrumb__link,
+.project-container .project-header .description-wrapper .link__social {
+    text-decoration: underline;
 }
 
 
 @media screen and (min-width: 769px) {
-    #arianeShare {
-        display: block;
-    }
 
-    #ariane a {
-        display: block;
-        margin: 0 0.313rem;
-    }
-
-    #ariane li:not(:last-child)::after {
-        content: '>';
-        margin: 0;
-    }
-
-    #ariane li {
-        display: inline-flex;
-        align-items: center;
+    .breadcrumb-container {
+        visibility: hidden;
     }
 
     .btn-traduction {
