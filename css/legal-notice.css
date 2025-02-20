@@ -61,7 +61,8 @@ address {
 /* ------------------------ breadcrumb ------------------------- */
 
 .breadcrumb-container {
-    padding: 0 6%;
+    padding: 4% 6%;
+    visibility: visible;
 }
 
 .fr-breadcrumb {
@@ -86,7 +87,7 @@ address {
 @media screen and (min-width: 769px) {
 
     .breadcrumb-container {
-        visibility: hidden;
+        display: none;
     }
 
     .btn-traduction {

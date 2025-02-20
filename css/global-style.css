@@ -61,7 +61,8 @@ a {
 /* ------------------------ breadcrumb ------------------------- */
 
 .breadcrumb-container {
-    padding: 0 6%;
+    padding: 4% 6%;
+    visibility: visible;
 }
 
 .fr-breadcrumb {
@@ -84,11 +85,7 @@ a {
 
 
 @media screen and (min-width: 769px) {
-    .ariane {
-        display: none;
-    }
-
-    .ariane a {
+    .breadcrumb-container {
         display: none;
     }
 }

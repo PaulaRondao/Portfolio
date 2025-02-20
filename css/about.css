@@ -41,7 +41,7 @@ span {
 .about-container {
     max-width: 100%;
     height: auto;
-    padding: 0 6% 5rem 6%;
+    padding: 2.5rem 6% 5rem 6%;
 
     .wrapper {
         margin-bottom: 5%;
@@ -182,7 +182,6 @@ span {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem 0 0 0;
     }
 
     .experience-description {
