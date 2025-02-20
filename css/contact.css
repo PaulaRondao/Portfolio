@@ -25,6 +25,10 @@ address {
     font-style: normal;
 }
 
+address .mail-link span {
+    font-weight: 400;
+}
+
 .mail-link {
     color: #11223F;
     text-decoration: underline;

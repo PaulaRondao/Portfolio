@@ -19,9 +19,9 @@
 </head>
 
 <body>
-    <header id="header-menu" class="header">
+    <header id="header-menu" class="header" role="banner">
         <div class="border-navbar">
-            <nav class="navbar" aria-label="Menu principal">
+            <nav class="navbar" aria-label="Menu principal" role="navigation">
                 <ul class="nav-menu">
                     <li class="nav-item">
                         <a class="nav-link" href="/index.html">ACCUEIL</a>
@@ -57,21 +57,20 @@
     </header>
 
     <main class="main">
-        <div class="horizontal-content" aria-label="les mentions légales">
-            <div id="arianeShare">
-                <nav class="ariane" aria-label="Fil d'ariane">
-                    <ol>
-                        <li>
-                            <a href="/index.html">Accueil</a>
-                        </li>
-                        <li>
-                            <span aria-current="true">Mentions Légales</span>
-                        </li>
+        <div class="breadcrumb-container">
+            <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+                <!-- <button class="fr-breadcrumb__button" aria-expanded="false" aria-controls="breadcrumb-1">Voir le fil
+                    d’Ariane</button> -->
+                <div class="fr-collapse" id="breadcrumb-1">
+                    <ol class="fr-breadcrumb__list">
+                        <li> <a class="fr-breadcrumb__link" href="/index.html">Accueil</a> </li>
+                        <li> <a class="fr-breadcrumb" aria-current="page">Mentions Légales</a> </li>
                     </ol>
-                </nav>
-            </div>
+                </div>
+            </nav>
+        </div>
 
-
+        <div class="horizontal-content" aria-label="les mentions légales">
             <div id="header-mentions-legales" role="presentation" class="title-principal">
                 <h1>MENTIONS LÉGALES</h1>
                 <p>En vigueur au 19/01/2024</p>

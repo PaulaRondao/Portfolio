@@ -25,12 +25,12 @@
 
 <body>
     <a href="#content" class="sr-only sr-only-focusable">Aller au contenu principal</a>
-    <header id="header-menu" class="header">
+    <header id="header-menu" class="header" role="banner">
         <div class="border-navbar">
-            <nav class="navbar" aria-label="Menu principal">
+            <nav class="navbar" aria-label="Menu principal" role="navigation">
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-label="page d'accueil" href="/index.html">ACCUEIL</a>
+                        <a class="nav-link active" href="/index.html">ACCUEIL</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/projects.html">PROJETS</a>
@@ -62,14 +62,12 @@
         </div>
     </header>
 
-    <main id="content">
+    <main role="main">
         <div class="container">
             <a href="#footer" class="sr-only sr-only-focusable">Aller au pied de page</a>
             <h1>Créative</h1>
             <h2>
                 Développeuse
-            </h2>
-            <h2>
                 full-stack
             </h2>
             <div class="content-homepage">
@@ -82,7 +80,7 @@
             </div>
         </div>
     </main>
-    <footer id="footer" footer-include-html="/footer/footer.html">
+    <footer role="contentinfo" id="footer" footer-include-html="/footer/footer.html">
     </footer>
 
     <script src="js/navbar.js"></script>

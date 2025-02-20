@@ -58,35 +58,28 @@ a {
 }
 
 
-/* ------------------------------- fil ariane ---------------------------------- */
+/* ------------------------ breadcrumb ------------------------- */
 
-.ariane {
-    padding: 1.25rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.875rem;
-    line-height: 2.2rem;
-    color: #343643;
+.breadcrumb-container {
+    padding: 0 6%;
 }
 
-.ariane a,
-.ariane span {
-    font-family: inherit;
-    color: inherit;
-    text-decoration: none;
+.fr-breadcrumb {
+    display: flex;
 }
 
-.ariane a:hover,
-.ariane span {
-    text-decoration: underline;
+.fr-breadcrumb .fr-collapse .fr-breadcrumb__list {
+    display: flex;
 }
 
-.ariane li {
-    display: inline-block;
-}
-
-.ariane li:not(:last-child)::after {
+.fr-breadcrumb .fr-collapse .fr-breadcrumb__list li:not(:last-child)::after {
     content: '>';
-    margin: 0 0.313rem;
+    margin: 0 .25rem;
+}
+
+.fr-breadcrumb .fr-collapse .fr-breadcrumb__link,
+.project-container .project-header .description-wrapper .link__social {
+    text-decoration: underline;
 }
 
 

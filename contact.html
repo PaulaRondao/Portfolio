@@ -23,9 +23,9 @@
 
 <body>
     <a href="#content" class="sr-only sr-only-focusable">Aller au contenu principal</a>
-    <header class="header" id="header-menu">
+    <header class="header" id="header-menu" role="banner">
         <div class="border-navbar">
-            <nav class="navbar" aria-label="Menu principal">
+            <nav class="navbar" aria-label="Menu principal" role="navigation">
                 <ul class="nav-menu">
                     <li class="nav-item">
                         <a class="nav-link" href="/index.html">ACCUEIL</a>
@@ -60,32 +60,33 @@
         </div>
     </header>
 
-    <main>
-        <nav class="ariane" aria-label="Fil d'ariane">
-            <ul>
-                <li>
-                    <a href="/index.html">Accueil</a>
-                </li>
-                <li>
-                    <span aria-current="true">Contact</span>
-                </li>
-            </ul>
-        </nav>
+    <main role="main">
+        <div class="breadcrumb-container">
+            <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+                <!-- <button class="fr-breadcrumb__button" aria-expanded="false" aria-controls="breadcrumb-1">Voir le fil
+                d’Ariane</button> -->
+                <div class="fr-collapse" id="breadcrumb-1">
+                    <ol class="fr-breadcrumb__list">
+                        <li> <a class="fr-breadcrumb__link" href="/index.html">Accueil</a> </li>
+                        <li> <a class="fr-breadcrumb" aria-current="page">Contact</a> </li>
+                    </ol>
+                </div>
+            </nav>
+        </div>
         <div class="contact-content">
-            <div role="presentation" id="content">
+            <div id="content">
                 <h1 class="title">Say Hello,</h1>
                 <p>Si vous êtes intéressé.es par mon profil,</p>
                 <p>n'hésitez pas à me contacter.</p>
                 <address>
-                    <span>E-mail :
-                        <a class="mail-link" href="mailto:contact@paula-rondao.com">contact@paula-rondao.com</a>
-                    </span>
+                    <a class="mail-link" href="mailto:contact@paula-rondao.com"><span>E-mail :</span>
+                        contact@paula-rondao.com</a>
                 </address>
             </div>
         </div>
     </main>
 
-    <footer footer-include-html="/footer/footer.html">
+    <footer role="contentinfo" footer-include-html="/footer/footer.html">
     </footer>
 
     <script src="/js/navbar.js"></script>
