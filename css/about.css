@@ -28,6 +28,16 @@ h3 {
     letter-spacing: 2%;
 }
 
+span {
+    color: #333333;
+    font-size: 16px;
+}
+
+.description a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .about-container {
     max-width: 100%;
     height: auto;

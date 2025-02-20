@@ -12,93 +12,131 @@
     <meta property="og:type" content="website">
     <link rel="preload" as="font" href="/assets/fonts/PPPangaia-Medium.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/single-project.css">
+    <link rel="stylesheet" href="/css/global-style.css">
     <link rel="stylesheet" href="/css/buttons/original-button.css">
-    <link rel=" shortcut icon" type="image/ico" href="/assets/img/icons/favicon.ico">
+    <link rel="icon" type="image/x-ico" href="/assets/img/icons/favicon.ico">
 </head>
 
 <body>
-    <div class="container-projet">
-        <header>
-            <div role="banner" class="header-button">
-                <div class="header-button-left">
-                    <a href="/projects.html" title="retour à la page projet">
-                        <img src="/assets/img/icons/svg/box-arrow-up-next.svg" alt="icon arrow"><span
-                            class="mobile-hidden">Retour
-                            à
-                            la page précédente</span></a>
-                </div>
-                <div class="header-button-right">
-                    <a class="link__social" href="https://github.com/PaulaRondao/My-TODO-List" target="_blank"
-                        title="lien Github (nouvelle fenêtre)">
-                        <img src="/assets/img/icons/svg/github-line.svg" alt="icon Github"><span
-                            class="mobile-hidden">Voir le code
-                        </span></a>
+    <header role="banner">
+        <div class="header-container">
+            <div class="go-back-wrapper">
+                <div class="back-button">
+                    <a href="/projects.html">&larr; RETOUR</a>
                 </div>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <main class="main">
-            <div class="wrapper-projet">
-                <div id="arianeShare">
-                    <nav id="ariane" aria-label="Fil d'ariane" role="navigation">
-                        <ol>
-                            <li>
-                                <a href="/index.html">Accueil</a>
-                            </li>
-                            <li>
-                                <a href="/projects.html">Projets</a>
-                            </li>
-                            <li>
-                                <span aria-current="true">MyTodoList</span>
-                            </li>
-                        </ol>
-                    </nav>
+    <main role="main">
+        <div class="breadcrumb-container">
+            <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+                <!-- <button class="fr-breadcrumb__button" aria-expanded="false" aria-controls="breadcrumb-1">Voir le fil
+                d’Ariane</button> -->
+                <div class="fr-collapse" id="breadcrumb-1">
+                    <ol class="fr-breadcrumb__list">
+                        <li> <a class="fr-breadcrumb__link" href="/index.html">Accueil</a> </li>
+                        <li> <a class="fr-breadcrumb__link" href="/projects.html">Projets</a> </li>
+                        <li> <a class="fr-breadcrumb" aria-current="page">My Todo List</a> </li>
+                    </ol>
                 </div>
-                <div class="header-projet">
-                    <h1 class="name-projet">My Todo List</h1>
+            </nav>
+        </div>
+        <section class="project-container">
+            <div class="project-header">
+                <div class="project-name">
+                    <h1>My Todo List</h1>
                 </div>
-                <div class="header-presentation">
-                    <h2>Création d'une Todo List en extension navigateur</h2>
+                <div class="description-wrapper">
+                    <ul class="description">
+                        <li>
+                            <h2>Extension Navigateur</h2>
+                        </li>
+                        <li>
+                            <p>Année : <span> 2024</span></p>
+                        </li>
+                        <li><a class="link__social" href="https://github.com/PaulaRondao/My-TODO-List" target="_blank"
+                                aria-label="voir le code sur Github (nouvelle fenêtre)">
+                                <img src="/assets/img/icons/svg/github-line.svg" alt="">
+                                Voir le code
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="case-study__infos">
-                    <div class="case-study__info border">
-                        <ul class="case-study__title">
-                            <li class="case-study__text">
-                                <h3>Rôle</h3>
-                                Développeuse Front end
+            </div>
+
+            <div class="presentation-container">
+                <div class="project-role-wrapper">
+                    <div class="role-description">
+                        <ul class="responsibility-item">
+                            <li class="info">
+                                <p>Rôle : <span> Développeuse Front</span></p>
                             </li>
-                        </ul>
-                    </div>
-                    <div class="case-study__info border">
-                        <ul class="case-study__title">
-                            <li class="case-study__text">
-                                <h3>Responsabilité</h3>
-                                De la conception graphique aux différentes fonctionnalités<br>
-                                (Local storage à faire)
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="case-study__info">
-                        <ul class="case-study__title">
-                            <li class="case-study__text">
-                                <h3>Année</h3>
-                                2023
+                            <li class="info">
+                                <p>Responsabilité : <span> Conception graphique /
+                                        Développement</span></p>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="content">
-                    <p class="description">
-                        L'opportunité de revisiter les éléments nécessaires à la création d'une extension de
-                        navigateur en développant une liste de tâches (todo list) au design inspiré des années 90, et
-                        ce, sans suivre de tutoriel.
-                    </p>
-                    <a title="lien sur codepen" href="https://codepen.io/Maud-Paula-Rondao/pen/MWxdxmX"
-                        class="original-button" target="_blank">Voir la démo</a>
+                    <div class="description">
+                        <p>L'opportunité de revisiter les éléments nécessaires à la création d'une extension de
+                            navigateur en développant une liste de tâches (todo list) au design inspiré des années 90,
+                            et
+                            ce, sans suivre de tutoriel.</p>
+                    </div>
+                </div>
+                <div class="button-wrapper">
+                    <a role="button" class="original-button" href="https://codepen.io/Maud-Paula-Rondao/pen/MWxdxmX"
+                        target="_blank" aria-label="lien sur codepen">Voir le démo</a>
                 </div>
             </div>
-        </main>
-    </div>
+
+        </section>
+        <section class="projects-navigtion">
+            <div class="go-back-container">
+                <div class="go-back-wrapper">
+                    <div class="back-button">
+                        <a href="/projects/Alan-photographe.html">&larr; PROJET PRÉCÉDENT</a>
+                    </div>
+                </div>
+                <div class="previous-project">
+                    <ul>
+                        <li>
+                            <h2>Portfolio</h2>
+                        </li>
+                        <li class="subject">
+                            <p>Portfolio d'un photographe</p>
+                        </li>
+                        <li class="language">
+                            <p>Next.js &nbsp;Styled Components &nbsp;TypeScript</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="go-next-container">
+                <div class="go-next-wrapper">
+                    <div class="next-button">
+                        <a href="/projects/portfolio.html">PROJET SUIVANT &rarr;</a>
+                    </div>
+                </div>
+                <div class="next-project">
+                    <ul>
+                        <li>
+                            <h2>Mon Portfolio</h2>
+                        </li>
+                        <li class="subject">
+                            <p>Projet personnel</p>
+                        </li>
+                        <li class="language">
+                            <p>HTML &nbsp;CSS &nbsp;JavaScript</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

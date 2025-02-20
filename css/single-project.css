@@ -1,59 +1,11 @@
-@font-face {
-    font-family: "Pangaia";
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-    unicode-range: U+000-5FF;
-    src:
-        local("Pangaia"), url("/assets/fonts/PPPangaia-Medium.woff2") format("woff2");
-}
-
-/* ------------------------------- main ---------------------------------- */
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.main {
+main {
     min-height: calc(100vh - 88px)
-}
-
-body {
-    color: #06142E;
-    background-color: #FBF8EE;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-h1,
-h2 {
-    font-family: "Pangaia";
 }
 
 h1 {
     font-size: 2.5rem;
     font-weight: 500;
     letter-spacing: 0.125rem;
-}
-
-h2 {
-    font-size: 1.563rem;
-    font-weight: 400;
-    line-height: 1.5em;
-    margin: 5%;
-    display: flex;
-    justify-content: center;
-    text-align: left;
-    letter-spacing: 0.031rem;
-}
-
-h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-weight: 600;
-    font-size: 0.875rem;
-    padding-bottom: 5px;
 }
 
 p {
@@ -64,7 +16,9 @@ p {
     text-align: left;
 }
 
-/* ------------------------ HEADER ------------------------- */
+span {
+    font-weight: bold;
+}
 
 img {
     width: 2.5rem;
@@ -72,148 +26,144 @@ img {
     padding-left: 1rem;
 }
 
-.header-button {
-    padding: 2%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-button-right {
-    display: flex;
-}
-
-.link__social {
-    margin-right: 0.938rem;
-}
-
-.link__social img {
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-span.mobile-hidden {
-    display: none;
-}
-
-
-
-/* ------------------------ MAIN ------------------------- */
-
-.container-projet {
-    max-width: 100%;
-    height: auto;
-}
-
-.wrapper-projet {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.header-projet {
-    height: 10rem;
-    border-bottom: 0.063rem solid #11223F;
+.button-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #06142E;
+    padding: 2rem;
 }
 
-.header-presentation {
-    height: auto;
-    border-bottom: 0.063rem solid #11223F;
-    margin-bottom: 5%;
+/* ------------------------ HEADER ------------------------- */
+
+.header-container {
+    padding: 4% 5%;
 }
 
-.name-projet {
-    text-align: center;
-    color: #FBF8EE;
+.breadcrumb-container {
+    padding: 0 6%;
 }
 
-.case-study__infos {
+/* ------------------------ breadcrumb ------------------------- */
+
+.fr-breadcrumb {
     display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    margin-bottom: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
-.case-study__info {
-    display: inline-block;
-    margin-bottom: 1.5em;
-    margin-right: 3em;
-    justify-content: flex-start;
-}
-
-.case-study__title {
-    font-size: 0.875rem;
-    font-weight: 600;
-    letter-spacing: .08em;
-    padding-bottom: 0.5rem;
-}
-
-
-.case-study__text {
-    text-transform: capitalize;
-    text-decoration: none;
-    font-size: 0.875rem;
-    letter-spacing: .08em;
-    padding-top: 0.5rem;
-    font-weight: 300;
-    color: rgba(6, 20, 46, 0.8);
-    list-style-type: none;
-}
-
-/* .border {
-    border-right: #06142E solid 1px;
-    padding-right: 1rem;
-} */
-
-.content {
-    margin-right: 5%;
-    margin-left: 5%;
-    padding-bottom: 5%;
+.fr-breadcrumb .fr-collapse .fr-breadcrumb__list {
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-.description {
-    margin-bottom: 10%;
-}
-
-
-/* ---------------------------- Fil d'ariane ----------------------- */
-
-#ariane a,
-#ariane span {
-    text-decoration: none;
-    color: #343643;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.875rem;
-    line-height: 2.2rem;
-}
-
-#ariane li {
-    display: inline-block;
-}
-
-#ariane span {
-    text-decoration: underline;
-}
-
-#ariane a:hover {
-    text-decoration: underline;
-}
-
-#ariane {
-    padding-bottom: 20px;
-}
-
-#ariane li:not(:last-child)::after {
+.fr-breadcrumb .fr-collapse .fr-breadcrumb__list li:not(:last-child)::after {
     content: '>';
-    margin: 0 5px;
+    margin: 0 .25rem;
+}
+
+.fr-breadcrumb .fr-collapse .fr-breadcrumb__link,
+.project-container .project-header .description-wrapper .link__social {
+    text-decoration: underline;
+}
+
+/* ------------------------ Main ------------------------- */
+
+.project-container {
+    padding: 2rem 5%;
+}
+
+.project-container .project-header .project-name {
+    margin-bottom: 2rem;
+}
+
+.project-container .project-header .description-wrapper h2 {
+    color: rgba(6, 20, 46, 0.8);
+    font-weight: 400;
+    letter-spacing: 2%;
+    margin-bottom: 5px;
+}
+
+.project-container .project-header .description-wrapper p {
+    font-weight: 200;
+    letter-spacing: 2%;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.project-container .project-header .description-wrapper .link__social {
+    align-content: center;
+    display: flex;
+    gap: 0.5rem
+}
+
+.project-container .project-header .description-wrapper .link__social img {
+    width: 24px;
+    height: 24px;
+}
+
+.project-container .presentation-container {
+    padding: 8% 0;
+}
+
+/* ------------------------ Présentation ------------------------- */
+
+.presentation-container .project-role-wrapper .role-description {
+    padding-bottom: 2rem;
+}
+
+.presentation-container .project-role-wrapper .role-description .responsibility-item {
+    gap: 100px;
+    display: grid;
+}
+
+.presentation-container .project-role-wrapper .role-description .responsibility-item li p {
+    font-size: 0.813rem;
+    font-weight: lighter;
+    line-height: 1.9em;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.presentation-container .content .description p {
+    margin-bottom: 8px;
+}
+
+/* ------------------------ Projects Navigation ------------------------- */
+.projects-navigtion {
+    padding: 5% 5%;
+}
+
+.projects-navigtion .go-back-container {
+    margin-bottom: 2rem;
+}
+
+
+.projects-navigtion .go-next-wrapper,
+.projects-navigtion .go-back-wrapper {
+    margin-bottom: 8px;
+}
+
+.projects-navigtion .go-next-container,
+.projects-navigtion .go-next-container .language p,
+.projects-navigtion .go-next-container .subject p {
+    text-align: right;
+}
+
+.projects-navigtion .go-back-container .previous-project {
+    padding-left: 1rem;
+}
+
+.projects-navigtion .go-next-container .next-project {
+    padding-right: 1rem;
+}
+
+.projects-navigtion .previous-project .language p,
+.projects-navigtion .next-project .language p {
+    font-size: 14px;
+    color: #333333;
+}
+
+.projects-navigtion .previous-project .subject p,
+.projects-navigtion .next-project .subject p {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2%;
 }
 
 
@@ -221,86 +171,46 @@ span.mobile-hidden {
 
 /* For screens larger than 992px */
 @media screen and (min-width: 992px) {
-    .content {
-        margin-right: 10%;
-        margin-left: 10%;
-    }
-
-    .header-projet {
-        height: 15.75rem;
-    }
-
-    .wrapper-projet {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-
-    .case-study__infos {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-bottom: 5%;
-    }
-
-    .case-study__info {
-        display: flex;
-        justify-content: center;
-    }
-
-    .border {
-        border-right: #06142E solid 1px;
-        padding-right: 3rem;
-    }
-
-    .case-study__title {
-        padding-bottom: 1rem;
-    }
-
-    img {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
 
     h1 {
         font-size: 4rem;
-    }
-
-    h2 {
-        font-size: 2rem;
     }
 
     p {
         font-size: 1.125rem;
     }
 
-    span.mobile-hidden {
-        display: block;
-        padding-left: 10px;
+    .project-container {
+        grid-template-columns: auto auto;
+        display: grid;
+        gap: 80px;
     }
 
-    .header-button-left a {
+    .presentation-container .project-role-wrapper .role-description .responsibility-item {
         display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: #06142E;
-        font-weight: bold;
+        flex-direction: row;
     }
 
-    .header-button-left a:hover,
-    .header-button-right a:hover {
-        text-decoration: underline;
-    }
-
-    .header-button-right a {
+    .projects-navigtion {
+        padding: 5% 5%;
         display: flex;
-        align-items: center;
-        text-decoration: none;
-        color: #06142E;
-        font-weight: bold;
-        margin: 0;
+        justify-content: space-between;
     }
 
-    img {
-        padding-left: 0;
+    .projects-navigtion .go-back-container {
+        margin-bottom: 0;
+    }
+
+    .projects-navigtion .go-back-container .previous-project {
+        padding-left: 1rem;
+    }
+
+    .projects-navigtion .go-next-container .next-project {
+        padding-right: 1rem;
+    }
+
+    .projects-navigtion .previous-project h2,
+    .projects-navigtion .next-project h2 {
+        font-size: 2rem;
     }
 }
