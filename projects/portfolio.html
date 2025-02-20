@@ -12,98 +12,130 @@
     <meta property="og:type" content="website">
     <link rel="preload" as="font" href="/assets/fonts/PPPangaia-Medium.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/single-project.css">
-    <link rel=" shortcut icon" type="image/ico" href="/assets/img/icons/favicon.ico">
+    <link rel="stylesheet" href="/css/global-style.css">
+    <link rel="icon" type="image/x-ico" href="/assets/img/icons/favicon.ico">
 </head>
 
 <body>
-    <div class="container-projet">
-        <header>
-            <div role="banner" class="header-button">
-                <div class="header-button-left">
-                    <a href="/projects.html" title="retour à la page projet">
-                        <img src="/assets/img/icons/svg/box-arrow-up-next.svg" alt="icon arrow"><span
-                            class="mobile-hidden">Retour
-                            à
-                            la page précédente</span></a>
-                </div>
-                <div class="header-button-right">
-                    <a class="link__social" href="https://github.com/PaulaRondao/Portfolio" target="_blank"
-                        title="lien Github (nouvelle fenêtre)">
-                        <img src="/assets/img/icons/svg/github-line.svg" alt="icon Github"><span
-                            class="mobile-hidden">Voir le
-                            code</span></a>
+    <header role="banner">
+        <div class="header-container">
+            <div class="go-back-wrapper">
+                <div class="back-button">
+                    <a href="/projects.html">&larr; RETOUR</a>
                 </div>
             </div>
-        </header>
+        </div>
+    </header>
 
+    <main role="main">
+        <div class="breadcrumb-container">
+            <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+                <!-- <button class="fr-breadcrumb__button" aria-expanded="false" aria-controls="breadcrumb-1">Voir le fil
+                d’Ariane</button> -->
+                <div class="fr-collapse" id="breadcrumb-1">
+                    <ol class="fr-breadcrumb__list">
+                        <li> <a class="fr-breadcrumb__link" href="/index.html">Accueil</a> </li>
+                        <li> <a class="fr-breadcrumb__link" href="/projects.html">Projets</a> </li>
+                        <li> <a class="fr-breadcrumb" aria-current="page">Mon Portfolio</a> </li>
+                    </ol>
+                </div>
+            </nav>
+        </div>
+        <section class="project-container">
+            <div class="project-header">
+                <div class="project-name">
+                    <h1>Mon Portfolio</h1>
+                </div>
+                <div class="description-wrapper">
+                    <ul class="description">
+                        <li>
+                            <h2>Portfolio personnel</h2>
+                        </li>
+                        <li>
+                            <p>Année : <span> 2024</span></p>
+                        </li>
+                        <li><a class="link__social" href="https://github.com/PaulaRondao/Portfolio" target="_blank"
+                                aria-label="voir le code sur Github (nouvelle fenêtre)">
+                                <img src="/assets/img/icons/svg/github-line.svg" alt="">
+                                Voir le code
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-        <main class="main">
-            <div class="wrapper-projet">
-                <div id="arianeShare">
-                    <nav id="ariane" aria-label="Fil d'ariane">
-                        <ol>
-                            <li>
-                                <a href="/index.html">Accueil</a>
+            <div class="presentation-container">
+                <div class="project-role-wrapper">
+                    <div class="role-description">
+                        <ul class="responsibility-item">
+                            <li class="info">
+                                <p>Rôle : <span> Développeuse Front</span></p>
                             </li>
-                            <li>
-                                <a href="/projects.html">Projets</a>
-                            </li>
-                            <li>
-                                <span aria-current="true">Mon Portfolio</span>
-                            </li>
-                        </ol>
-                    </nav>
-                </div>
-                <div class="header-projet">
-                    <h1 class="name-projet">Mon Portfolio</h1>
-                </div>
-                <div class="header-presentation">
-                    <h2>Mon portfolio personnel éco-conçu et accessible</h2>
-                </div>
-                <div class="case-study__infos">
-                    <div class="case-study__info border">
-                        <ul class="case-study__title">
-                            <li class="case-study__text">
-                                <h3>Rôle</h3>
-                                Designeuse<br>
-                                Développeuse web
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="case-study__info border">
-                        <ul class="case-study__title">
-                            <li class="case-study__text">
-                                <h3>Responsabilité</h3>
-                                De la conception graphique au développement web
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="case-study__info">
-                        <ul class="case-study__title">
-                            <li class="case-study__text">
-                                <h3>Année</h3>
-                                2024
+                            <li class="info">
+                                <p>Responsabilité : <span> Conception graphique /
+                                        Développement / SEO</span></p>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="content">
-                    <p class="description">
-                        J'ai choisi de concevoir ce portfolio avec une approche axée sur <b>l'éco-conception</b> et
-                        <b>l'accessibilité</b>. J'ai accordé une attention particulière aux
-                        à la bonne sémantique HTML pour assurer une expérience utilisateur optimale, en harmonie avec
-                        les règles
-                        d'accessibilité et les meilleures pratiques en éco-conception.
-                        <br>
-                        <br>
-                        Pour garantir la qualité de mes projets, j'ai recours à des référentiels tels que le
-                        RGAA, le guide de bonnes pratiques comme le RGESN, ainsi que des outils d'évaluation tels que
-                        W3C, Lighthouse et VoiceOver.
-                    </p>
+                    <div class="description">
+                        <p>J'ai opté pour une conception de ce portfolio centrée sur l'éco-conception et
+                            l'accessibilité. J'ai veillé à utiliser une sémantique HTML appropriée pour offrir une
+                            expérience utilisateur optimale, tout en respectant les principes d'accessibilité et les
+                            meilleures pratiques en matière d'éco-conception.
+                        </p>
+                        <p>Pour assurer la qualité de ce projet, j'ai consulté des référentiels comme le RGAA et le
+                            guide de bonnes pratiques RGESN, et utilisé des outils d'évaluation tels que W3C,
+                            Stylus,
+                            HeadingsMap, Web developer et Wave Evaluation Tool.</p>
+                    </div>
                 </div>
             </div>
-        </main>
-    </div>
+        </section>
+        <section class="projects-navigtion">
+            <div class="go-back-container">
+                <div class="go-back-wrapper">
+                    <div class="back-button">
+                        <a href="/projects/MyTodoList-extension-navigateur.html">&larr; PROJET PRÉCÉDENT</a>
+                    </div>
+                </div>
+                <div class="previous-project">
+                    <ul>
+                        <li>
+                            <h2>My Todo List</h2>
+                        </li>
+                        <li class="subject">
+                            <p>Projet personnel - extension navigateur</p>
+                        </li>
+                        <li class="language">
+                            <p>HTML &nbsp;CSS &nbsp;JavaScript</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="go-next-container">
+                <div class="go-next-wrapper">
+                    <div class="next-button">
+                        <a href="/projects/daybyday-extension-navigateur.html">PROJET SUIVANT &rarr;</a>
+                    </div>
+                </div>
+                <div class="next-project">
+                    <ul>
+                        <li>
+                            <h2>Day By Day</h2>
+                        </li>
+                        <li class="subject">
+                            <p>Extension navigateur</p>
+                        </li>
+                        <li class="language">
+                            <p>HTML &nbsp;CSS &nbsp;JavaScript</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

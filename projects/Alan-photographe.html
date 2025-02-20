@@ -14,104 +14,136 @@
     <meta property="og:type" content="website">
     <link rel="preload" as="font" href="/assets/fonts/PPPangaia-Medium.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/single-project.css">
-    <link rel=" shortcut icon" type="image/ico" href="/assets/img/icons/favicon.ico">
+    <link rel="stylesheet" href="/css/global-style.css">
+    <link rel="icon" type="image/x-ico" href="/assets/img/icons/favicon.ico">
 </head>
 
 <body>
-    <div class="container-projet">
-        <header>
-            <div role="banner" class="header-button">
-                <div class="header-button-left">
-                    <a href="/projects.html" title="retour à la page projet">
-                        <img src="/assets/img/icons/svg/box-arrow-up-next.svg" alt="icon arrow"><span
-                            class="mobile-hidden">Retour
-                            à
-                            la page précédente</span></a>
-                </div>
-                <div class="header-button-right">
-                    <a class="link__social" href="https://github.com/PaulaRondao/Portfolio-Photograhe-Alan"
-                        target="_blank" title="Lien Github (nouvelle fenêtre)">
-                        <img src="/assets/img/icons/svg/github-line.svg" alt="icon Github"><span
-                            class="mobile-hidden">Voir le code
-                        </span></a>
+    <header role="banner">
+        <div class="header-container">
+            <div class="go-back-wrapper">
+                <div class="back-button">
+                    <a href="/projects.html">&larr; RETOUR</a>
                 </div>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <main class="main">
-            <div class="wrapper-projet">
-                <div id="arianeShare">
-                    <nav id="ariane" aria-label="Fil d'ariane">
-                        <ol>
-                            <li>
-                                <a href="/index.html">Accueil</a>
-                            </li>
-                            <li>
-                                <a href="/projects.html">Projets</a>
-                            </li>
-                            <li>
-                                <span aria-current="true">Alan Photographe</span>
-                            </li>
-                        </ol>
-                    </nav>
+    <main role="main">
+        <div class="breadcrumb-container">
+            <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+                <!-- <button class="fr-breadcrumb__button" aria-expanded="false" aria-controls="breadcrumb-1">Voir le fil
+                d’Ariane</button> -->
+                <div class="fr-collapse" id="breadcrumb-1">
+                    <ol class="fr-breadcrumb__list">
+                        <li> <a class="fr-breadcrumb__link" href="/index.html">Accueil</a> </li>
+                        <li> <a class="fr-breadcrumb__link" href="/projects.html">Projets</a> </li>
+                        <li> <a class="fr-breadcrumb" aria-current="page">Portfolio</a> </li>
+                    </ol>
                 </div>
-                <div class="header-projet">
-                    <h1 class="name-projet">Alan Photographe</h1>
+            </nav>
+        </div>
+        <section class="project-container">
+            <div class="project-header">
+                <div class="project-name">
+                    <h1>Portfolio Photo</h1>
                 </div>
-                <div class="header-presentation">
-                    <h2>Réalisation d'un portfolio dynamique avec une connection à Firebase (Firestore).</h2>
+                <div class="description-wrapper">
+                    <ul class="description">
+                        <li>
+                            <h2>Portfolio d'Alan, Photographe</h2>
+                        </li>
+                        <li>
+                            <p>Année : <span> en cours</span></p>
+                        </li>
+                        <li><a class="link__social" href="https://github.com/PaulaRondao/Portfolio-Photograph-Alan"
+                                target="_blank" aria-label="voir le code sur Github (nouvelle fenêtre)">
+                                <img src="/assets/img/icons/svg/github-line.svg" alt="">
+                                Voir le code
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="case-study__infos">
-                    <div class="case-study__info border">
-                        <ul class="case-study__title">
-                            <li class="case-study__text">
-                                <h3>Rôle</h3>
-                                UX/UI,<br>
-                                Développeuse Full-stack
+            </div>
+
+            <div class="presentation-container">
+                <div class="project-role-wrapper">
+                    <div class="role-description">
+                        <ul class="responsibility-item">
+                            <li class="info">
+                                <p>Rôle : <span> Développeuse Front / Back</span></p>
                             </li>
-                        </ul>
-                    </div>
-                    <div class="case-study__info border">
-                        <ul class="case-study__title">
-                            <li class="case-study__text">
-                                <h3>Responsabilité</h3>
-                                Édition / Conception graphique /<br>
-                                Développement / Sauvegarde et optimisation d'images /
-                                Animation / SEO
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="case-study__info">
-                        <ul class="case-study__title">
-                            <li class="case-study__text">
-                                <h3>Année</h3>
-                                2024, en cours
+                            <li class="info">
+                                <p>Responsabilité : <span> Conception graphique /
+                                        Développement / SEO</span></p>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="content">
-                    <p class="description">
-                        J'ai suivi une approche méthodique en intégrant les principes de la <b>méthode
-                            Agile</b>.
-                        La rédaction d'un cahier des charges détaillé a été cruciale pour définir les objectifs et les
-                        fonctionnalités du site, garantissant ainsi une vision claire et partagée du projet.
-                        <br>
-                        <br>
-                        La flexibilité de la méthode Agile et les points d’échanges réguliers avec le client, à chaque
-                        avancée du projet, permet une itération continue et une adaptation aux besoins changeants du
-                        projet.
-                        <br>
-                        <br>
-                        Sur l'aspect technique, c'est l'occasion d'appréhender de nouvelles technologies comme
-                        <b>Next.js
-                            et TypeScript</b>.
-                        Je prends le temps qui m'est nécessaire pour comprendre ce que je fais.
-                    </p>
+                    <div class="description">
+                        <p>Pour la création de ce site graphique, je me concentre sur une expérience utilisateur fluide
+                            et agréable. J’utilise React pour les effets de style, mais sans ralentir la performance du
+                            site. Mon but est de proposer une interface visuellement attirante tout en gardant un site
+                            léger et rapide.</p>
+
+                        <p>L’accessibilité et l’éco-conception sont aussi des priorités pour moi. Je mets en place des
+                            pratiques pour rendre le site plus accessible. En améliorant les performances, par exemple
+                            en réduisant la taille du code et des fichiers (comme les images), je cherche à diminuer
+                            l'impact écologique du site.</p>
+
+                        <p>Sur le plan technique, je vais utiliser l’API de Next.js et configurer l’environnement pour
+                            assurer la flexibilité et l’évolutivité du projet. L’idée est d’ajouter une solution
+                            d’hébergement dédiée au téléchargement de photos, afin d’automatiser l’envoi des photos vers
+                            le site web, et ainsi libérer le photographe des contraintes d’hébergement local tout en lui
+                            offrant plus d’autonomie.</p>
+                    </div>
                 </div>
             </div>
-        </main>
-    </div>
+        </section>
+        <section class="projects-navigtion">
+            <div class="go-back-container">
+                <div class="go-back-wrapper">
+                    <div class="back-button">
+                        <a href="/projects/solar-system-datavisualisation.html">&larr; PROJET PRÉCÉDENT</a>
+                    </div>
+                </div>
+                <div class="previous-project">
+                    <ul>
+                        <li>
+                            <h2>Solar System</h2>
+                        </li>
+                        <li class="subject">
+                            <p>Datavisualisation</p>
+                        </li>
+                        <li class="language">
+                            <p>HTML &nbsp;CSS &nbsp;JavaScript</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="go-next-container">
+                <div class="go-next-wrapper">
+                    <div class="next-button">
+                        <a href="/projects/MyTodoList-extension-navigateur.html">PROJET SUIVANT &rarr;</a>
+                    </div>
+                </div>
+                <div class="next-project">
+                    <ul>
+                        <li>
+                            <h2>My Todo List</h2>
+                        </li>
+                        <li class="subject">
+                            <p>Projet personnel - extension navigateur</p>
+                        </li>
+                        <li class="language">
+                            <p>HTML &nbsp;CSS &nbsp;JavaScript</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
