@@ -101,6 +101,17 @@ img {
     padding: 8% 0;
 }
 
+.fancy-underline {
+    position: relative;
+}
+
+.fancy-underline::after {
+    visibility: hidden;
+}
+
+
+
+
 /* ------------------------ Présentation ------------------------- */
 
 .presentation-container .project-role-wrapper .role-description {
@@ -174,6 +185,24 @@ img {
 
     h1 {
         font-size: 4rem;
+    }
+
+    .fancy-underline {
+        position: relative;
+        display: inline-block
+    }
+
+    .fancy-underline::after {
+        visibility: visible;
+        content: '';
+        position: absolute;
+        bottom: 0.1em;
+        left: 40%;
+        width: 65%;
+        height: 0.5em;
+        background: #9CFAD7;
+        opacity: 0.8;
+        z-index: -1;
     }
 
     p {
