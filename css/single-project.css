@@ -98,7 +98,7 @@ img {
 }
 
 .project-container .presentation-container {
-    padding: 8% 0;
+    padding: 2rem 0 0 0;
 }
 
 .fancy-underline {
@@ -110,8 +110,6 @@ img {
 }
 
 
-
-
 /* ------------------------ Présentation ------------------------- */
 
 .presentation-container .project-role-wrapper .role-description {
@@ -119,8 +117,8 @@ img {
 }
 
 .presentation-container .project-role-wrapper .role-description .responsibility-item {
-    gap: 100px;
     display: grid;
+    gap: 8px;
 }
 
 .presentation-container .project-role-wrapper .role-description .responsibility-item li p {
@@ -218,6 +216,7 @@ img {
     .presentation-container .project-role-wrapper .role-description .responsibility-item {
         display: flex;
         flex-direction: row;
+        gap: 100px;
     }
 
     .projects-navigtion {
