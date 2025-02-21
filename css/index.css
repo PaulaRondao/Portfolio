@@ -32,14 +32,9 @@ h3 {
     margin-bottom: 24px;
 }
 
-p {
-    & span {
-        font-weight: bold;
-    }
-
-    &:nth-child(2) {
-        margin-bottom: 8px;
-    }
+.container .content-homepage .content .alternant span {
+    font-weight: bold;
+    margin-bottom: 8px;
 }
 
 .container {

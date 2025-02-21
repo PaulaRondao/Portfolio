@@ -1,6 +1,6 @@
 footer {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 .contentinfo {
@@ -67,6 +67,7 @@ img {
     }
 
     .links {
+        position: relative;
         padding: 2.5rem 6% 1rem 6%;
         display: flex;
         justify-content: flex-start;

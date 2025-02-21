@@ -162,6 +162,10 @@ span {
 /* For screens larger than 992px */
 @media screen and (min-width: 769px) {
 
+    #scrollToTopBtn {
+        visibility: hidden;
+    }
+
     .about-container {
         display: flex;
 
@@ -246,4 +250,5 @@ span {
     .btn-traduction {
         display: block;
     }
+
 }

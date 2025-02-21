@@ -71,4 +71,8 @@ footer {
     .btn-traduction {
         display: block;
     }
+
+    .contentinfo {
+        top: -94px;
+    }
 }

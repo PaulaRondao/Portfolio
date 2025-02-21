@@ -144,6 +144,10 @@ button.scroll-to-top-btn {
 /* For screens larger than 992px */
 @media screen and (min-width: 769px) {
 
+    .scroll-to-top-btn {
+        display: none;
+    }
+
     .projects-container {
         padding: 4% 6% 0 6%;
     }
