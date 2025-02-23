@@ -45,16 +45,14 @@ h3 {
     padding: 3rem 0 2.5rem;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 /* ---------------------------- Responsive styles ----------------------- */
 
 /* For screens larger than 769px */
 @media screen and (min-width: 769px) {
+
+    .contentinfo {
+        bottom: 0;
+    }
 
     .container {
         padding: 4% 6% 0 6%;
@@ -72,10 +70,6 @@ footer {
     h2 {
         font-size: 6.8vw;
         width: 45vw;
-    }
-
-    .contentinfo {
-        bottom: 0;
     }
 
     .btn-traduction {

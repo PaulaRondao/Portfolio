@@ -144,6 +144,10 @@ button.scroll-to-top-btn {
 /* For screens larger than 992px */
 @media screen and (min-width: 769px) {
 
+    .contentinfo {
+        bottom: 0;
+    }
+
     .scroll-to-top-btn {
         display: none;
     }
@@ -189,10 +193,6 @@ button.scroll-to-top-btn {
         visibility: hidden;
     }
 
-    .contentinfo {
-        bottom: 0;
-    }
-
     .btn-traduction {
         display: block;
     }
@@ -226,11 +226,4 @@ button.scroll-to-top-btn {
     .project-link:hover::after {
         transform: scaleX(1);
     }
-
-    footer {
-        .links {
-            padding: 0 6% 0 6%;
-        }
-    }
-
 }

@@ -16,7 +16,7 @@
     <link rel="preload" as="font" href="/assets/fonts/PPPangaia-Medium.woff2" type="font/woff2" crossorigin="anonymous">
     <link rel="icon" type="image/x-ico" href="assets/img/icons/favicon.ico">
     <link rel="stylesheet" href="/css/buttons/tooltip.css">
-    <link rel="stylesheet" href="/footer/footer.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/global-style.css">
     <link rel="stylesheet" href="/css/contact.css">
 </head>
@@ -73,24 +73,31 @@
                 </div>
             </nav>
         </div>
-        <div class="contact-content">
-            <div id="content">
+        <div class="contact-container">
+            <div class="content">
                 <h1 class="title">Say Hello,</h1>
                 <p>Si vous êtes intéressé.es par mon profil,</p>
                 <p>n'hésitez pas à me contacter.</p>
                 <address>
-                    <a class="mail-link" href="mailto:contact@paula-rondao.com"><span>E-mail :</span>
+                    <p>E-mail :</p><a class="link" href="mailto:contact@paula-rondao.com">
                         contact@paula-rondao.com</a>
                 </address>
+                <p>Sur internet : <a class="link" target="_blank"
+                        href="https://www.linkedin.com/in/paula-rondao/">Linkedin</a>&nbsp;/&nbsp;<a class="link"
+                        target="_blank" href="https://github.com/PaulaRondao">Github</a>&nbsp;/&nbsp;<a class="link"
+                        target="_blank" href=https://www.behance.net/paula_rondao>Behance</a></p>
             </div>
         </div>
     </main>
-
-    <footer role="contentinfo" footer-include-html="/footer/footer.html">
+    <footer role="contentinfo">
+        <div class="contentinfo">
+            <p aria-label="Mentions légales et année de création du portfolio en 2024">
+                <img src="/assets/img/icons/svg/leaf.svg" aria-hidden="true" alt="">
+                <a href="/legal-notice.html">Mentions légales</a>&nbsp;|&nbsp;2024
+            </p>
+        </div>
     </footer>
-
     <script src="/js/navbar.js"></script>
-    <script src="/js/footer.js"></script>
 </body>
 
 </html>
