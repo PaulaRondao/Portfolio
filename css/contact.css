@@ -69,8 +69,8 @@ address {
     }
 
     .contact-container {
+        padding: 6% 6% 2.5rem 6%;
         display: flex;
         justify-content: flex-start;
     }
-
 }
