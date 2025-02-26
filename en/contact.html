@@ -1,74 +1,102 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paula Rondao - Contact</title>
     <meta name="description"
-        content="Paula Rondao, apprenante développeuse web passionnée, curieuse et en perpétuelle recherche d'amélioration pour rendre les sites web toujours plus accessibles, inclusifs et éco-conçus.">
-    <link rel="stylesheet" href="/Organisms/navbar/navbar.css">
-    <link rel="stylesheet" href="/Atoms/buttons/tooltip-svg.css">
-    <link rel="stylesheet" href="/Organisms/footer/footer.css">
-    <link rel="stylesheet" href="/style/style-pages-principales/style.css">
-    <link rel="stylesheet" href="/style/style-pages-principales/contact.css">
+        content="Vous pouvez me contacter via mon adresse mail pour toute question ou demande de renseignement.">
+    <meta property="og:title" content="Contactez Paula Rondao">
+    <meta property="og:description"
+        content="Vous pouvez me contacter via mon adresse mail pour toute question ou demande de renseignement.">
+    <meta property="og:url" content="https://www.paula-rondao.com/contact">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/img/photo-homepage/capture-d-ecran-2025.png">
+    <link rel="preload" as="font" href="/assets/fonts/PPPangaia-Medium.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="icon" type="image/x-ico" href="/assets/img/icons/favicon.ico">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/en/style/global-style-en.css">
+    <link rel="stylesheet" href="/css/contact.css">
 </head>
 
 <body>
-    <header class="header" id="header-menu" role="navigation">
-        <nav class="navbar" aria-label="Menu principal">
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a class="nav-link" href="/index.html">ACCUEIL</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/projects.html">PROJETS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/about.html">A
-                        PROPOS</a>
-                </li>
-                <li class="nav-item left-contact">
-                    <a class="nav-link active" aria-current="page" href="/contact.html">CONTACT</a>
-                </li>
-            </ul>
-            <button type="button" class="btn-traduction" aria-label="Une traduction prochaine en anglais"
-                title="Prochainement en anglais">
-                <img role="img" src="/Atoms/svg/langue.svg" alt="lien vers le site en englais"></a>
-            </button>
-
-            <div class="menu-burger">
-                <button type="button" class="hamburger" aria-controls="header-menu" aria-expanded="false">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span id="open-text" class="hidden">Menu</span>
-                    <span id="close-text" class="hidden">Fermer</span>
+    <a href="#content" class="sr-only sr-only-focusable">Aller au contenu principal</a>
+    <header class="header" id="header-menu" role="banner">
+        <div class="border-navbar">
+            <nav class="navbar" aria-label="Menu principal" role="navigation">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/projects.html">PROJETS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">A
+                            PROPOS</a>
+                    </li>
+                    <li class="nav-item right-contact">
+                        <a class="nav-link active" aria-current="page" href="/contact.html">CONTACT</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn-traduction" aria-label="Une traduction prochaine en anglais"
+                    title="Prochainement en anglais">
+                    <img src="/assets/img/icons/svg/langue.svg" alt="lien vers le site en anglais">
                 </button>
-            </div>
-        </nav>
+
+                <div class="menu-burger">
+                    <button type="button" aria-label="Menu principal" aria-controls="header-menu" aria-expanded="false"
+                        title="menu principal" class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span id="open-text" class="hidden">Menu</span>
+                        <span id="close-text" class="hidden">Fermer</span>
+                    </button>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <main role="main" class="main">
-        <div class="contact-content">
-            <div aria-label="Info contact mail">
+    <main role="main">
+        <div class="breadcrumb-container">
+            <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+                <!-- <button class="fr-breadcrumb__button" aria-expanded="false" aria-controls="breadcrumb-1">Voir le fil
+                d’Ariane</button> -->
+                <div class="fr-collapse" id="breadcrumb-1">
+                    <ol class="fr-breadcrumb__list">
+                        <li> <a class="fr-breadcrumb__link" href="/index.html">Accueil</a> </li>
+                        <li> <a class="fr-breadcrumb" aria-current="page">Contact</a> </li>
+                    </ol>
+                </div>
+            </nav>
+        </div>
+        <div class="contact-container">
+            <div class="content">
                 <h1 class="title">Say Hello,</h1>
                 <p>Si vous êtes intéressé.es par mon profil,</p>
                 <p>n'hésitez pas à me contacter.</p>
                 <address>
-                    <span>E-mail :
-                        <a class="mail-link" href="mailto:contact@paula-rondao.com">contact@paula-rondao.com</a>
-                    </span>
+                    <p>E-mail :</p><a class="link" href="mailto:contact@paula-rondao.com">
+                        contact@paula-rondao.com</a>
                 </address>
+                <p>Sur internet : <a class="link" target="_blank"
+                        href="https://www.linkedin.com/in/paula-rondao/">Linkedin</a>&nbsp;/&nbsp;<a class="link"
+                        target="_blank" href="https://github.com/PaulaRondao">Github</a>&nbsp;/&nbsp;<a class="link"
+                        target="_blank" href=https://www.behance.net/paula_rondao>Behance</a></p>
             </div>
         </div>
     </main>
-
-    <footer role="contentinfo" footer-include-html="/Organisms/footer/footer.html">
+    <footer role="contentinfo">
+        <div class="contentinfo">
+            <p aria-label="Mentions légales et année de création du portfolio en 2024">
+                <img src="/assets/img/icons/svg/leaf.svg" aria-hidden="true" alt="">
+                <a href="/legal-notice.html">Mentions légales</a>&nbsp;|&nbsp;2024
+            </p>
+        </div>
     </footer>
-
     <script src="/js/navbar.js"></script>
-    <script src="/js/footer.js"></script>
 </body>
 
 </html>

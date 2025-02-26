@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paula Rondao - Projets</title>
     <meta name="description"
-        content="Paula Rondao, apprenante développeuse web passionnée, curieuse et en perpétuelle recherche d'amélioration pour rendre les sites web toujours plus accessibles, inclusifs et éco-conçus.">
-    <link rel="stylesheet" href="/Organisms/navbar/navbar.css">
-    <link rel="stylesheet" href="/Atoms/buttons/tooltip-svg.css">
-    <link rel="stylesheet" href="/Atoms/buttons/arrow-scroll.css">
-    <link rel="stylesheet" href="/Atoms/buttons/button-scroll-top.css">
-    <link rel="stylesheet" href="/style/style-pages-principales/style.css">
-    <link rel="stylesheet" href="/style/style-pages-principales/projets.css">
-    <link rel="stylesheet" href="/Organisms/footer/footer.css">
+        content="Découvrez une sélection de mes projets web, réalisés à titre personnel ou dans le cadre de ma formation, de la conception graphique au développement web.">
+    <meta property="og:title" content="Projets de Paula Rondao">
+    <meta property="og:description"
+        content="Découvrez une sélection de mes projets web, réalisés à titre personnel ou dans le cadre de ma formation, de la conception graphique au développement web.">
+    <meta property="og:url" content="https://www.paula-rondao.com/projects">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/img/photo-homepage/capture-d-ecran-2025.png">
+    <link rel="preload" as="font" href="/assets/fonts/PPPangaia-Medium.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="icon" type="image/x-ico" href="/assets/img/icons/favicon.ico">
+    <link rel="stylesheet" href="/css/buttons/scroll-button.css">
+    <link rel="stylesheet" href="/css/projects.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/en/style/global-style-en.css">
+</head>
 </head>
 
 <body>
-    <div id="containerProject">
-        <header role="navigation" id="header-menu" class="header">
-            <nav class="navbar" aria-label="Menu principal">
+    <a href="#content" class="sr-only sr-only-focusable">Aller au contenu principal</a>
+    <header id="header-menu" class="header" role="banner">
+        <div class="border-navbar">
+            <nav class="navbar" aria-label="Menu principal" role="navigation">
                 <ul class="nav-menu">
                     <li class="nav-item">
                         <a class="nav-link" href="/index.html">ACCUEIL</a>
@@ -31,17 +38,18 @@
                         <a class="nav-link" href="/about.html">A
                             PROPOS</a>
                     </li>
-                    <li class="nav-item left-contact">
+                    <li class="nav-item right-content">
                         <a class="nav-link" href="/contact.html">CONTACT</a>
                     </li>
                 </ul>
                 <button type="button" class="btn-traduction" aria-label="Une traduction prochaine en anglais"
                     title="Prochainement en anglais">
-                    <img role="img" src="/assets/img/icons/svg/langue.svg" alt="lien vers le site en englais"></a>
+                    <img src="/assets/img/icons/svg/langue.svg" alt="lien vers le site en anglais">
                 </button>
 
                 <div class="menu-burger">
-                    <button type="button" class="hamburger" aria-controls="header-menu" aria-expanded="false">
+                    <button type="button" aria-label="Menu principal" aria-controls="header-menu" aria-expanded="false"
+                        title="menu principal" class="hamburger">
                         <span class="bar"></span>
                         <span class="bar"></span>
                         <span class="bar"></span>
@@ -50,87 +58,114 @@
                     </button>
                 </div>
             </nav>
-        </header>
+        </div>
+    </header>
 
-        <main role="main" class="main">
-            <div class="projects-content">
-                <div class="projects-wapper">
-                    <section class="left-content">
-                        <h1>PROJETS</h1>
-                        <p>Ceci est une présentation des projets que j’ai réalisé au cours de ma formation, ainsi que
-                            des initiatives personnelles et projets d'école.
-                            <br />
-                            <br />
-                            Je m'investis dans un apprentissage continu en mettant en pratique de nouvelles compétences
-                            et en
-                            tirant parti de l'expérience partagée par mes pairs. Cette démarche enrichit ma pratique
-                            professionnelle et me pousse à relever de nouveaux défis.
-                        </p>
-                    </section>
-
-                    <div class="right-content">
-                        <ul class="navbar-projects" aria-label="List de projets">
-                            <li class="name-project">
-                                <a class="link-project" href="/projects/Alan-photographe.html">Alan Photographe</a>
-                                <p>Portfolio dynamique</p>
-                                <span>React&nbsp; JS&nbsp; CSS&nbsp; Node&nbsp; Nest&nbsp; Firebase</span>
-                            </li>
-                            <li class="name-project">
-                                <a class="link-project" href="/projects/MyTodoList-extension-navigateur.html">MyTodo
-                                    List</a>
-                                <p>Projet personnel - Extension nagivateur</p>
-                                <span>HTML&nbsp; CSS&nbsp; JS&nbsp;</span>
-                            </li>
-                            <li class="name-project">
-                                <a class="link-project" href="/projects/portfolio.html">Mon Portfolio</a>
-                                <p>Portfolio personnel</p>
-                                <span>HTML&nbsp; CSS&nbsp; JS&nbsp; Bootstrap</span>
-                            </li>
-                            <li class="name-project">
-                                <a class="link-project" href="/projects/consonea-e-commerce.html">Consonea</a>
-                                <p>Site web e-commerce</p>
-                                <span>React&nbsp; Bootstrap&nbsp; Node&nbsp; Express&nbsp; SQL</span>
-                            </li>
-                            <!-- <li class="nav-name-projects">
-                                <a class="nav-link-project" aria-label="page du projet Réseau Social" aria-current="page"
-                                    href="/Pages/pages-projets/reseau-social.html">Réseau Social</a>
-                                <p>&nbsp;• Microblogging</p>
-                                <span>PHP&nbsp; MySQL&nbsp; SQL</span>
-                            </li> -->
-                            <li class="name-project">
-                                <a class="link-project" href="/projects/daybyday-extension-navigateur.html">DayByDay</a>
-                                <p>Extension nagivateur</p>
-                                <span>HTML&nbsp; CSS&nbsp; JS&nbsp;</span>
-                            </li>
-                            <li class="name-project">
-                                <a class="link-project" href="/projects/palindrome-jeu-interactif.html">Palindromes</a>
-                                <p>Projet personnel - Jeu intéractif</p>
-                                <span>HTML&nbsp; CSS&nbsp; JS&nbsp;</span>
-                            </li>
-                            <li class="name-project">
-                                <a class="link-project" href="/projects/solar-system-datavisualisation.html">Solar
-                                    System</a>
-                                <p>Datavisualisation - API</p>
-                                <span>HTML&nbsp; CSS&nbsp; JS&nbsp;</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="arrow-scroll" data-tooltip="Scroller vers le bas" aria-hidden="true"
-                        title="Projets à scroller vers le bas">
-                        <img role="img" src="/assets/img/icons/svg/arrow-scroll.svg" alt="">
-                    </div>
+    <main role="main">
+        <div class="breadcrumb-container">
+            <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+                <!-- <button class="fr-breadcrumb__button" aria-expanded="false" aria-controls="breadcrumb-1">Voir le fil
+                d’Ariane</button> -->
+                <div class="fr-collapse" id="breadcrumb-1">
+                    <ol class="fr-breadcrumb__list">
+                        <li> <a class="fr-breadcrumb__link" href="/index.html">Accueil</a> </li>
+                        <li> <a class="fr-breadcrumb" aria-current="page">Projets</a> </li>
+                    </ol>
                 </div>
-            </div>
-            <button type="button" id="scrollToTopBtn" class="scroll-to-top-btn" aria-label="revenir en haut de la page">
-                <img role="button" src="/assets/img/icons/svg/arrow-top.svg" alt="" title="revenir en haut de page">
-            </button>
-        </main>
+            </nav>
+        </div>
+        <div class="projects-container">
+            <div class="projects-wrapper" id="content">
+                <section class="content">
+                    <h1>PROJETS</h1>
+                    <p>Ceci est une présentation des projets professionnels et personnels.</p>
+                    <p>Je m'investis dans un apprentissage continu en mettant en pratique de nouvelles compétences
+                        et en
+                        tirant parti de l'expérience partagée par mes pairs. Cette démarche enrichit ma pratique
+                        professionnelle et me pousse à relever de nouveaux défis.</p>
+                </section>
 
-        <footer role="contentinfo" footer-include-html="/footer/footer.html">
-        </footer>
-    </div>
+                <section class="projects-list">
+                    <ul class="projects-navbar" aria-label="Liste de projets">
+                        <li class="projects-name">
+                            <a class="project-link" href="/projects/Alan-photographe.html">Portfolio</a>
+                            <p class="project-description">Portfolio d'un photographe au style épuré et graphique.</p>
+                            <ul class="languages-list">
+                                <li>Next.js</li>
+                                <li>Styled components</li>
+                                <li>TypeScript</li>
+                            </ul>
+                        </li>
+                        <li class="projects-name">
+                            <a class="project-link" href="/projects/MyTodoList-extension-navigateur.html">MyTodo
+                                List</a>
+                            <p class="project-description">Extension nagivateur colorée et personnalisée</p>
+                            <ul class="languages-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </li>
+                        <li class="projects-name">
+                            <a class="project-link" href="/projects/portfolio.html">Mon Portfolio</a>
+                            <p class="project-description">Mon portfolio développé le plus léger possible et accessible.
+                            </p>
+                            <ul class="languages-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </li>
+                        <li class="projects-name">
+                            <a class="project-link" href="/projects/daybyday-extension-navigateur.html">DayByDay</a>
+                            <p class="project-description">Extension nagivateur pour se souvenir des anniversaires</p>
+                            <ul class="languages-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </li>
+                        <li class="projects-name">
+                            <a class="project-link" href="/projects/solar-system-datavisualisation.html">Solar
+                                System</a>
+                            <p class="project-description">Une web app qui affiche en temps réel les données du Système
+                                solaire à d'API. </p>
+                            <ul class="languages-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="scroll">
+            <p>SCROLL</p>
+            <div class="line-scroll" aria-label="Scroller vers le bas" tabindex="-1">
+            </div>
+        </div>
+        <button type="button" id="scrollToTopBtn" aria-label="revenir en haut de la page"
+            title="revenir en haut de page" class="scroll-to-top-btn">
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="revenir en haut de page">
+                <circle cx="28" cy="28" r="28" transform="rotate(90 28 28)" fill="#06142E" />
+                <path
+                    d="M28.5664 15.4431L37.5664 24.4431C37.8481 24.7249 38.0065 25.1071 38.0065 25.5056C38.0065 25.9041 37.8481 26.2863 37.5664 26.5681C37.2846 26.8499 36.9024 27.0082 36.5039 27.0082C36.1053 27.0082 35.7231 26.8499 35.4414 26.5681L29.0051 20.1293L29.0051 38.5043C29.0051 38.9022 28.8471 39.2837 28.5658 39.565C28.2845 39.8463 27.9029 40.0043 27.5051 40.0043C27.1073 40.0043 26.7257 39.8463 26.4444 39.565C26.1631 39.2837 26.0051 38.9022 26.0051 38.5043L26.0051 20.1293L19.5651 26.5656C19.2833 26.8474 18.9011 27.0057 18.5026 27.0057C18.1041 27.0057 17.7219 26.8474 17.4401 26.5656C17.1583 26.2838 17 25.9016 17 25.5031C17 25.1046 17.1583 24.7224 17.4401 24.4406L26.4401 15.4406C26.5796 15.3007 26.7454 15.1898 26.928 15.1142C27.1105 15.0386 27.3062 14.9998 27.5037 15C27.7013 15.0003 27.8969 15.0395 28.0792 15.1155C28.2616 15.1916 28.4271 15.3029 28.5664 15.4431Z"
+                    fill="#FBF8EE" />
+            </svg>
+        </button>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container-mention-legales contentinfo">
+            <p aria-label="Mentions légales et année de création du portfolio en 2024">
+                <img src="/assets/img/icons/svg/leaf.svg" aria-hidden="true" alt="">
+                <a href="/legal-notice.html">Mentions légales</a>&nbsp;|&nbsp;2024
+            </p>
+        </div>
+    </footer>
     <script src="/js/navbar.js"></script>
-    <script src="/js/footer.js"></script>
     <script src="/js/scroll.js"></script>
 </body>
 

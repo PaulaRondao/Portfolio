@@ -7,7 +7,7 @@
 /* ---------------------------- Content ----------------------- */
 
 h1 {
-    font-size: max(2.813rem, 3.7vw);
+    font-size: 2.5rem;
     letter-spacing: 0.063rem;
 }
 
@@ -52,7 +52,7 @@ address {
     }
 
     h1 {
-        font-size: 150px;
+        font-size: 9.375rem;
         letter-spacing: 2%;
     }
 

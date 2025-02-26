@@ -7,7 +7,7 @@
 /* ---------------------------- Main ----------------------- */
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 100;
     letter-spacing: 3%;
     color: rgba(6, 20, 46, 0.8);
@@ -167,6 +167,10 @@ span {
 
 /* For screens larger than 992px */
 @media screen and (min-width: 769px) {
+
+    h1 {
+        font-size: 3rem;
+    }
 
     .btn-traduction {
         display: block;
