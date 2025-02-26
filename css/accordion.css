@@ -3,7 +3,6 @@
 }
 
 .accordion-item {
-  background-color: #FBF8EE;
   color: #06142E;
   letter-spacing: 0.125rem;
   border-bottom: 1px solid #06142E;
@@ -70,6 +69,6 @@
 /* For screens larger than 769px */
 @media screen and (min-width: 769px) {
   .accordion {
-    width: 56vw;
+    width: 50vw;
   }
 }

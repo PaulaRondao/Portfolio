@@ -29,7 +29,7 @@ address {
 }
 
 
-.link {
+.content .link {
     font-size: 16px;
     font-weight: 400;
     color: #11223F;
@@ -44,11 +44,11 @@ address {
 
 /* ---------------------------- Responsive styles ----------------------- */
 
-/* For screens larger than 992px */
+/* For screens larger than 769px */
 @media screen and (min-width: 769px) {
 
-    .contentinfo {
-        bottom: 0;
+    .btn-traduction {
+        display: block;
     }
 
     h1 {
@@ -56,21 +56,22 @@ address {
         letter-spacing: 2%;
     }
 
-    .link {
+    .contact-container {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 6% 6% 2.5rem 6%;
+    }
+
+    .content .link {
         text-decoration: none;
     }
 
-    .link:hover {
+    .content .link:hover {
         text-decoration: underline;
     }
 
-    .btn-traduction {
-        display: block;
-    }
-
-    .contact-container {
-        padding: 6% 6% 2.5rem 6%;
-        display: flex;
-        justify-content: flex-start;
+    .contentinfo {
+        bottom: 0;
     }
 }

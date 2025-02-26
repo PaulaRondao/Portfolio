@@ -27,7 +27,7 @@ body {
     font-size: 0.875rem;
     letter-spacing: 0.5px;
     color: #06142E;
-    background-color: #FBF8EE;
+    background-color: #ece7e1;
 }
 
 h1,
@@ -138,8 +138,8 @@ li {
 
 button.btn-traduction {
     border: none;
-    background-color: #FBF8EE;
     padding-right: 1rem;
+    background-color: #ece7e1;
 }
 
 .bar {
@@ -194,7 +194,6 @@ button.btn-traduction {
     top: 3.8rem;
     flex-direction: column;
     width: 100%;
-    background-color: #FBF8EE;
     border-bottom: 1px solid #06142E;
     text-align: center;
     transition: 0.3s;

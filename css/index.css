@@ -41,7 +41,7 @@ h3 {
     padding: 2.5rem 6% 2.5rem 6%;
 }
 
-.content-homepage {
+.container .content-homepage {
     padding: 3rem 0 2.5rem;
 }
 
@@ -50,17 +50,8 @@ h3 {
 /* For screens larger than 769px */
 @media screen and (min-width: 769px) {
 
-    .contentinfo {
-        bottom: 0;
-    }
-
-    .container {
-        padding: 4% 6% 0 6%;
-    }
-
-    .content-homepage {
-        padding: 2.813rem 0 1.563rem 45%;
-        /* 45px*/
+    .btn-traduction {
+        display: block;
     }
 
     h1 {
@@ -72,7 +63,19 @@ h3 {
         width: 45vw;
     }
 
-    .btn-traduction {
-        display: block;
+    .container {
+        padding: 4% 6% 0 6%;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container .content-homepage {
+        max-width: 45vw;
+        transform: translate(80%);
+    }
+
+    .contentinfo {
+        bottom: 0;
     }
 }

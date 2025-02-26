@@ -22,7 +22,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.3em;
     letter-spacing: 2%;
@@ -54,16 +54,21 @@ span {
 
 .photo-wrapper {
     display: grid;
-    padding-bottom: 3.5rem;
+    margin-bottom: 3.5rem;
     gap: 60px;
 }
 
 .experience-content {
-    padding-bottom: 4rem;
+    margin-bottom: 4rem;
+}
 
-    h2 {
-        padding: 0.938rem 0 0.625rem 0;
-    }
+.experience-content h2 {
+    padding: 0.938rem 0 0.625rem 0;
+}
+
+.experience-content .experience {
+    text-transform: uppercase;
+    margin-top: 3rem;
 }
 
 .description {
@@ -117,16 +122,17 @@ span {
 .skills-container {
     max-width: 100%;
     height: auto;
-    padding: 0 6% 6rem 6%;
+    padding: 2rem 6% 6rem 6%;
+}
 
-    h3 {
-        padding: 0 0 3rem 0;
-    }
+.skills-container h2 {
+    margin-bottom: 3rem;
+    text-transform: uppercase;
 }
 
 .skills-list {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
 }
 
@@ -162,38 +168,32 @@ span {
 /* For screens larger than 992px */
 @media screen and (min-width: 769px) {
 
-    .contentinfo {
-        bottom: none;
+    .btn-traduction {
+        display: block;
     }
 
     #scrollToTopBtn {
         visibility: hidden;
     }
 
-    .about-container {
+    .about-container,
+    .skills-container {
         display: flex;
-
-        .about-wrapper {
-            padding-right: 4%;
-        }
-
-        .title {
-            width: 48vw;
-        }
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .about-content-wrapper {
-        padding-right: 32%;
+    .about-container .title,
+    .about-container .about-content-wrapper {
+        max-width: 48vw;
     }
 
     .photo-wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
-
-    .experience-description {
-        padding: 0;
+        gap: 196px;
     }
 
     .button-wrapper {
@@ -201,16 +201,10 @@ span {
         justify-content: center;
     }
 
-    .skills-container {
-        padding: 0 6% 0 6%;
-    }
-
-    .skills-wrapper {
-        h3 {
-            display: flex;
-            justify-content: center;
-            text-align: center;
-        }
+    .skills-wrapper h2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 
     .skills-list {
@@ -222,17 +216,14 @@ span {
     }
 
     .skills-list li {
-        width: 20vw;
+        width: 18vw;
     }
 
     .card-body p {
         padding: 4%;
     }
 
-    .skills-column-one {
-        flex-direction: row;
-    }
-
+    .skills-column-one,
     .skills-column-two {
         flex-direction: row;
     }
@@ -251,8 +242,8 @@ span {
         padding-right: 40px;
     }
 
-    .btn-traduction {
-        display: block;
+    .contentinfo {
+        bottom: none;
     }
 
 }

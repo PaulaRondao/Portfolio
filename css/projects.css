@@ -154,6 +154,9 @@ button.scroll-to-top-btn {
 
     .projects-container {
         padding: 4% 6% 0 6%;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .projects-wrapper {
@@ -184,7 +187,7 @@ button.scroll-to-top-btn {
 
     .projects-list {
         position: relative;
-        width: 45%;
+        width: 50%;
         overflow: auto;
         max-height: 75vh;
     }
