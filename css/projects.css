@@ -20,10 +20,10 @@ h1 {
 
 .content {
     padding-bottom: 60px;
+}
 
-    p {
-        margin-bottom: 16px;
-    }
+.content p {
+    margin-bottom: 16px;
 }
 
 /* ----------------------- Projects navbar ------------------- */
@@ -32,20 +32,20 @@ h1 {
     display: grid;
     gap: 40px;
     padding-left: 0;
+}
 
-    p {
-        text-align: left;
-    }
+.projects-navbar p {
+    text-align: left;
 }
 
 .projects-name {
     list-style-type: none;
     gap: 0.5rem;
     display: grid;
+}
 
-    p {
-        font-weight: 200;
-    }
+.projects-name p {
+    font-weight: 200;
 }
 
 .project-description {
@@ -58,16 +58,16 @@ h1 {
     align-items: center;
     flex-wrap: wrap;
     gap: 0.5rem;
+}
 
-    li {
-        border: 1px solid;
-        background-color: rgba(45, 212, 191, .1);
-        border-radius: 15px;
-        padding: 4px 12px;
-        font-weight: bold;
-        font-size: 12px;
-        letter-spacing: 0.031rem;
-    }
+.languages-list li {
+    border: 1px solid;
+    background-color: rgba(45, 212, 191, .1);
+    border-radius: 15px;
+    padding: 4px 12px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.031rem;
 }
 
 .project-link {
@@ -81,7 +81,7 @@ h1 {
 
 .li a {
     display: block;
-    width: 6.25rem;
+    max-width: 6.25rem;
 }
 
 /* -------------------------- Button arrow ---------------------- */
@@ -171,7 +171,7 @@ button.scroll-to-top-btn {
     }
 
     .content {
-        width: 53%;
+        max-width: 53%;
         padding-right: 10%;
         margin-bottom: 0%;
         display: flex;
@@ -182,12 +182,13 @@ button.scroll-to-top-btn {
     }
 
     .right-content {
-        width: 56%;
+        flex: 1;
+        padding-right: 32px;
     }
 
     .projects-list {
         position: relative;
-        width: 50%;
+        max-width: 50%;
         overflow: auto;
         max-height: 75vh;
     }

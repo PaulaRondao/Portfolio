@@ -60,7 +60,7 @@ h3 {
 
     h2 {
         font-size: 6.8vw;
-        width: 45vw;
+        max-width: 60%;
     }
 
     .container {
@@ -71,7 +71,7 @@ h3 {
     }
 
     .container .content-homepage {
-        max-width: 45vw;
+        max-width: 60%;
         transform: translate(80%);
     }
 

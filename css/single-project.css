@@ -133,6 +133,12 @@ img {
     margin-bottom: 8px;
 }
 
+.presentation-container .content .description a {
+    text-decoration: underline;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
 /* ------------------------ Projects Navigation ------------------------- */
 .projects-navigtion {
     padding: 5% 5%;

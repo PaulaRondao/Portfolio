@@ -248,7 +248,7 @@ button.btn-traduction {
 
 .nav-link:hover::before,
 .nav-link:hover::after {
-    width: 50%;
+    max-width: 50%;
 }
 
 .nav-link.active {

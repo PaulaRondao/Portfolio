@@ -190,14 +190,14 @@ span {
 
     .about-container .title,
     .about-container .about-content-wrapper {
-        max-width: 48vw;
+        max-width: 51vw;
     }
 
     .photo-wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 196px;
+        gap: 96px;
     }
 
     .button-wrapper {
@@ -217,10 +217,11 @@ span {
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
+        max-width: 90%;
     }
 
     .skills-list li {
-        width: 18vw;
+        max-width: 18vw;
     }
 
     .card-body p {

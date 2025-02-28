@@ -1,5 +1,5 @@
 .accordion {
-  width: 85vw;
+  max-width: 85vw;
 }
 
 .accordion-item {
@@ -69,6 +69,6 @@
 /* For screens larger than 769px */
 @media screen and (min-width: 769px) {
   .accordion {
-    width: 50vw;
+    max-width: 50vw;
   }
 }

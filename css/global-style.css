@@ -24,10 +24,14 @@ html {
 
 body {
     font-family: 'Montserrat', serif;
+    display: flex;
+    flex-direction: column;
     font-size: 0.875rem;
     letter-spacing: 0.5px;
     color: #06142E;
     background-color: #ece7e1;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 h1,
@@ -97,7 +101,7 @@ a {
     padding: 0;
     border: 0;
     height: 1px;
-    width: 1px;
+    max-width: 1px;
     overflow: hidden;
 }
 
@@ -249,7 +253,7 @@ button.btn-traduction {
 
 .nav-link:hover::before,
 .nav-link:hover::after {
-    width: 50%;
+    max-width: 50%;
 }
 
 .nav-link.active {
